@@ -1,0 +1,180 @@
+{
+   "add": {
+      "description": "This is the label for the 'Add' buttons.",
+      "message": "\uCD94\uAC00"
+   },
+   "add_domain_button": {
+      "message": "\uB3C4\uBA54\uC778 \uCD94\uAC00"
+   },
+   "add_filter_button": {
+      "message": "\uD544\uD130 \uCD94\uAC00"
+   },
+   "add_filters_msg": {
+      "message": "\uC0C8 \uD544\uD130\uB97C \uCD94\uAC00\uD558\uC2DC\uACA0\uC2B5\uB2C8\uAE4C?"
+   },
+   "add_your_own_filters": {
+      "message": "\uC0AC\uC6A9\uC790 \uD544\uD130"
+   },
+   "apply_changes": {
+      "message": "\uC801\uC6A9"
+   },
+   "block_element": {
+      "description": "Label for 'Block Element' context menu item",
+      "message": "\uC694\uC18C \uC228\uAE40"
+   },
+   "block_youtube": {
+      "message": "\uC720\uD29C\uBE0C \uB3D9\uC601\uC0C1 \uB0B4\uBD80\uC758 \uAD11\uACE0 \uCC28\uB2E8"
+   },
+   "cancel": {
+      "description": "Cancel button label",
+      "message": "\uCDE8\uC18C"
+   },
+   "clickhide_instructions": {
+      "message": "\uC774 \uD31D\uC5C5\uC744 \uB2EB\uC740 \uD6C4 \uC6F9 \uD398\uC774\uC9C0\uC5D0\uC11C HTML \uC694\uC18C\uB97C \uD074\uB9AD\uD558\uC2ED\uC2DC\uC624."
+   },
+   "description": {
+      "message": "\uCE68\uC785\uD615 \uAD11\uACE0, \uC774\uC81C \uC548\uB155! Adblock Plus \uD655\uC7A5 \uD504\uB85C\uADF8\uB7A8\uC744 \uC774\uC81C \uAD6C\uAE00 \uD06C\uB86C\uC5D0\uC11C \uC774\uC6A9\uD558\uC2ED\uC2DC\uC624."
+   },
+   "disable_inline": {
+      "message": "\uC778\uB77C\uC778 \uD14D\uC2A4\uD2B8 \uAD11\uACE0\uB97C \uBCF4\uC9C0 \uC54A\uC74C"
+   },
+   "disabled_for_these_domains": {
+      "message": "\uB2E4\uC74C \uB3C4\uBA54\uC778\uC5D0\uC11C\uB294 \uAD11\uACE0\uB97C \uCC28\uB2E8\uD558\uC9C0 \uC54A\uC2B5\uB2C8\uB2E4. \uC8FC\uC18C \uD45C\uC2DC\uC904\uC758 \uC560\uB4DC\uBE14\uB85D \uD50C\uB7EC\uC2A4 \uC544\uC774\uCF58 \uB610\uB294 \uD5C8\uC6A9 \uB3C4\uBA54\uC778 \uD0ED\uC5D0\uC11C \uB3C4\uBA54\uC778\uC744 \uC785\uB825\uD55C \uD6C4 \"\uB3C4\uBA54\uC778 \uCD94\uAC00\" \uBC84\uD2BC\uC744 \uB204\uB974\uC2ED\uC2DC\uC624."
+   },
+   "easy_create_filter": {
+      "description": "Button label in popup balloon",
+      "message": "\uAD11\uACE0 \uC601\uC5ED \uC228\uAE30\uAE30"
+   },
+   "edit_filters_raw": {
+      "message": "\uD544\uD130 \uD3B8\uC9D1"
+   },
+   "enable_only_the": {
+      "message": "\uD544\uC694\uD55C \uAD6C\uB3C5 \uD544\uD130\uB9CC \uCD94\uAC00\uD558\uC2ED\uC2DC\uC624. \uAD6C\uB3C5 \uD544\uD130\uB97C \uD544\uC694 \uC774\uC0C1\uC73C\uB85C \uB9CE\uC774 \uCD94\uAC00\uD558\uBA74 \uD398\uC774\uC9C0\uC758 \uB85C\uB529 \uC18D\uB3C4\uAC00 \uB290\uB824\uC9C8 \uC218 \uC788\uC2B5\uB2C8\uB2E4."
+   },
+   "enabled_for_site": {
+      "description": "Popup balloon checkbox label",
+      "message": "\uC774 \uC0AC\uC774\uD2B8\uC5D0 \uD544\uD130 \uC801\uC6A9"
+   },
+   "filter_lists": {
+      "description": "This is a tab heading.",
+      "message": "\uAD6C\uB3C5 \uD544\uD130"
+   },
+   "filter_must_follow_syntax": {
+      "message": "\uC0AC\uC6A9\uC790 \uD544\uD130\uB294 \u003Ca href='$url$'\u003E\uC560\uB4DC\uBE14\uB85D \uD50C\uB7EC\uC2A4\uC758 \uD544\uD130 \uC791\uC131 \uBC29\uBC95\u003C/a\u003E\uC744 \uB530\uB77C\uC57C \uD569\uB2C8\uB2E4. \uD544\uD130\uC758 \uD2B9\uC815 \uAD6C\uBB38\uC740 \uC9C0\uC6D0\uD558\uC9C0 \uC54A\uC2B5\uB2C8\uB2E4.",
+      "placeholders": {
+         "url": {
+            "content": "$1"
+         }
+      }
+   },
+   "filters_addSubscriptionAdd_label": {
+      "message": "\uCD94\uAC00"
+   },
+   "filters_addSubscriptionOther_label": {
+      "message": "\uB2E4\uB978 \uAD6C\uB3C5 \uD544\uD130 \uCD94\uAC00 (F)"
+   },
+   "filters_addSubscription_label": {
+      "message": "\uAD6C\uB3C5 \uD544\uD130 \uCD94\uAC00"
+   },
+   "filters_subscription_delete_label": {
+      "message": "\uC0AD\uC81C"
+   },
+   "filters_subscription_enabled_label": {
+      "message": "\uC0AC\uC6A9"
+   },
+   "filters_subscription_lastDownload_checksumMismatch": {
+      "message": "\uC2E4\uD328\uD568 : \uAC80\uC0AC\uD569 \uBD88\uC77C\uCE58"
+   },
+   "filters_subscription_lastDownload_connectionError": {
+      "message": "\uC2E4\uD328\uD568 : \uB2E4\uC6B4\uB85C\uB4DC \uC2E4\uD328"
+   },
+   "filters_subscription_lastDownload_inProgress": {
+      "message": "\uB2E4\uC6B4\uB85C\uB4DC \uC911..."
+   },
+   "filters_subscription_lastDownload_invalidData": {
+      "message": "\uC2E4\uD328\uD568 : \uC62C\uBC14\uB974\uC9C0 \uC54A\uC740 \uD544\uD130"
+   },
+   "filters_subscription_lastDownload_invalidURL": {
+      "message": "\uC2E4\uD328\uD568 : \uC62C\uBC14\uB974\uC9C0 \uC54A\uC740 \uC8FC\uC18C"
+   },
+   "found_a_bug": {
+      "message": "\uBC84\uADF8\uB97C \uBC1C\uACAC\uD558\uC168\uC2B5\uB2C8\uAE4C? \uC560\uB4DC\uBE14\uB85D \uD50C\uB7EC\uC2A4\uB97C \uC5EC\uB7EC\uBD84\uC758 \uC5B8\uC5B4\uB85C \uBC88\uC5ED\uD558\uACE0 \uC2F6\uC2B5\uB2C8\uAE4C? \u003Ca href='$url$'\u003E\uC5F0\uB77D\uD558\uAE30\u003C/a\u003E",
+      "placeholders": {
+         "url": {
+            "content": "$1"
+         }
+      }
+   },
+   "general": {
+      "description": "This is a tab heading.",
+      "message": "\uC77C\uBC18"
+   },
+   "global_remove_subscription_warning": {
+      "message": "\uC774 \uAD6C\uB3C5 \uD544\uD130\uB97C \uC81C\uAC70\uD558\uC2DC\uACA0\uC2B5\uB2C8\uAE4C?"
+   },
+   "global_subscription_invalid_location": {
+      "message": "\uAD6C\uB3C5 \uD544\uD130\uC758 \uC704\uCE58\uC5D0 \uC785\uB825\uD558\uB294 URL \uB610\uB294 \uD30C\uC77C\uBA85\uC774 \uC62C\uBC14\uB974\uC9C0 \uC54A\uC2B5\uB2C8\uB2E4."
+   },
+   "last_updated_at": {
+      "description": "e.g. Last updated at 3:00pm on Apr 1, 2011",
+      "message": "$date$ $time$\uC5D0 \uB9C8\uC9C0\uB9C9\uC73C\uB85C \uC5C5\uB370\uC774\uD2B8\uB428",
+      "placeholders": {
+         "date": {
+            "content": "$2"
+         },
+         "time": {
+            "content": "$1"
+         }
+      }
+   },
+   "last_updated_at_today": {
+      "description": "e.g. Last updated at 3:00pm today",
+      "message": "\uC624\uB298 $time$\uC5D0 \uB9C8\uC9C0\uB9C9\uC73C\uB85C \uC5C5\uB370\uC774\uD2B8\uB428",
+      "placeholders": {
+         "time": {
+            "content": "$1"
+         }
+      }
+   },
+   "name": {
+      "message": "Adblock Plus (Beta)"
+   },
+   "new_filters_added": {
+      "message": "\uC0C8 \uD544\uD130\uAC00 \uCD94\uAC00\uB418\uC5C8\uC2B5\uB2C8\uB2E4. \uD544\uD130 \uAD00\uB9AC : \u003Ca id='options_url' target='_blank'\u003E\uC635\uC158\u003C/a\u003E"
+   },
+   "options": {
+      "message": "Adblock Plus - \uC560\uB4DC\uBE14\uB85D \uD50C\uB7EC\uC2A4 \uC635\uC158"
+   },
+   "out_of_date_lists": {
+      "message": "\uAD6C\uB3C5 \uD544\uD130\uB294 \uC8FC\uAE30\uC801\uC73C\uB85C \uC790\uB3D9 \uC5C5\uB370\uC774\uD2B8\uB429\uB2C8\uB2E4."
+   },
+   "overlay_hideplaceholders_label": {
+      "message": "\uCC28\uB2E8\uB41C \uC694\uC18C\uC758 \uACF5\uBC31 \uC228\uAE30\uAE30"
+   },
+   "remove_button": {
+      "description": "This is the label for the 'Remove selected' buttons.",
+      "message": "\uC120\uD0DD \uD56D\uBAA9 \uC81C\uAC70"
+   },
+   "show_block_element_menu": {
+      "message": "\uBB38\uB9E5 \uBA54\uB274\uC5D0 '\uC694\uC18C \uC228\uAE40' \uD56D\uBAA9 \uD45C\uC2DC"
+   },
+   "show_icon": {
+      "message": "\uC8FC\uC18C \uD45C\uC2DC\uC904\uC5D0 \uC544\uC774\uCF58 \uD45C\uC2DC"
+   },
+   "subscriptionSelection_location_label": {
+      "message": "\uC704\uCE58 (L)"
+   },
+   "subscriptionSelection_subscriptionSelector_label": {
+      "message": "\uAD6C\uB3C5\uD560 \uD544\uD130\uB97C \uC120\uD0DD\uD558\uAC70\uB098 \uC774\uB984/\uC704\uCE58\uB97C \uC785\uB825\uD558\uC2ED\uC2DC\uC624."
+   },
+   "subscriptionSelection_title_label": {
+      "message": "\uC774\uB984 (T)"
+   },
+   "update_now": {
+      "message": "\uC9C0\uAE08 \uC5C5\uB370\uC774\uD2B8"
+   },
+   "whitelisted_domains": {
+      "description": "This is a tab heading.",
+      "message": "\uD5C8\uC6A9 \uB3C4\uBA54\uC778"
+   }
+}

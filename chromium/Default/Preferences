@@ -1,0 +1,1599 @@
+{
+   "apps_promo_counter": 11,
+   "bookmark_bar": {
+      "show_on_all_tabs": false
+   },
+   "browser": {
+      "check_default_browser": true,
+      "clear_data": {
+         "form_data": true,
+         "passwords": true,
+         "time_period": 4
+      },
+      "clear_lso_data_enabled": true,
+      "show_home_button": true,
+      "window_placement": {
+         "bottom": 1080,
+         "left": 960,
+         "maximized": false,
+         "right": 1920,
+         "top": 25,
+         "work_area_bottom": 957,
+         "work_area_left": 0,
+         "work_area_right": 1920,
+         "work_area_top": 0
+      },
+      "window_placement_DevToolsApp": {
+         "always_on_top": false,
+         "bottom": 1080,
+         "left": 0,
+         "maximized": false,
+         "right": 960,
+         "top": 25,
+         "work_area_bottom": 1051,
+         "work_area_left": 0,
+         "work_area_right": 1920,
+         "work_area_top": 0
+      }
+   },
+   "cloud_print": {
+      "email": ""
+   },
+   "countryid_at_install": 21843,
+   "default_apps_install_state": 1,
+   "default_search_provider": {
+      "enabled": true,
+      "encodings": "UTF-8",
+      "icon_url": "https://startpage.com/favicon.ico",
+      "id": "16",
+      "instant_url": "",
+      "keyword": "startpage.com",
+      "name": "Startpage HTTPS",
+      "prepopulate_id": "0",
+      "search_url": "https://startpage.com/do/search?query={searchTerms}&cat=web&pl=chrome&language=english",
+      "suggest_url": ""
+   },
+   "devtools": {
+      "open_docked": true,
+      "split_location": 419
+   },
+   "dns_prefetching": {
+      "host_referral_list": [ 2, [ "http://0.0.0.0:8080/", [ "http://0.0.0.0:8080/", 3.1813806417083454 ] ], [ "http://107.20.189.223/", [ "http://107.20.189.223/", 0.29573360876281024, "http://ajax.googleapis.com/", 0.053986806252816655, "http://sfstream1.somafm.com:2200/", 0.08301431214082011, "http://streamer-dtc-aa01.somafm.com/", 0.050674943164923617 ] ], [ "http://10minutemail.com/", [ "http://10minutemail.com/", 7.640844614425991, "http://i.po.st/", 0.5102964634170659, "http://www.google-analytics.com/", 1.0757159512936163, "https://apis.google.com/", 0.5102964634170659 ] ], [ "http://192.168.200.67:8008/", [ "http://192.168.200.67:8008/", 0.9100809815921004, "http://code.jquery.com/", 0.05167909539378882, "http://pubsub.pubnub.com/", 0.37840820101555206 ] ], [ "http://2012.hackitoergosum.org/", [ "http://2012.hackitoergosum.org/", 14.290873740912172 ] ], [ "http://a2a.lockerz.com/", [ "http://www.google-analytics.com/", 0.12236209225505823 ] ], [ "http://accedobroadband.jira.com/", [ "https://accedobroadband.jira.com/", 4.944851041037333 ] ], [ "http://ajaxpatterns.org/", [ "http://ajaxpatterns.org/", 0.2455203027747182, "http://creativecommons.org/", 0.08948870848798138, "http://oreilly.com/", 0.08948870848798138, "http://picupper.com/", 0.08948870848798138, "http://www.google-analytics.com/", 0.10249134134520947, "http://www.oreillynet.com/", 0.08948870848798138 ] ], [ "http://americanbookreview.org/", [ "http://americanbookreview.org/", 2.330604592707423 ] ], [ "http://annevankesteren.nl/", [ "http://annevankesteren.nl/", 1.0999242746077957 ] ], [ "http://anonym.to/", [ "http://www.google-analytics.com/", 0.754927594656727 ] ], [ "http://api.gawker.com/", [ "http://api.gawker.com/", 0.0538853814600435 ] ], [ "http://api.jquery.com/", [ "http://api.jquery.com/", 0.1782662177538268, "http://code.jquery.com/", 0.14882585097955822, "http://disqus.com/", 0.22625934422263944, "http://jquery.disqus.com/", 0.07904575305057311, "http://mediacdn.disqus.com/", 0.24148490181823157, "http://static.jquery.com/", 1.4079080794658305, "http://www.google-analytics.com/", 0.156539073078685 ] ], [ "http://app.bitlaundry.com/", [ "http://app.bitlaundry.com/", 0.27363764272336594 ] ], [ "http://appdb.winehq.org/", [ "http://ajax.googleapis.com/", 0.11106208588103504, "http://appdb.winehq.org/", 0.751540349806967, "http://www.google.com/", 0.12849981042819236 ] ], [ "http://archive.org/", [ "http://ia600208.us.archive.org/", 0.35487050006323956, "http://ia600209.us.archive.org/", 0.8050793434270499, "http://ia600300.us.archive.org/", 0.30984961572685843, "http://ia600303.us.archive.org/", 0.3998913843996207, "http://ia600307.us.archive.org/", 0.35487050006323956, "http://ia600309.us.archive.org/", 0.30984961572685843, "http://ia600406.us.archive.org/", 0.30984961572685843, "http://ia600506.us.archive.org/", 0.30984961572685843, "http://ia600508.us.archive.org/", 0.30984961572685843, "http://ia600509.us.archive.org/", 0.30984961572685843 ] ], [ "http://armoredcode.com/", [ "http://a0.twimg.com/", 0.3378954272888522, "http://armoredblog.disqus.com/", 0.3869913440744119, "http://hnlike.com/", 0.3869913440744119, "http://in.getclicky.com/", 0.3378954272888522, "http://juggler.services.disqus.com/", 0.3378954272888522, "http://mediacdn.disqus.com/", 1.123430095857807, "http://static.getclicky.com/", 0.3869913440744119, "http://themes.googleusercontent.com/", 0.3869913440744119, "http://www.google-analytics.com/", 0.3869913440744119, "https://api.github.com/", 0.3378954272888522 ] ], [ "http://askubuntu.com/", [ "http://ajax.googleapis.com/", 0.07157428030939623, "http://askubuntu.com/", 0.13467103119321655, "http://cdn.sstatic.net/", 0.997654058188362, "http://edge.quantserve.com/", 0.07157428030939623, "http://i.stack.imgur.com/", 0.36669981829254483, "http://pixel.quantserve.com/", 0.07157428030939623, "http://www.google-analytics.com/", 0.13467103119321655, "http://www.gravatar.com/", 0.25956267306783976, "https://stackauth.com/", 0.13467103119321655 ] ], [ "http://assets.tumblr.com/", [ "http://assets.tumblr.com/", 0.33710420493090676, "http://www.google-analytics.com/", 0.11469724090010114 ] ], [ "http://bd160900.hubpages.com/", [ "http://bd160900.hubpages.com/", 0.07903020690719893, "http://edge.quantserve.com/", 0.06900398662792741, "http://pixel.quantserve.com/", 0.07903020690719893, "http://s1.hubimg.com/", 0.07903020690719893, "http://s2.hubimg.com/", 0.09908264746574187, "http://s3.hubimg.com/", 0.06900398662792741, "http://s4.hubimg.com/", 0.07903020690719893, "http://www.google-analytics.com/", 0.08905642718647042, "http://www.youtube.com/", 0.07903020690719893, "http://x.hubpages.com/", 0.11913508802428481 ] ], [ "http://bestcocktaildresses.com.au/", [ "http://assets.pinterest.com/", 0.11605458377394398, "http://bestcocktaildresses.com.au/", 0.7399719614988225, "http://connect.facebook.net/", 0.11605458377394398, "http://content.commissionfactory.com.au/", 0.13291721560434613, "http://d3io1k5o0zdpqr.cloudfront.net/", 0.11605458377394398, "http://fonts.googleapis.com/", 0.11605458377394398, "http://themes.googleusercontent.com/", 0.11605458377394398, "http://www.google-analytics.com/", 0.13291721560434613 ] ], [ "http://bitcoin.stackexchange.com/", [ "http://ajax.googleapis.com/", 0.23892241939278966, "http://bitcoin.stackexchange.com/", 0.27363764272336594, "http://cdn.sstatic.net/", 0.4819289827068233, "http://edge.quantserve.com/", 0.23892241939278966, "http://pixel.quantserve.com/", 0.23892241939278966, "http://www.google-analytics.com/", 0.27363764272336594, "http://www.gravatar.com/", 0.44721375937624697, "https://stackauth.com/", 0.27363764272336594 ] ], [ "http://bits.netbeans.org/", [ "http://bits.netbeans.org/", 0.16368968632795858 ] ], [ "http://blog.cloudflare.com/", [ "http://blog.cloudflare.com/", 0.1912414157098922, "http://getfile8.posterous.com/", 0.09481036287312458, "http://maps.googleapis.com/", 0.09481036287312458, "http://maps.gstatic.com/", 0.10858622756409143, "http://pixel.quantserve.com/", 0.09481036287312458, "http://posterous.com/", 0.12236209225505823, "http://s3.amazonaws.com/", 0.13613795694602498, "http://www.cloudflare.com/", 0.20501728040085912, "http://www.google-analytics.com/", 0.12236209225505823, "https://si0.twimg.com/", 0.12236209225505823 ] ], [ "http://blog.hongtao3.com/", [ "http://a.hongtao3.com/", 0.8473843466134495, "http://blog.hongtao3.com/", 0.8473843466134495, "http://c.cnzz.com/", 0.6565825732037986, "http://cnzz.mmstat.com/", 0.6565825732037986, "http://g29.cnzz.com/", 0.6565825732037986, "http://hm.baidu.com/", 0.751983459908624, "http://hzs23.cnzz.com/", 0.6565825732037986, "http://icon.cnzz.com/", 0.6565825732037986, "http://pcookie.cnzz.com/", 0.6565825732037986, "http://s23.cnzz.com/", 0.6565825732037986 ] ], [ "http://blog.mongodb.org/", [ "http://017-hgs-593.mktoresp.com/", 0.11605458377394398, "http://assets.tumblr.com/", 0.16664247926515022, "http://cdnjs.cloudflare.com/", 0.11605458377394398, "http://disqus.com/", 0.16664247926515022, "http://edge.quantserve.com/", 0.11605458377394398, "http://media.mongodb.org.s3.amazonaws.com/", 0.2172303747563565, "http://mediacdn.disqus.com/", 0.14977984743474823, "http://munchkin.marketo.net/", 0.11605458377394398, "http://pixel.quantserve.com/", 0.11605458377394398, "http://www.google-analytics.com/", 0.13291721560434613 ] ], [ "http://blog.newrelic.com/", [ "http://412-mzs-894.mktoresp.com/", 0.3378954272888522, "http://blog.newrelic.com/", 0.8779505119300081, "http://edge.quantserve.com/", 0.3378954272888522, "http://newrelic.com/", 1.4180055965711642, "http://ping.chartbeat.net/", 0.3378954272888522, "http://pixel.quantserve.com/", 0.3378954272888522, "http://privacy-policy.truste.com/", 0.3869913440744119, "http://static.chartbeat.com/", 0.3378954272888522, "http://stats.wordpress.com/", 0.3869913440744119, "http://www.google-analytics.com/", 0.43608726085997157 ] ], [ "http://blog.php-security.org/", [ "http://blog.php-security.org/", 0.06359387802771978 ] ], [ "http://blog.pubnub.com/", [ "http://blog.pubnub.com/", 0.2401071962553621, "http://www.google-analytics.com/", 0.05943637153206507 ] ], [ "http://blog.sfgate.com/", [ "http://blog.sfgate.com/", 0.36534962626642725, "http://contribute.sfgate.com/", 0.7340357788001277, "http://ct.buzzfeed.com/", 0.19518678663548863, "http://hearst.jump-time.net/", 0.19518678663548863, "http://imgs.sfgate.com/", 0.22354725990731183, "http://odb.outbrain.com/", 0.25190773317913495, "http://om.sfgate.com/", 0.22354725990731183, "http://pg3.buzzfeed.com/", 0.19518678663548863, "http://pixel.quantserve.com/", 0.19518678663548863, "http://www.sfgate.com/", 0.5638729391691888 ] ], [ "http://blog.stevenlevithan.com/", [ "http://akamaicovers.oreilly.com/", 0.13408531587719374, "http://blog.stevenlevithan.com/", 0.48476998817139283, "http://dtmvdvtzf8rz0.cloudfront.net/", 0.13408531587719374, "http://feeds2.feedburner.com/", 0.13408531587719374, "http://www.gravatar.com/", 0.5432174335537592 ] ], [ "http://blog.sudobits.com/", [ "http://www.google.com/", 0.06475899160523792 ] ], [ "http://blog.tenablesecurity.com/", [ "http://934-xqb-568.mktoresp.com/", 1.8043542189575343, "http://blog.tenable.com/", 7.572118987249137, "http://blog.tenablesecurity.com/", 2.066525344788971, "http://munchkin.marketo.net/", 2.066525344788971, "http://tenable.typepad.com/", 2.5908675964518446, "http://www.google-analytics.com/", 2.066525344788971, "http://www.typepad.com/", 2.328696470620408, "http://yui.yahooapis.com/", 2.066525344788971 ] ], [ "http://boards.4chan.org/", [ "http://0.thumbs.4chan.org/", 0.5326458762893457, "http://1.thumbs.4chan.org/", 0.44975658167528065, "http://ajax.cloudflare.com/", 0.2559864000614594, "http://content.4chan.org/", 0.23083553858619688, "http://edge.quantserve.com/", 0.2559864000614594, "http://pixel.quantserve.com/", 0.3815762403858002, "http://static.4chan.org/", 1.4387438557840193, "http://www.google-analytics.com/", 0.4896163964751278, "http://www.google.com/", 1.231849903282698 ] ], [ "http://brilliantcorners.org/", [ "http://brilliantcorners.disqus.com/", 0.10858622756409143, "http://brilliantcorners.org/", 0.3152241979285937, "http://disqus.com/", 0.10858622756409143, "http://mediacdn.disqus.com/", 0.13613795694602498, "http://www.google-analytics.com/", 0.10858622756409143 ] ], [ "http://browser.primatelabs.com/", [ "http://browser.primatelabs.com/", 0.1226262575775167, "http://dnn506yrbagrg.cloudfront.net/", 0.07102609968598747, "http://platform.twitter.com/", 0.07102609968598747, "http://www.google-analytics.com/", 0.08134613126429337 ] ], [ "http://bsonspec.org/", [ "http://bsonspec.org/", 0.22742837868923363, "http://www.google-analytics.com/", 0.14551561517828096 ] ], [ "http://bytes.com/", [ "http://bytes.com/", 7.643221085394067, "http://www.google-analytics.com/", 1.2917757087853607 ] ], [ "http://c-faq.com/", [ "http://c-faq.com/", 1.2287191304382308, "http://www.eskimo.com/", 1.0728368526960674 ] ], [ "http://c.brightcove.com/", [ "http://79423.analytics.edgekey.net/", 0.7305744908050255, "http://admin.brightcove.com/", 0.8232593142653646, "http://brightcove.vo.llnwd.net/", 1.0086289611860428, "http://c.brightcove.com/", 0.9159441377257028, "http://goku.brightcove.com/", 0.8232593142653646, "http://ma156-r.analytics.edgekey.net/", 0.2379194142125479, "http://receive.inplay.tubemogul.com/", 0.21786697365400498, "http://s3.sonymusic.com/", 0.09908264746574187, "http://static.inplay.tubemogul.com/", 0.11357710107132486, "http://www.slatev.com/", 0.7305744908050255 ] ], [ "http://cboard.cprogramming.com/", [ "http://av.cprogramming.com/", 0.899578243026065, "http://cboard.cprogramming.com/", 6.245357597897409, "http://im.cprogramming.com/", 4.1002799128082525, "http://js.cprogramming.com/", 3.5534704823069743, "http://static.cprogramming.com/", 2.370703581260579, "http://www.feedburner.com/", 0.7936810465320525, "http://www.google-analytics.com/", 1.5821923138963159 ] ], [ "http://cdn.pearltrees.com/", [ "http://cdn-avatar-ie.pearltrees.com/", 0.21414544081520487, "http://cdn-logo-ie.pearltrees.com/", 0.27915387820553483, "http://cdn-thumbshot-ie.pearltrees.com/", 0.34416231559586485, "http://cdn.pearltrees.com/", 0.21414544081520487, "http://code.jquery.com/", 0.3423714495520542, "http://s.ytimg.com/", 0.3423714495520542, "http://smashthestack.org/", 0.541356565531026, "http://www.google-analytics.com/", 0.3423714495520542, "http://www.pearltrees.com/", 0.2574843990754249 ] ], [ "http://chess-teacher.com/", [ "http://chess-teacher.com/", 0.12710283841071912 ] ], [ "http://chrome.blogspot.hk/", [ "http://2.bp.blogspot.com/", 2.127083409456189, "http://buttons.googlesyndication.com/", 1.8572295440774185, "http://img1.blogblog.com/", 1.8572295440774185, "http://img2.blogblog.com/", 1.8572295440774185, "http://themes.googleusercontent.com/", 2.127083409456189, "http://www.blogblog.com/", 1.8572295440774185, "http://www.blogger.com/", 3.206498870971269, "http://www.google.com/", 3.7462066017288094, "http://www.youtube.com/", 2.127083409456189, "https://apis.google.com/", 1.8572295440774185 ] ], [ "http://class.coursera.org/", [ "http://class.coursera.org/", 0.4778677533606191, "http://www.google-analytics.com/", 0.5473015294899397, "https://class.coursera.org/", 2.838616141757521, "https://eventing.coursera.org/", 0.5473015294899397, "https://s3.amazonaws.com/", 0.6167353056192605, "https://www.coursera.org/", 0.4778677533606191 ] ], [ "http://clean-clouds.com/", [ "http://pixel.quantserve.com/", 0.10044848182540049, "http://polldaddy.com/", 0.10044848182540049, "http://s.stats.wordpress.com/", 0.10044848182540049, "http://s0.wp.com/", 0.1442337174928827, "http://s2.wp.com/", 0.1483203394885143, "http://stats.wordpress.com/", 0.11504356038122796, "http://urls.api.twitter.com/", 0.10044848182540049, "http://www.google-analytics.com/", 0.10044848182540049, "http://www.linkedin.com/", 0.10044848182540049, "https://graph.facebook.com/", 0.10044848182540049 ] ], [ "http://code.google.com/", [ "http://www.google-analytics.com/", 0.05284690881887952, "http://www.gstatic.com/", 0.0882044914195234, "http://www.youtube.com/", 0.1254566441873961, "http://zaproxy.googlecode.com/", 0.1254566441873961, "https://plusone.google.com/", 0.1254566441873961 ] ], [ "http://conference.hitb.org/", [ "http://conference.hitb.org/", 0.06517794599954022 ] ], [ "http://coolaj86.info/", [ "http://coolaj86-gh.disqus.com/", 1.7529842543438134, "http://coolaj86.info/", 2.5171055959808606, "http://disqus.com/", 2.262398482101845, "http://mediacdn.disqus.com/", 2.5171055959808606, "http://www.google-analytics.com/", 2.007691368222829 ] ], [ "http://coursera.com/", [ "https://www.coursera.org/", 0.8339519182864609 ] ], [ "http://cprog.tomsweb.net/", [ "http://cprog.tomsweb.net/", 1.2393140887943113 ] ], [ "http://ct1.addthis.com/", [ "http://cf.addthis.com/", 0.4510452948431553, "http://m.addthisedge.com/", 0.4510452948431553 ] ], [ "http://ctf.itsec.rwth-aachen.de/", [ "http://ctf.itsec.rwth-aachen.de/", 3.392894622422135, "http://fonts.googleapis.com/", 2.1457765990453503, "http://themes.googleusercontent.com/", 2.1457765990453503 ] ], [ "http://curl.haxx.se/", [ "http://curl.haxx.se/", 3.0265198237388913, "http://sourceforge.net/", 1.7529842543438134 ] ], [ "http://cworth.org/", [ "http://cworth.org/", 0.20963331155324064 ] ], [ "http://d.shareaholic.com/", [ "http://d.shareaholic.com/", 2.2086570657060003, "http://dtym7iokkjlif.cloudfront.net/", 2.2086570657060003, "http://i.w55c.net/", 2.2086570657060003 ] ], [ "http://defcon.org/", [ "http://defcon.org/", 9.268808711637996, "https://forum.defcon.org/", 2.529573049612, "https://www.defcon.org/", 2.2086570657060003, "https://www.twitter.com/", 2.2086570657060003 ] ], [ "http://dev.mysql.com/", [ "http://dev.mysql.com/", 5.959314589706488, "http://metrics.sun.com/", 2.245546040915493, "http://s7.addthis.com/", 1.4162125553699312 ] ], [ "http://dev.plexapp.com/", [ "http://dev.plexapp.com/", 0.23837572035637605, "http://www.plexapp.com/", 0.24949244812177432 ] ], [ "http://developer.android.com/", [ "http://developer.android.com/", 2.4429897976865247, "http://fonts.googleapis.com/", 0.24481614487733952, "http://themes.googleusercontent.com/", 0.6355010525167721, "http://www.google-analytics.com/", 0.27387551187827774, "http://www.google.com/", 0.5471823935299384 ] ], [ "http://developer.appcelerator.com/", [ "http://developer.appcelerator.com/", 0.09257303546413971, "https://static.appcelerator.com/", 0.06158031243128754 ] ], [ "http://dgjigvacl6ipj.cloudfront.net/", [ "http://release.theplatform.com/", 0.6565825732037986, "http://s3.amazonaws.com/", 0.6565825732037986, "http://video.pbs.org/", 0.751983459908624 ] ], [ "http://dictionary.reference.com/", [ "http://app.dictionary.com/", 0.09211111184212672, "http://app.reference.com/", 0.10549477766534175, "http://dictionary.reference.com/", 0.10549477766534175, "http://pixel.quantserve.com/", 0.09211111184212672, "http://rt.legolas-media.com/", 0.09211111184212672, "http://spanids.dictionary.com/", 0.09211111184212672, "http://spanids.thesaurus.com/", 0.09211111184212672, "http://static.dictionary.com/", 0.11887844348855672, "http://static.sfdict.com/", 0.5203884181850064, "http://www.google-analytics.com/", 0.1590294409582016 ] ], [ "http://disqus.com/", [ "http://disqus.com/", 1.1264393594866509, "http://i1.wp.com/", 0.952622809602123, "http://juggler.services.disqus.com/", 0.8243464201331534, "http://mediacdn.disqus.com/", 6.6808701513786914, "http://realtime.services.disqus.com/", 0.41217321234324095, "http://www.google-analytics.com/", 0.5570701482736123, "http://www.gravatar.com/", 2.009362636853815 ] ], [ "http://ditio.net/", [ "http://0.gravatar.com/", 0.6228367976645189, "http://1.gravatar.com/", 0.5533298465028321, "http://ajax.googleapis.com/", 0.15945712325327943, "http://ditio.net/", 1.3179063092813765, "http://platform.linkedin.com/", 0.15945712325327943, "http://static.ak.fbcdn.net/", 0.15945712325327943, "http://twitter.com/", 0.1826261069738414, "http://www.google-analytics.com/", 0.1826261069738414 ] ], [ "http://docs.codehaus.org/", [ "http://docs.codehaus.org/", 8.375369215198218, "http://www.google-analytics.com/", 2.007691368222829 ] ], [ "http://docs.mongodb.org/", [ "http://017-hgs-593.mktoresp.com/", 0.21724921675012207, "http://clients1.google.com/", 0.21675322968259988, "http://docs.mongodb.org/", 1.47895842861447, "http://media.mongodb.org/", 0.3283862739152312, "http://munchkin.marketo.net/", 0.11091115156117223, "http://www.google-analytics.com/", 0.5356097899196375, "http://www.google.com/", 1.9112943182646767, "https://www.googleapis.com/", 0.21675322968259988 ] ], [ "http://docs.python.org/", [ "http://docs.python.org/", 0.23565494510555768 ] ], [ "http://docs.zetaboards.com/", [ "http://173.192.47.157/", 1.5099275929207054, "http://docs.zetaboards.com/", 5.589731949951483 ] ], [ "http://dtbaker.com.au/", [ "http://s3.envato.com/", 0.053282652130919386, "http://tf.dtbaker.com.au/", 0.1263314494071799, "http://www.gravatar.com/", 0.05571761204012812 ] ], [ "http://duckduckgo.com/", [ "http://duckduckgo.com/", 2.308182173154628 ] ], [ "http://duolingo.com/", [ "http://api.mixpanel.com/", 0.2802682064509579, "http://d7mj4aqfscim2.cloudfront.net/", 0.39371009953825037, "http://platform.twitter.com/", 0.19518678663548863, "http://www.google-analytics.com/", 0.22354725990731183 ] ], [ "http://ebookee.org/", [ "http://ajax.googleapis.com/", 0.5849438978466032, "http://buttons.googlesyndication.com/", 0.5849438978466032, "http://dt.tongji.linezing.com/", 0.5849438978466032, "http://ebookee.org/", 0.5849438978466032, "http://i.po.st/", 0.5849438978466032, "http://i2.lulzimg.com/", 0.5849438978466032, "http://js.tongji.linezing.com/", 0.5849438978466032, "http://static.ebookee.org/", 1.0948949882769745, "http://us.i1.yimg.com/", 0.5849438978466032, "http://www.google-analytics.com/", 0.754927594656727 ] ], [ "http://echorand.me/", [ "http://s0.wp.com/", 0.05008713185890333, "http://s1.wp.com/", 0.05851763920149107, "http://s2.wp.com/", 0.0838091612292541 ] ], [ "http://edge.liveleak.com/", [ "http://edge.liveleak.com/", 4.031740885761413, "http://lp.longtailvideo.com/", 1.8730134823616014, "http://www.liveleak.com/", 1.603172556936625 ] ], [ "http://ejohn.org/", [ "http://api.bit.ly/", 1.504039041058379, "http://bit.ly/", 1.3132281179390324, "http://ejohn.org/", 3.0305264260131506, "http://feeds.feedburner.com/", 1.3132281179390324, "http://www.google-analytics.com/", 1.504039041058379, "https://www.gittip.com/", 1.504039041058379 ] ], [ "http://elinux.org/", [ "http://elinux.org/", 3.2708909887474538, "http://i.creativecommons.org/", 0.9837898346618312, "http://www.google-analytics.com/", 1.1267336567921824 ] ], [ "http://en.lichess.org/", [ "http://en.lichess.org/", 0.6269733143873812, "http://www.google-analytics.com/", 0.07122066670287357 ] ], [ "http://en.wikipedia.org/", [ "http://bits.wikimedia.org/", 5.7816641488148885, "http://en.wikipedia.org/", 0.6993368930411141, "http://meta.wikimedia.org/", 0.672999203654784, "http://upload.wikimedia.org/", 2.022361073155788 ] ], [ "http://enable-cors.org/", [ "http://enable-cors.org/", 0.1633370608819392 ] ], [ "http://feedjit.com/", [ "http://www.google-analytics.com/", 0.11682283136891417 ] ], [ "http://fei.pro-market.net/", [ "http://p.raasnet.com/", 0.19518678663548863 ] ], [ "http://fileice.net/", [ "http://fileice.net/", 2.9932682654028624 ] ], [ "http://forum.codecall.net/", [ "http://de.tynt.com/", 1.5172568052602975, "http://forum.codecall.net/", 6.3672913793402195, "http://ic.tynt.com/", 1.7377129222639303, "http://img.codecall.net/", 7.690028081362019, "http://sc.tynt.com/", 1.5172568052602975, "http://tcr.tynt.com/", 1.5172568052602975, "http://uploads.codecall.net/", 2.1786251562711962, "http://www.google-analytics.com/", 1.7377129222639303, "http://www.gravatar.com/", 3.280905741289361, "https://www.google.com/", 2.1786251562711962 ] ], [ "http://forum.ivorde.ro/", [ "http://ajax.googleapis.com/", 1.8043542189575343, "http://connect.facebook.net/", 1.8043542189575343, "http://delicious-button.googlecode.com/", 1.8043542189575343, "http://feeds.delicious.com/", 1.8043542189575343, "http://forum.ivorde.ro/", 15.961595013855105, "http://platform.twitter.com/", 1.8043542189575343, "http://s7.addthis.com/", 1.8043542189575343, "http://www.google-analytics.com/", 2.066525344788971, "http://www.stumbleupon.com/", 1.8043542189575343 ] ], [ "http://forum.owncloud.org/", [ "http://forum.owncloud.org/", 0.8183509009669447 ] ], [ "http://forum.springsource.org/", [ "http://forum.springsource.org/", 0.5311158734637884, "http://www.google-analytics.com/", 0.1633370608819392, "http://www.springsource.org/", 0.3104485859146791 ] ], [ "http://forum.videolan.org/", [ "http://forum.videolan.org/", 0.14386575715001765 ] ], [ "http://forum.xchat.org/", [ "http://forum.xchat.org/", 6.135348099226973, "http://www.avatarist.com/", 0.3860629725787578 ] ], [ "http://forums.appmobi.com/", [ "http://forums.appmobi.com/", 2.7097401079731513, "http://www.google-analytics.com/", 0.669935746251665 ] ], [ "http://forums.devshed.com/", [ "http://edge.quantserve.com/", 1.0422931874998105, "http://forums.devshed.com/", 1.799514733974031, "http://images.devshed.com/", 6.948621249998731, "http://pixel.quantserve.com/", 1.0422931874998105, "http://www.devshed.com/", 1.0422931874998105, "http://www.google-analytics.com/", 1.1937374967946544, "http://www.google.com/", 1.1937374967946544 ] ], [ "http://forums.fedoraforum.org/", [ "http://forums.fedoraforum.org/", 0.1199440367294627 ] ], [ "http://forums.hackingdojo.com/", [ "http://forums.hackingdojo.com/", 1.9382801642654977 ] ], [ "http://forums.pulse-eight.com/", [ "http://forums.pulse-eight.com/", 0.06522338741821776 ] ], [ "http://fr.slideshare.net/", [ "http://cdn.slidesharecdn.com/", 4.900936205655168, "http://cdn01.smartling.com/", 1.474060504014537, "http://html.slidesharecdn.com/", 4.686756474302629, "http://image.slidesharecdn.com/", 1.6882402353670762, "http://public.slidesharecdn.com/", 6.400194325122944, "http://s.smartling.com/", 1.474060504014537, "http://www.google-analytics.com/", 4.900936205655168, "http://www.linkedin.com/", 1.6882402353670762, "https://www.linkedin.com/", 1.474060504014537 ] ], [ "http://fr2.php.net/", [ "http://ajax.googleapis.com/", 0.1826261069738414, "http://fr2.php.net/", 0.391146960458899 ] ], [ "http://freenode.net/", [ "http://creativecommons.org/", 0.1380145912912558, "http://freenode.net/", 0.19817479775154664, "http://www.google-analytics.com/", 0.15806799344468614 ] ], [ "http://g-ecx.images-amazon.com/", [ "http://amazon-zg.s3.amazonaws.com/", 0.19494612508413645 ] ], [ "http://getpocket.com/", [ "http://getpocket.com/", 0.1380145912912558 ] ], [ "http://git-scm.com/", [ "http://beacon-1.newrelic.com/", 0.3316868019377465, "http://git-scm.com/", 4.5153261194244845, "http://p.typekit.net/", 0.3316868019377465, "http://secure.gaug.es/", 0.5300914837922871, "http://use.typekit.com/", 0.5300914837922871, "https://d1ros97qkrwjf5.cloudfront.net/", 0.3316868019377465, "https://www.google.com/", 0.3316868019377465 ] ], [ "http://github.com/", [ "https://github.com/", 1.2216089000649848 ] ], [ "http://gitorious.org/", [ "http://gitorious.org/", 0.42367025167536704, "http://www.google-analytics.com/", 0.08110767592979452, "http://www.gravatar.com/", 0.08133672156758938 ] ], [ "http://gizmodo.com/", [ "http://ganja.gawkerassets.com/", 0.08094175442943251, "http://img.gawkerassets.com/", 0.0848069505679166 ] ], [ "http://gmail.com/", [ "https://accounts.google.com/", 0.6161478952522204, "https://gmail.com/", 0.7251431074871004, "https://mail.google.com/", 0.8341383197219806 ] ], [ "http://google.com/", [ "http://www.google.com.hk/", 2.066525344788971, "http://www.google.com/", 2.066525344788971 ] ], [ "http://grails.1312388.n4.nabble.com/", [ "http://edge.quantserve.com/", 0.1265591796237542, "http://fonts.googleapis.com/", 0.1265591796237542, "http://grails.1312388.n4.nabble.com/", 0.6598384578674361, "http://n4.nabble.com/", 0.1265591796237542, "http://pixel.quantserve.com/", 0.1265591796237542, "http://themes.googleusercontent.com/", 0.1265591796237542, "http://www.google-analytics.com/", 0.14494812025284673, "http://www.gravatar.com/", 0.1265591796237542, "https://apis.google.com/", 0.1265591796237542 ] ], [ "http://hackaday.com/", [ "http://hackadaycom.files.wordpress.com/", 0.1912414157098922, "http://ping.chartbeat.net/", 0.09481036287312458, "http://pixel.quantserve.com/", 0.10858622756409143, "http://s.gravatar.com/", 0.10858622756409143, "http://s1.wp.com/", 0.21879314509182574, "http://static.chartbeat.com/", 0.09481036287312458, "http://stats.wordpress.com/", 0.10858622756409143, "http://www.google-analytics.com/", 0.10858622756409143, "http://www.google.com/", 0.10858622756409143, "http://www.youtube.com/", 0.10858622756409143 ] ], [ "http://hackage.haskell.org/", [ "http://hackage.haskell.org/", 2.619537390278462 ] ], [ "http://hackingdojo.com/", [ "http://hackingdojo.com/", 11.576555326263156, "http://w.sharethis.com/", 1.4506720782288272, "http://www.hackingdojo.com/", 1.1240306831309457, "http://www.youtube.com/", 1.1240306831309457, "https://checkout.google.com/", 1.1240306831309457, "https://www.paypalobjects.com/", 1.4506720782288272 ] ], [ "http://hackitoergosum.org/", [ "http://2012.hackitoergosum.org/", 2.007691368222829 ] ], [ "http://haxathon.com/", [ "http://ajax.googleapis.com/", 1.1366355937680768, "http://haxathon.com/", 1.466939954350253 ] ], [ "http://helloworldprograms.blogspot.hk/", [ "http://i300.photobucket.com/", 0.12594782688651737, "http://s300.photobucket.com/", 0.11176827021717439, "http://s7.addthis.com/", 0.14012738355586032, "http://www.anniyalogam.com/", 0.11176827021717439, "http://www.blogger.com/", 0.12594782688651737, "http://www.feedburner.com/", 0.09758871354783134, "http://www.google-analytics.com/", 0.11176827021717439, "http://www.google.com/", 0.12594782688651737, "http://xsltcache.alexa.com/", 0.09758871354783134, "https://www.paypal.com/", 0.11176827021717439 ] ], [ "http://help.dottoro.com/", [ "http://apis.google.com/", 0.08206101562064164, "http://dottorocdn.com/", 0.17744817907711397, "http://help.dottoro.com/", 0.11783120191681871, "http://tools.dottoro.com/", 0.08206101562064164, "http://www.dottoro.com/", 0.12975459734887787, "http://www.google-analytics.com/", 0.09398441105270071 ] ], [ "http://hidemyass.com/", [ "http://ajax.googleapis.com/", 0.5849438978466032, "http://d1piupybsgr6dr.cloudfront.net/", 2.114797169137718, "http://hidemyass.com/", 0.754927594656727, "http://images.scanalert.com/", 0.5849438978466032, "http://static.hidemyass.com/", 2.1997890175427792 ] ], [ "http://hk.asia-city.com/", [ "http://hk.asia-city.com/", 3.6290214562231187, "http://static.ak.fbcdn.net/", 0.7160126650558265, "http://w.sharethis.com/", 0.7160126650558265, "http://www.google-analytics.com/", 0.8200486933118012 ] ], [ "http://hk.yahoo.com/", [ "http://l.yimg.com/", 0.05531841585989893 ] ], [ "http://honeylink.otw/", [ "http://honeylink.otw/", 3.802098197793082 ] ], [ "http://howtonode.org/", [ "http://disqus.com/", 0.47372563471128576, "http://howtonode.org/", 0.5187465190476666, "http://mediacdn.disqus.com/", 0.39899096671289247, "http://platform.twitter.com/", 0.24952163071610764, "http://www.google-analytics.com/", 0.3242562987145003, "http://www.gravatar.com/", 0.24952163071610764 ] ], [ "http://httpd.apache.org/", [ "http://httpd.apache.org/", 3.790641165375938, "https://comments.apache.org/", 4.045348279254952 ] ], [ "http://hubwaydatachallenge.org/", [ "http://ajax.googleapis.com/", 0.5849175640762461, "http://fonts.googleapis.com/", 0.5849175640762461, "http://hubwaydatachallenge.org/", 4.79747036374887, "http://themes.googleusercontent.com/", 0.9922854228920783, "http://widget.uservoice.com/", 0.9922854228920783, "http://www.eventbrite.com/", 0.5849175640762461, "http://www.google-analytics.com/", 0.7886014934841624 ] ], [ "http://icfun.blogspot.hk/", [ "http://c0.histats.12mlbe.com/", 0.16412990155041987, "http://d0.histats.12mlbe.com/", 0.16412990155041987, "http://feeds2.feedburner.com/", 0.16412990155041987, "http://img1.blogblog.com/", 0.18797783596372877, "http://s10.histats.com/", 0.18797783596372877, "http://s4.histats.com/", 0.16412990155041987, "http://static.ak.fbcdn.net/", 0.16412990155041987, "http://www.blogblog.com/", 0.45030511451012634, "http://www.blogger.com/", 0.25952163920365534, "http://www.google-analytics.com/", 0.18797783596372877 ] ], [ "http://ictf.cs.ucsb.edu/", [ "http://ictf.cs.ucsb.edu/", 1.8813227621218798 ] ], [ "http://identi.ca/", [ "http://avatar3.status.net/", 0.06912211605878102, "http://plugins2.status.net/", 0.07298749754891035, "http://theme2.status.net/", 0.07685287903903944 ] ], [ "http://imgur.com/", [ "http://edge.quantserve.com/", 0.3350197559485634, "http://i.imgur.com/", 2.26670013990872, "http://imgur.com/", 0.32938491561944483, "http://insight.torbit.com/", 0.655277032086681, "http://pixel.quantserve.com/", 0.32767295335508373, "http://s.imgur.com/", 3.3518552689159145, "http://www.google-analytics.com/", 0.6552093253859833 ] ], [ "http://insecure.org/", [ "http://clients1.google.com/", 1.7529842543438134, "http://fpix.us/", 2.007691368222829, "http://images.insecure.org/", 2.007691368222829, "http://insecure.org/", 2.771812709859876, "http://nmap.org/", 1.7529842543438134, "http://www.google-analytics.com/", 2.007691368222829, "http://www.google.com/", 3.5359340514969224, "https://www.googleapis.com/", 1.7529842543438134 ] ], [ "http://ip-address-lookup-v4.com/", [ "http://ip-address-lookup-v4.com/", 2.328696470620408, "http://static.ip-address-lookup-v4.com/", 3.6395520997775903, "http://www.google-analytics.com/", 2.066525344788971 ] ], [ "http://isc.sans.edu/", [ "http://isc.sans.edu/", 0.11327224664018319 ] ], [ "http://isohunt.com/", [ "http://edge.quantserve.com/", 0.052131822242733994, "http://feeds.feedburner.com/", 0.052131822242733994, "http://isohunt.com/", 0.5292644754542825, "http://pixel.quantserve.com/", 0.09715270657911516, "http://static.isohunt.com/", 0.5043183851410784, "http://www.google-analytics.com/", 0.14888767718276966 ] ], [ "http://jimmyr.com/", [ "http://www.jimmyr.com/", 0.683720803021005 ] ], [ "http://jquery.com/", [ "http://ajax.googleapis.com/", 0.1265591796237542, "http://learningjquery.kswedberg.netdna-cdn.com/", 0.1265591796237542, "http://static.jquery.com/", 0.6598384578674361, "http://www.google-analytics.com/", 0.14494812025284673 ] ], [ "http://jsfromhell.com/", [ "http://jsfromhell.com/", 0.29847102557665095, "http://www.google-analytics.com/", 0.1826261069738414, "https://www.paypal.com/", 0.15945712325327943 ] ], [ "http://json-p.org/", [ "http://api.recaptcha.net/", 0.6565825732037986, "http://json-p.org/", 0.751983459908624, "http://www.google.com/", 1.2289878934327507 ] ], [ "http://kenanmalik.wordpress.com/", [ "http://2.gravatar.com/", 2.529573049612, "http://edge.quantserve.com/", 2.2086570657060003, "http://kenanmalik.wordpress.com/", 2.2086570657060003, "http://pixel.quantserve.com/", 2.2086570657060003, "http://s.gravatar.com/", 2.529573049612, "http://s1.wp.com/", 4.775984936953999, "http://s2.wp.com/", 3.4923210013299997, "http://stats.wordpress.com/", 2.850489033518, "http://www.google-analytics.com/", 2.529573049612, "https://graph.facebook.com/", 2.2086570657060003 ] ], [ "http://legacy.imatix.com/", [ "http://legacy.imatix.com/", 2.007691368222829 ] ], [ "http://lichess.org/", [ "http://en.lichess.org/", 0.060441045279655325 ] ], [ "http://lifesnow.com/", [ "http://c.statcounter.com/", 1.3132281179390324, "http://lifesnow.com/", 1.504039041058379, "http://www.statcounter.com/", 1.3132281179390324 ] ], [ "http://lift.do/", [ "http://ajax.googleapis.com/", 0.19518678663548863, "http://api.mixpanel.com/", 0.25190773317913495, "http://beacon-1.newrelic.com/", 0.19518678663548863, "http://lift.do/", 0.6205938857128352, "http://www.google-analytics.com/", 0.22354725990731183, "https://d1ros97qkrwjf5.cloudfront.net/", 0.19518678663548863 ] ], [ "http://lightbox.time.com/", [ "http://ic.tynt.com/", 0.30984961572685843, "http://juggler.services.disqus.com/", 0.30984961572685843, "http://mediacdn.disqus.com/", 0.9851628807725749, "http://ping.chartbeat.net/", 0.30984961572685843, "http://s0.wp.com/", 0.9401419964361937, "http://static.chartbeat.com/", 0.30984961572685843, "http://timecom.122.2o7.net/", 0.30984961572685843, "http://timelightbox.disqus.com/", 0.35487050006323956, "http://timethemoment.files.wordpress.com/", 1.3003090711272416, "http://widgets.outbrain.com/", 0.35487050006323956 ] ], [ "http://linux.about.com/", [ "http://0.tqn.com/", 2.1896806189254505, "http://z.about.com/", 1.8954152393070107 ] ], [ "http://linux.die.net/", [ "http://linux.die.net/", 2.1354112790328075, "http://www.google-analytics.com/", 1.8950007376847426 ] ], [ "http://linuxconfig.org/", [ "http://linuxconfig.org/", 0.21371378820821918 ] ], [ "http://localhost/", [ "http://localhost/", 2.812081786778284, "http://localhost:8080/", 1.5369064168297697, "http://pubsub.pubnub.com/", 0.06271228531741353 ] ], [ "http://lowfatlinux.com/", [ "http://cdn.lowfatlinux.com/", 0.13408531587719374, "http://edge.quantserve.com/", 0.13408531587719374, "http://lowfatlinux.com/", 0.17305027946543808, "http://pixel.quantserve.com/", 0.13408531587719374, "http://platform.twitter.com/", 0.13408531587719374, "http://w.sharethis.com/", 0.13408531587719374, "http://www.google-analytics.com/", 0.15356779767131593, "http://www.google.com/", 0.30942765202429295, "https://ajax.googleapis.com/", 0.13408531587719374, "https://apis.google.com/", 0.13408531587719374 ] ], [ "http://lwn.net/", [ "http://lwn.net/", 1.3846014081803946, "http://www.google-analytics.com/", 1.2287191304382308 ] ], [ "http://lwp.interglacial.com/", [ "http://lwp.interglacial.com/", 0.7598926297555513 ] ], [ "http://maketecheasier.com/", [ "http://connect.facebook.net/", 0.3903922932482842, "http://edge.quantserve.com/", 0.3903922932482842, "http://imagecdn3.maketecheasier.com/", 0.5015706796673678, "http://images.maketecheasier.com/", 1.0676728717400503, "http://maketecheasier.com/", 1.6133545438582078, "http://mcdn.maketecheasier.com/", 0.7851890123691126, "http://pixel.quantserve.com/", 0.503839626328982, "http://static.polldaddy.com/", 0.3903922932482842, "http://www.google-analytics.com/", 0.3903922932482842, "http://www.gravatar.com/", 0.5390082995839978 ] ], [ "http://maps.google.com/", [ "http://maps.google.com/", 1.1732116750478205, "http://maps.gstatic.com/", 6.887987023462857, "http://mt0.google.com/", 2.7681614412808666, "http://mt1.google.com/", 2.309662910071403 ] ], [ "http://markhansen.co.nz/", [ "http://markhansen.co.nz/", 0.0732113621524642 ] ], [ "http://matthewcasperson.blogspot.hk/", [ "http://1.bp.blogspot.com/", 0.1254566441873961, "http://3.bp.blogspot.com/", 0.1254566441873961, "http://ajax.googleapis.com/", 0.10954050276063686, "http://lh6.googleusercontent.com/", 0.10954050276063686, "http://matthewcasperson.blogspot.hk/", 0.15728892704091438, "http://www.blogblog.com/", 0.1732050684676737, "http://www.blogger.com/", 0.1413727856141553, "http://www.google.com/", 0.22095349274795115, "http://www.gstatic.com/", 0.10954050276063686 ] ], [ "http://matthiashoys.wordpress.com/", [ "http://edge.quantserve.com/", 0.23212029811267693, "http://i0.poll.fm/", 0.2658471790350317, "http://pixel.quantserve.com/", 0.2658471790350317, "http://polldaddy.com/", 0.23212029811267693, "http://s.gravatar.com/", 0.2658471790350317, "http://s0.wp.com/", 0.6031159882585788, "http://s1.wp.com/", 0.6031159882585788, "http://s2.wp.com/", 0.33330094087974094, "http://stats.wordpress.com/", 0.2658471790350317, "http://www.google-analytics.com/", 0.23212029811267693 ] ], [ "http://mediacdn.disqus.com/", [ "http://disqus.com/", 0.4571747664533289, "http://mediacdn.disqus.com/", 0.817442766220988 ] ], [ "http://mireille.it/", [ "http://0.gravatar.com/", 0.8399194430617882, "http://campaign.nasawiya.org/", 0.5849438978466032, "http://fonts.googleapis.com/", 0.669935746251665, "http://mireille.it/", 3.0497075015934, "http://platform.twitter.com/", 0.5849438978466032, "http://themes.googleusercontent.com/", 0.5849438978466032, "http://w.sharethis.com/", 0.5849438978466032, "http://www.google-analytics.com/", 0.669935746251665 ] ], [ "http://mozcode.blogspot.it/", [ "http://img1.blogblog.com/", 1.0422931874998105, "http://img2.blogblog.com/", 1.0422931874998105, "http://www.blogger.com/", 1.9509590432688757, "http://www.google.com/", 1.9509590432688757, "https://apis.google.com/", 1.0422931874998105 ] ], [ "http://mrnumber.com/", [ "http://analytics.performable.com/", 0.12295603977986592, "http://chart.googleapis.com/", 0.12295603977986592, "http://dev.visualwebsiteoptimizer.com/", 0.12295603977986592, "http://js.hubspot.com/", 0.12295603977986592, "http://maps.google.com/", 0.12295603977986592, "http://mrnumber.com/", 0.17655226224801251, "http://s3.amazonaws.com/", 0.23014848471615915, "http://track.hubspot.com/", 0.12295603977986592, "http://tracking.hubspot.com/", 0.12295603977986592, "http://www.google-analytics.com/", 0.1408214472692482 ] ], [ "http://msdn.microsoft.com/", [ "http://ajax.aspnetcdn.com/", 0.2241462214711652, "http://c.microsoft.com/", 0.41968188402777373, "http://c1.microsoft.com/", 0.836609958751419, "http://i2.msdn.microsoft.com/", 1.2731116041722377, "http://i3.msdn.microsoft.com/", 1.8660017707553176, "http://js.microsoft.com/", 0.836609958751419, "http://m.webtrends.com/", 0.42061817919117755, "http://microsoftsto.112.2o7.net/", 0.4201500316094759, "http://msdn.microsoft.com/", 0.44901292706124546 ] ], [ "http://nasenko.otw/", [ "http://nasenko.otw/", 0.3121255342724665 ] ], [ "http://nathaniel.themccallums.org/", [ "http://0.gravatar.com/", 0.5499357656800006, "http://1.gravatar.com/", 0.3983318518979464, "http://nathaniel.themccallums.org/", 0.8334921279846684 ] ], [ "http://net.tutsplus.com/", [ "http://0.gravatar.com/", 9.903611898472308, "http://1.gravatar.com/", 8.120662101319203, "http://d2o0t5hpnwv4c1.cloudfront.net/", 2.262398482101845, "http://envato.s3.amazonaws.com/", 2.007691368222829, "http://freelanceswitch.com/", 1.7529842543438134, "http://i1.wp.com/", 2.007691368222829, "http://net.tutsplus.com/", 6.337712304166094, "http://nettuts.s3.amazonaws.com/", 1.7529842543438134, "http://ots.optimize.webtrends.com/", 1.7529842543438134, "http://tutsplus.s3.amazonaws.com/", 7.178569591636555 ] ], [ "http://netbeans.org/", [ "http://netbeans.org/", 1.3022861698130832, "http://www.google.com/", 0.05826201495495992 ] ], [ "http://news.google.com.tw/", [ "http://nt3.ggpht.com/", 0.0531359297790118 ] ], [ "http://news.slashdot.org/", [ "http://a.fsdn.com/", 0.9490226766056177, "http://www.google-analytics.com/", 0.593501371231789, "http://www.gstatic.com/", 0.486416640697503 ] ], [ "http://newsgroups.derkeiler.com/", [ "http://cdn.derkeiler.com/", 0.3310654424435817, "http://www.derkeiler.com/", 0.16412990155041987, "http://www.google-analytics.com/", 0.18797783596372877 ] ], [ "http://nmap.org/", [ "http://clients1.google.com/", 1.8043542189575343, "http://nmap.org/", 3.377380973946154, "http://www.google-analytics.com/", 1.8043542189575343, "http://www.google.com/", 3.6395520997775903, "https://www.googleapis.com/", 1.8043542189575343 ] ], [ "http://nodeguide.com/", [ "http://nodeguide.com/", 0.22301098201064223, "http://www.google-analytics.com/", 0.2554142870891118 ] ], [ "http://nodejs.org/", [ "http://nodejs.org/", 1.5949321235158724, "http://www.google-analytics.com/", 0.35480794485509465 ] ], [ "http://nodemanual.org/", [ "http://disqus.com/", 0.3869913440744119, "http://mediacdn.disqus.com/", 0.43608726085997157, "http://nodemanual.disqus.com/", 0.3378954272888522, "http://nodemanual.org/", 1.270717846214486, "http://snippets.c9.io/", 1.1725260126433659, "http://www.google-analytics.com/", 0.3869913440744119, "http://yandex.st/", 0.3378954272888522 ] ], [ "http://nsaunders.wordpress.com/", [ "http://edge.quantserve.com/", 0.09481036287312458, "http://farm9.staticflickr.com/", 0.09481036287312458, "http://pixel.quantserve.com/", 0.09481036287312458, "http://s.gravatar.com/", 0.10858622756409143, "http://s0.wp.com/", 0.1499138216369919, "http://s1.wp.com/", 0.16368968632795858, "http://s2.wp.com/", 0.24634487447375936, "http://stats.wordpress.com/", 0.10858622756409143, "http://urls.api.twitter.com/", 0.09481036287312458, "http://www.google-analytics.com/", 0.10858622756409143 ] ], [ "http://offbytwo.com/", [ "http://offbytwo.com/", 0.17305027946543808, "http://p.typekit.net/", 0.13408531587719374, "http://platform.twitter.com/", 0.13408531587719374, "http://use.typekit.net/", 0.17305027946543808, "http://www.google-analytics.com/", 0.15356779767131593, "http://www.gravatar.com/", 0.13408531587719374 ] ], [ "http://online.wsj.com/", [ "http://m.wsj.net/", 0.12594782688651737, "http://s1.wsj.net/", 0.21102516690257545, "http://s2.wsj.net/", 0.18266605356388935, "http://s3.wsj.net/", 0.23938428024126146, "http://s4.wsj.net/", 0.19684561023323233, "http://sc.wsj.net/", 0.12594782688651737, "http://si.wsj.net/", 0.38837762261159753, "http://sj.wsj.net/", 0.12594782688651737, "http://synccontent.wsj.com/", 0.14012738355586032, "http://trc.taboolasyndication.com/", 0.12594782688651737 ] ], [ "http://onlineappsdba.com/", [ "http://edge.quantserve.com/", 0.1265591796237542, "http://onlineappsdba.com/", 0.20011494214012418, "http://pixel.quantserve.com/", 0.1265591796237542, "http://sm9.sitemeter.com/", 0.1633370608819392, "http://stats.wordpress.com/", 0.14494812025284673, "http://teachmeoracle.com/", 0.1265591796237542, "http://us.i1.yimg.com/", 0.1265591796237542, "http://www.e-junkie.com/", 0.1265591796237542, "http://www.google-analytics.com/", 0.1633370608819392, "http://www.google.com/", 0.14494812025284673 ] ], [ "http://onthefencedevelopment.com/", [ "http://onthefencedevelopment.com/", 0.162950615252647 ] ], [ "http://overthewire.org/", [ "http://www.overthewire.org/", 2.5171055959808606 ] ], [ "http://p.raasnet.com/", [ "http://d.agkn.com/", 0.19518678663548863, "http://fei.pro-market.net/", 0.22354725990731183, "http://idsync.rlcdn.com/", 0.22354725990731183 ] ], [ "http://packages.ubuntu.com/", [ "http://packages.ubuntu.com/", 0.23256900978279274, "http://screenshots.debian.net/", 0.09481036287312458 ] ], [ "http://paste.scsys.co.uk/", [ "http://paste.scsys.co.uk/", 2.0746161199187436, "http://www.w3.org/", 1.6074840134469732 ] ], [ "http://pastebin.com/", [ "http://goaww.com/", 0.6620961496106906, "http://graph.facebook.com/", 0.6555034478386395, "http://pastebin.com/", 6.73322229429419, "http://urls.api.twitter.com/", 0.6555034478386395, "http://www.google-analytics.com/", 0.8890220854027107 ] ], [ "http://perl-begin.org/", [ "http://duckduckgo.com/", 1.841050066682858, "http://perl-begin.org/", 3.008880332862283, "http://static.addtoany.com/", 1.6074840134469732 ] ], [ "http://perl.active-venture.com/", [ "http://perl.active-venture.com/", 2.541748226390513 ] ], [ "http://perldoc.perl.org/", [ "http://perldoc.perl.org/", 9.30101762143084, "http://www.google-analytics.com/", 1.3585341830708173 ] ], [ "http://perlmeme.org/", [ "http://perlmeme.org/", 1.0997227596879255, "http://www.google-analytics.com/", 0.8256371326367956, "http://www.google.com/", 0.8256371326367956 ] ], [ "http://php.net/", [ "http://ajax.googleapis.com/", 0.5899644837897793, "http://php.net/", 0.14759047546997242, "http://static.php.net/", 3.880338509609215, "http://www.php.net/", 0.44152915996952485 ] ], [ "http://pictoreo.com/", [ "http://pictoreo.com/", 0.8688147979805237, "http://static.pictoreo.com.s3.amazonaws.com/", 0.8688147979805237, "http://www.google-analytics.com/", 0.7585920251023976 ] ], [ "http://pixel.fetchback.com/", [ "http://pixel.fetchback.com/", 0.41360787982220215 ] ], [ "http://player.ooyala.com/", [ "http://ak.c.ooyala.com/", 0.5018747070945475, "http://cdn-api.ooyala.com/", 0.4382040352989707, "http://cp76677.edgefcs.net/", 0.5018747070945475, "http://extras.ooyala.com/", 0.4382040352989707, "http://l.ooyala.com/", 0.5655453788901245, "http://player.ooyala.com/", 0.649626688285438 ] ], [ "http://plexapp.com/", [ "http://ping.chartbeat.net/", 0.1380145912912558, "http://plexapp.com/", 0.4588690257461409, "http://static.chartbeat.com/", 0.1380145912912558, "http://www.acmeous.com/", 0.1380145912912558, "http://www.plexapp.com/", 0.1380145912912558, "https://ajax.googleapis.com/", 0.1380145912912558 ] ], [ "http://plugins.netbeans.org/", [ "http://ajax.googleapis.com/", 0.14919572247161356, "http://netbeans.org/", 0.6602467419825876, "http://plugins.netbeans.org/", 0.39525732445837897, "http://www.google-analytics.com/", 0.14919572247161356, "http://www.google.com/", 0.14919572247161356 ] ], [ "http://pmungai.wordpress.com/", [ "http://edge.quantserve.com/", 0.09758871354783134, "http://i.polldaddy.com/", 0.11176827021717439, "http://i0.poll.fm/", 0.11176827021717439, "http://pixel.quantserve.com/", 0.12594782688651737, "http://polldaddy.com/", 0.11176827021717439, "http://s.gravatar.com/", 0.12594782688651737, "http://s0.wp.com/", 0.11176827021717439, "http://s1.wp.com/", 0.14012738355586032, "http://s2.wp.com/", 0.42371851694272034, "http://stats.wordpress.com/", 0.11176827021717439 ] ], [ "http://politics.slashdot.org/", [ "http://a.fsdn.com/", 2.0764718104164186, "http://www.google-analytics.com/", 1.3132281179390324, "http://www.gstatic.com/", 1.3132281179390324 ] ], [ "http://postgresql.1045698.n5.nabble.com/", [ "http://postgresql.1045698.n5.nabble.com/", 0.08731443624314737 ] ], [ "http://publib.boulder.ibm.com/", [ "http://pt200204.unica.com/", 1.2287191304382308, "http://publib.boulder.ibm.com/", 15.414006404975131, "http://www.ibm.com/", 1.2287191304382308 ] ], [ "http://pubnub.com/", [ "http://www.pubnub.com/", 0.8793185626731462 ] ], [ "http://pubs.opengroup.org/", [ "http://pubs.opengroup.org/", 2.242468226684916 ] ], [ "http://puttscribe.com/", [ "http://puttscribe.com/", 5.865462112811037 ] ], [ "http://r1rk9np7bpcsfoeekl0khkd2juj27q3o-a-fc-opensocial.googleusercontent.com/", [ "http://csi.gstatic.com/", 0.05059434734889471, "http://r1rk9np7bpcsfoeekl0khkd2juj27q3o-a-fc-opensocial.googleusercontent.com/", 0.20237325009907053, "http://www-fc-opensocial.googleusercontent.com/", 0.05059434734889471, "http://www.google.com/", 0.853986265349994 ] ], [ "http://railradar.trainenquiry.com/", [ "http://code.jquery.com/", 0.774019803720548, "http://csi.gstatic.com/", 0.6758232614574935, "http://maps.googleapis.com/", 1.0686094305097118, "http://maps.gstatic.com/", 1.6577886840880391, "http://mt0.googleapis.com/", 3.7199160716121864, "http://mt1.googleapis.com/", 3.032540275770802, "http://railradar.railyatri.in/", 0.6758232614574935, "http://railradar.trainenquiry.com/", 5.389257290084112, "http://www.google-analytics.com/", 0.8722163459836026, "https://ajax.googleapis.com/", 0.6758232614574935 ] ], [ "http://rainbowsandpwnies.com/", [ "http://rainbowsandpwnies.com/", 1.1366355937680768 ] ], [ "http://remysharp.com/", [ "http://ajax.googleapis.com/", 0.6565825732037986, "http://leftlogic.com/", 0.6565825732037986, "http://remy.github.com/", 0.6565825732037986, "http://remysharp.com/", 2.6600011940051314, "http://static.jsconf.us/", 0.6565825732037986, "http://www.google-analytics.com/", 0.751983459908624, "http://www.gravatar.com/", 4.186415381282338 ] ], [ "http://revealingerrors.com/", [ "http://revealingerrors.com/", 0.06095285403228805 ] ], [ "http://rma-api.gravity.com/", [ "http://i.api.grvcdn.com/", 0.26973015896769925, "http://tctechcrunch2011.files.wordpress.com/", 0.3414342368197549 ] ], [ "http://s.ytimg.com/", [ "http://o-o---preferred---sn-i3b76n7s---v11---nonxt5.c.youtube.com/", 2.744939569764937, "http://o-o---preferred---sn-i3b7sn7k---v19---nonxt6.c.youtube.com/", 3.4923210013299997, "http://o-o---preferred---sn-i3co-i3bz---v11---lscache5.c.youtube.com/", 2.744939569764937, "http://o-o---preferred---sn-i3co-i3bz---v19---lscache6.c.youtube.com/", 3.4923210013299997, "http://r7---sn-i3b76n7l.c.youtube.com/", 2.692899202010165, "http://r8---sn-a5m7zu7l.c.youtube.com/", 0.237768288372683, "http://s.youtube.com/", 1.4553205031660097, "http://s.ytimg.com/", 1.1292593057692657, "http://s2.youtube.com/", 1.8402255400512741, "http://www.youtube.com/", 3.570905529157298 ] ], [ "http://s7.addthis.com/", [ "http://cf.addthis.com/", 0.8037034659213589, "http://m.addthisedge.com/", 0.8037034659213589 ] ], [ "http://science.slashdot.org/", [ "http://www.google-analytics.com/", 0.7369949101477324 ] ], [ "http://scottnesbitt.net/", [ "http://disqus.com/", 0.15806799344468614, "http://getpocket.com/", 0.19817479775154664, "http://mediacdn.disqus.com/", 0.17812139559811646, "http://pixel.quantserve.com/", 0.1380145912912558, "http://s.gravatar.com/", 0.15806799344468614, "http://scottnesbitt.net/", 0.5591360365132926, "http://static.evernote.com/", 0.15806799344468614, "http://stats.wordpress.com/", 0.15806799344468614, "http://www.google-analytics.com/", 0.15806799344468614, "http://www.scottnesbitt.net/", 0.15806799344468614 ] ], [ "http://search.cpan.org/", [ "http://ajax.googleapis.com/", 0.4918713301294032, "http://ipv4.v6test.develooper.com/", 0.7062767817242704, "http://ipv6.v6test.develooper.com/", 0.4918713301294032, "http://ipv64.v6test.develooper.com/", 0.5633398139943591, "http://st.pimg.net/", 1.1350876849140066, "http://www.google-analytics.com/", 0.5633398139943591, "http://www.gravatar.com/", 0.4918713301294032 ] ], [ "http://search.mibbit.com/", [ "http://edge.quantserve.com/", 0.6020852653511504, "http://my.chat.mibbit.com/", 0.6895677398038814, "http://pixel.quantserve.com/", 0.6020852653511504, "http://search.mibbit.com/", 0.6020852653511504, "http://www.google-analytics.com/", 0.6895677398038814, "https://my.chat.mibbit.com/", 0.6895677398038814 ] ], [ "http://searchirc.com/", [ "http://searchirc.com/", 4.537046966235001, "http://www.google-analytics.com/", 1.039497637614806 ] ], [ "http://searchsecurity.techtarget.com/", [ "http://admin.brightcove.com/", 1.0728368526960674, "http://beacon-1.newrelic.com/", 1.0728368526960674, "http://cdn.ttgtmedia.com/", 4.658129240765829, "http://d1ros97qkrwjf5.cloudfront.net/", 1.0728368526960674, "http://dnn506yrbagrg.cloudfront.net/", 1.0728368526960674, "http://go.techtarget.com/", 1.0728368526960674, "http://media.techtarget.com/", 1.0728368526960674, "http://techtarget.tt.omtrdc.net/", 2.164012796891212, "http://users.techtarget.com/", 1.2287191304382308, "http://www.google-analytics.com/", 1.3846014081803946 ] ], [ "http://seclists.org/", [ "http://seclists.org/", 3.1152098481147172, "http://www.google-analytics.com/", 1.8043542189575343, "http://www.google.com/", 2.5908675964518446 ] ], [ "http://security-sh3ll.blogspot.hk/", [ "http://c0.histats.12mlbe.com/", 0.3378954272888522, "http://d0.histats.12mlbe.com/", 0.3378954272888522, "http://feedjit.com/", 0.43608726085997157, "http://googleonlinesecurity.blogspot.hk/", 0.3378954272888522, "http://i188.photobucket.com/", 0.48518317764553087, "http://img1.blogblog.com/", 0.534279094431091, "http://jeremiahgrossman.blogspot.hk/", 0.3378954272888522, "http://s10.histats.com/", 0.3869913440744119, "http://security-sh3ll.blogspot.hk/", 0.43608726085997157, "http://www.google.com/", 0.3869913440744119 ] ], [ "http://serverfault.com/", [ "http://cdn.sstatic.net/", 0.06039090441253247, "http://www.gravatar.com/", 0.10577503362809276 ] ], [ "http://sidvind.com/", [ "http://creativecommons.org/", 0.13408531587719374, "http://sidvind.com/", 0.289945170230171, "http://www.google-analytics.com/", 0.15356779767131593 ] ], [ "http://slashdot.org/", [ "http://a.fsdn.com/", 7.180787387503638, "http://www.google-analytics.com/", 0.6092183051831839 ] ], [ "http://smartgeek.in/", [ "http://getfile2.posterous.com/", 0.3161893454521083, "http://getfile4.posterous.com/", 0.3374352698500757, "http://getfile7.posterous.com/", 0.2099597234622694, "http://getfile9.posterous.com/", 0.29494342105414034, "http://maps.googleapis.com/", 0.16746787466633406, "http://maps.gstatic.com/", 0.16746787466633406, "http://pixel.quantserve.com/", 0.1462219502683663, "http://posterous.com/", 0.6773700602175601, "http://s3.amazonaws.com/", 1.5484529605342356, "http://smartgeek.in/", 0.8898293041972378 ] ], [ "http://software-security.sans.org/", [ "http://blogs.sans.org/", 0.1413727856141553, "http://s7.addthis.com/", 0.10954050276063686, "http://software-security.sans.org/", 0.7780184426845234, "http://www.google-analytics.com/", 0.1413727856141553, "http://www.google.com/", 0.1254566441873961, "http://www.sans.org/", 0.10954050276063686, "https://blogs.sans.org/", 0.1413727856141553 ] ], [ "http://soundcloud.com/", [ "http://connect.soundcloud.com/", 0.9304999836982393, "http://platform.linkedin.com/", 0.5245618368100231, "http://soundcloud.com/", 3.674361899319897, "https://logs1252.xiti.com/", 0.9304999836982393, "https://player.vimeo.com/", 1.4126565171315018 ] ], [ "http://spacial.com/", [ "http://spacial.com/", 0.0723417304450826 ] ], [ "http://spoofer-extension.appspot.com/", [ "http://spoofer-extension.appspot.com/", 0.31502472189009845 ] ], [ "http://ss64.com/", [ "http://ss64.com/", 3.3374639857731285 ] ], [ "http://stackoverflow.com/", [ "http://ajax.googleapis.com/", 0.7272932022887437, "http://careerscdn.sstatic.net/", 0.7276199270715159, "http://cdn.sstatic.net/", 4.16982183342284, "http://edge.quantserve.com/", 0.7272932486010851, "http://pixel.quantserve.com/", 0.7272932486010761, "http://stackoverflow.com/", 1.0217074287530832, "http://www.google-analytics.com/", 1.4545864972021503, "http://www.gravatar.com/", 3.648727704678803, "https://stackauth.com/", 2.319614810014193 ] ], [ "http://static.sfdict.com/", [ "http://static.sfdict.com/", 0.09211111184212672 ] ], [ "http://static.springsource.org/", [ "http://now.eloqua.com/", 0.11945548132733315, "http://search.springsource.org/", 0.27566649537076854, "http://static.springsource.org/", 0.3798071713997255, "http://www.google-analytics.com/", 0.1368122606654927, "http://www.springsource.org/", 0.11945548132733315 ] ], [ "http://stats.pingdom.com/", [ "http://chart.apis.google.com/", 0.06900398662792741, "http://stats.pingdom.com/", 0.18931862997918553, "http://www.google-analytics.com/", 0.07903020690719893, "https://ajax.googleapis.com/", 0.06900398662792741, "https://my.pingdom.com/", 0.06900398662792741 ] ], [ "http://status.github.com/", [ "https://status.github.com/", 0.4220195828107198 ] ], [ "http://superuser.com/", [ "http://cdn.sstatic.net/", 0.08714046174666787, "http://i.stack.imgur.com/", 0.10858622756409143, "http://www.gravatar.com/", 0.0878025700130318 ] ], [ "http://surf11.com/", [ "http://images.solosub.com/", 0.08259454863123532, "http://surf11.com/", 0.1506095649553561, "http://www.google-analytics.com/", 0.1506095649553561 ] ], [ "http://tag.crsspxl.com/", [ "http://b3.mookie1.com/", 2.2086570657060003, "http://d.turn.com/", 2.2086570657060003, "http://matcher.bidder7.mookie1.com/", 2.529573049612, "http://matcher.bidder8.mookie1.com/", 2.2086570657060003, "http://sync.mathtag.com/", 2.2086570657060003, "http://tag.crsspxl.com/", 2.2086570657060003 ] ], [ "http://teamcoco.com/", [ "http://cdn.teamcococdn.com/", 0.18931862997918553, "http://teamcoco.com/", 0.06900398662792741, "http://z.cdn.turner.com/", 0.06900398662792741 ] ], [ "http://techcrunch.com/", [ "http://b.techcrunch.com/", 0.21718286941775067, "http://ping.chartbeat.net/", 0.1896298188199763, "http://rma-api.gravity.com/", 0.3932384636877111, "http://s.gravatar.com/", 0.21718286941775067, "http://s1.wp.com/", 0.244735920015525, "http://s2.wp.com/", 0.8668939133759291, "http://static.chartbeat.com/", 0.1896298188199763, "http://stats.wordpress.com/", 0.21718286941775067, "http://tctechcrunch2011.wordpress.com/", 0.21718286941775067, "http://www.google-analytics.com/", 0.21718286941775067 ] ], [ "http://technet.microsoft.com/", [ "http://i.technet.microsoft.com/", 1.504039041058379, "http://i1.services.social.microsoft.com/", 1.3132281179390324, "http://i2.technet.microsoft.com/", 2.4580936566551124, "http://i3.technet.microsoft.com/", 1.3132281179390324, "http://microsoftsto.112.2o7.net/", 1.3132281179390324 ] ], [ "http://technomaina.blogspot.hk/", [ "http://1.bp.blogspot.com/", 0.3182766989413425, "http://2.bp.blogspot.com/", 0.1471872481270239, "http://3.bp.blogspot.com/", 0.18995961083060356, "http://4.bp.blogspot.com/", 0.3246002530233227, "http://img1.blogblog.com/", 0.1471872481270239, "http://s7.addthis.com/", 0.1471872481270239, "http://technomaina.blogspot.hk/", 0.3378954272888522, "http://www.appsgeyser.com/", 0.16857342947881376, "http://www.blogger.com/", 0.3182766989413425, "http://www.google.com/", 0.18995961083060356 ] ], [ "http://tent.io/", [ "http://tent.io/", 1.199483116614902, "http://www.google-analytics.com/", 0.8688147979805237 ] ], [ "http://teresamcgurk.hubpages.com/", [ "http://ecx.images-amazon.com/", 0.889867208124652, "http://edge.quantserve.com/", 0.6197289485153833, "http://pixel.quantserve.com/", 0.7097750350518064, "http://s1.hubimg.com/", 1.160005467733922, "http://s2.hubimg.com/", 1.3400976408067689, "http://s3.hubimg.com/", 0.9799132946610762, "http://s4.hubimg.com/", 1.0699593811974988, "http://teresamcgurk.hubpages.com/", 0.7097750350518064, "http://www.google-analytics.com/", 0.7998211215882297, "http://z.hubimg.com/", 1.2500515542703448 ] ], [ "http://thedigitallifestyle.com/", [ "http://thedigitallifestyle.com/", 0.12548412579374485 ] ], [ "http://thejeshgn.com/", [ "http://thejeshgn.com/", 0.08131222965372258 ] ], [ "http://themonetaryfuture.blogspot.hk/", [ "http://4.bp.blogspot.com/", 0.23892241939278966, "http://feedjit.com/", 0.30835286605394224, "http://i.creativecommons.org/", 0.23892241939278966, "http://img1.blogblog.com/", 0.23892241939278966, "http://img2.blogblog.com/", 0.23892241939278966, "http://static.technorati.com/", 0.23892241939278966, "http://themonetaryfuture.blogspot.hk/", 0.30835286605394224, "http://www.blogger.com/", 0.5860746526985523, "http://www.google.com/", 0.44721375937624697, "http://www.neoworx.net/", 0.23892241939278966 ] ], [ "http://thenextweb.com/", [ "http://livefyre-avatar.s3.amazonaws.com/", 0.06063917311324114, "http://thenextweb.com/", 0.054503066310115575, "http://zor.fyre.co/", 0.09745581393199469 ] ], [ "http://thevault.bz/", [ "http://thevault.bz/", 0.059728281118317204 ] ], [ "http://thexploit.com/", [ "http://0.gravatar.com/", 1.1267336567921824, "http://1.gravatar.com/", 1.4126213010528852, "http://thexploit.com/", 3.6997224551385086, "http://www.google-analytics.com/", 1.1267336567921824 ] ], [ "http://tomcat.apache.org/", [ "http://tomcat.apache.org/", 0.1409584273288292 ] ], [ "http://tomeko.net/", [ "http://tomeko.net/", 3.1097811156993447, "http://www.google.com/", 1.6135846456614291 ] ], [ "http://tools.rosinstrument.com/", [ "http://tools.rosinstrument.com/", 0.5849438978466032 ] ], [ "http://tracker.firebirdsql.org/", [ "http://tracker.firebirdsql.org/", 0.07934836066461334 ] ], [ "http://twitter.com/", [ "http://a0.twimg.com/", 9.252251654088893, "http://pbs.twimg.com/", 2.4454435996632853, "http://platform.twitter.com/", 1.0217551358151886, "http://twitter.com/", 0.3934571347978549, "http://www.google-analytics.com/", 1.5166663405089484, "https://pbs.twimg.com/", 0.8921294842565451 ] ], [ "http://ubuntuforums.org/", [ "http://themes.googleusercontent.com/", 0.12526979885411585, "http://ubuntuforums.org/", 1.0994343325834832, "http://yui.yahooapis.com/", 0.07318247704417719 ] ], [ "http://ubuntuserverguide.com/", [ "http://fonts.googleapis.com/", 0.1380145912912558, "http://pixel.quantserve.com/", 0.1380145912912558, "http://s13.sitemeter.com/", 0.15806799344468614, "http://static.getclicky.com/", 0.1380145912912558, "http://themes.googleusercontent.com/", 0.1380145912912558, "http://ubuntuserverguide.com/", 1.2788125329955988, "http://ubuntuserverguide.disqus.com/", 0.1380145912912558, "http://www.google-analytics.com/", 0.17812139559811646, "http://www.youtube.com/", 0.15806799344468614, "http://www.zimbio.com/", 0.1380145912912558 ] ], [ "http://ulyssesonline.com/", [ "http://0.gravatar.com/", 0.07734949439171464, "http://1.gravatar.com/", 0.08221964774230411, "http://ulyssesonline.com/", 0.12605102789760902 ] ], [ "http://underdark.wordpress.com/", [ "http://botd2.wordpress.com/", 0.9557813380690089, "http://edge.quantserve.com/", 0.9557813380690089, "http://gis.stackexchange.com/", 0.9557813380690089, "http://pixel.quantserve.com/", 0.9557813380690089, "http://s.gravatar.com/", 1.094655549583309, "http://s0.wp.com/", 2.205649241697711, "http://s1.wp.com/", 1.927900818669111, "http://s2.wp.com/", 2.066775030183412, "http://stats.wordpress.com/", 1.2335297610976095, "http://underdark.wordpress.com/", 0.9557813380690089 ] ], [ "http://unix.stackexchange.com/", [ "http://ajax.googleapis.com/", 0.5849438978466032, "http://cdn.sstatic.net/", 1.0948949882769745, "http://edge.quantserve.com/", 0.5849438978466032, "http://methylblue.com/", 0.1875268872089423, "http://pixel.quantserve.com/", 0.27251873561400436, "http://unix.stackexchange.com/", 0.38475808045113485, "http://www.google-analytics.com/", 0.38475808045113485, "http://www.gravatar.com/", 0.6027380519076829, "http://www.methylblue.com/", 0.1875268872089423, "https://stackauth.com/", 0.38475808045113485 ] ], [ "http://washingtonpost.com/", [ "http://www.washingtonpost.com/", 0.8688147979805237 ] ], [ "http://webchat.freenode.net/", [ "http://webchat.freenode.net/", 0.2182281999049771, "http://www.google.com/", 0.15806799344468614, "https://www.google.com/", 0.1380145912912558 ] ], [ "http://whynotwiki.com/", [ "http://whynotwiki.com/", 0.09365795869851232 ] ], [ "http://wiki.answers.com/", [ "http://a.answers.com/", 0.4755593806299902, "http://edge.quantserve.com/", 0.3684797849914494, "http://fonts.googleapis.com/", 0.3684797849914494, "http://pixel.quantserve.com/", 0.3684797849914494, "http://rx.answcdn.com/", 1.5998951348346677, "http://wiki.answers.com/", 0.3684797849914494, "http://www.google-analytics.com/", 0.4220195828107198, "https://www.dsply.com/", 0.3684797849914494 ] ], [ "http://wiki.netbeans.org/", [ "http://netbeans.org/", 1.0265930513611645, "http://wiki.netbeans.org/", 0.6681893316948541, "http://www.google-analytics.com/", 0.07659061799303843, "http://www.google.com/", 0.05787360318950566 ] ], [ "http://wiki.videolan.org/", [ "http://wiki.videolan.org/", 0.08062532621772849 ] ], [ "http://wiki.wireshark.org/", [ "http://wiki.wireshark.org/", 0.15450187277412158, "http://ws.cf.wireshark.net/", 0.11549397420243751, "http://www.google-analytics.com/", 0.10249134134520947 ] ], [ "http://wofford-ecs.org/", [ "http://wofford-ecs.org/", 2.227427662440905 ] ], [ "http://wolframalpha.com/", [ "http://www.wolframalpha.com/", 0.1826261069738414 ] ], [ "http://wordpress.org/", [ "http://edge.quantserve.com/", 0.11504356038122796, "http://pixel.quantserve.com/", 0.11504356038122796, "http://s.gravatar.com/", 0.11504356038122796, "http://s.wordpress.org/", 0.3777549743861212, "http://wordpress.org/", 0.11504356038122796, "http://www.google-analytics.com/", 0.1442337174928827 ] ], [ "http://www.addictivetips.com/", [ "http://addictivetips.disqus.com/", 0.10954050276063686, "http://cloud.addictivetips.com/", 0.20503735132119194, "http://disqus.com/", 0.1413727856141553, "http://fonts.googleapis.com/", 0.10954050276063686, "http://mediacdn.disqus.com/", 0.2527857756014694, "http://pixel.quantserve.com/", 0.1254566441873961, "http://s.gravatar.com/", 0.1254566441873961, "http://stats.wordpress.com/", 0.1254566441873961, "http://themes.googleusercontent.com/", 0.1254566441873961, "http://www.reddit.com/", 0.10954050276063686 ] ], [ "http://www.aliaspooryorik.com/", [ "http://code.jquery.com/", 0.06900398662792741, "http://fonts.googleapis.com/", 0.06900398662792741, "http://themes.googleusercontent.com/", 0.06900398662792741, "http://www.aliaspooryorik.com/", 0.11913508802428481, "http://www.google-analytics.com/", 0.07903020690719893 ] ], [ "http://www.aliveproxy.com/", [ "http://counter.yadro.ru/", 0.669935746251665, "http://www.aliveproxy.com/", 1.0948949882769745, "http://www.google-analytics.com/", 0.669935746251665, "http://www.google.com/", 0.669935746251665 ] ], [ "http://www.amazon.com/", [ "http://ab01fb7508b34fc2500cae22ba5a62c34.profile.arn1.cloudfront.net/", 0.3973762751317589, "http://ae415a2685941054a374c8d47bc1c9adb.profile.ams50.cloudfront.net/", 0.6020852653511504, "http://af44a1f70a1d85c0856840fe89b5b34cd.profile.lhr5.cloudfront.net/", 0.6020852653511504, "http://cloudfront-labs.amazonaws.com/", 0.6895677398038814, "http://d1b14unh5d6w7g.cloudfront.net/", 0.48485874958449027, "http://ecx.images-amazon.com/", 6.383997382262322, "http://g-ecx.images-amazon.com/", 9.431589748286612, "http://www.amazon.com/", 1.0084262930186199, "http://z-ecx.images-amazon.com/", 8.856986187905228, "https://images-na.ssl-images-amazon.com/", 6.330312706865833 ] ], [ "http://www.americanclubhk.com/", [ "http://www.americanclubhk.com/", 9.801543992362639 ] ], [ "http://www.anth0.com/", [ "http://apis.google.com/", 1.3132281179390324, "http://diythemes.com/", 1.3132281179390324, "http://platform.linkedin.com/", 1.3132281179390324, "http://static.ak.connect.facebook.com/", 1.3132281179390324, "http://static.ak.facebook.com/", 1.504039041058379, "http://www.anth0.com/", 8.754854119593546, "http://www.google.com/", 1.3132281179390324, "http://www.stumbleupon.com/", 1.3132281179390324, "https://s-static.ak.facebook.com/", 1.504039041058379 ] ], [ "http://www.appsgeyser.com/", [ "http://chart.apis.google.com/", 0.3378954272888522, "http://www.appsgeyser.com/", 0.9761423455011276 ] ], [ "http://www.archlinux.org/", [ "http://www.archlinux.org/", 0.06139135307852266 ] ], [ "http://www.asciitable.com/", [ "http://www.asciitable.com/", 2.0669773647227045 ] ], [ "http://www.asciitohex.com/", [ "http://ajax.googleapis.com/", 0.631967076209421, "http://fonts.googleapis.com/", 0.631967076209421, "http://themes.googleusercontent.com/", 0.631967076209421, "http://www.asciitohex.com/", 6.583794665466598, "http://www.google-analytics.com/", 1.3383684601658523 ] ], [ "http://www.astro.ufl.edu/", [ "http://www.astro.ufl.edu/", 0.15945712325327943 ] ], [ "http://www.bartium.com/", [ "http://bartium.disqus.com/", 0.751983459908624, "http://juggler.services.disqus.com/", 0.6565825732037986, "http://mediacdn.disqus.com/", 2.1829967604810046, "http://www.bartium.com/", 1.2289878934327507, "http://www.google-analytics.com/", 0.751983459908624 ] ], [ "http://www.bennadel.com/", [ "http://ajax.googleapis.com/", 0.08206101562064164, "http://www.bennadel.com/", 0.33964266955704586, "http://www.google-analytics.com/", 0.09398441105270071, "http://www.gravatar.com/", 0.31382345455877153 ] ], [ "http://www.blackhat.com/", [ "http://www.blackhat.com/", 1.6985089453135882 ] ], [ "http://www.blogger.com/", [ "http://www.blogger.com/", 0.2786911918741779, "http://www.google-analytics.com/", 0.2695852598083011 ] ], [ "http://www.boston.com/", [ "http://a.visualrevenue.com/", 1.094655549583309, "http://c.o0bc.com/", 2.066775030183412, "http://cache.boston.com/", 1.2335297610976095, "http://cdn.insights.gravity.com/", 0.9557813380690089, "http://graphics.boston.com/", 0.9557813380690089, "http://metrics.boston.com/", 1.094655549583309, "http://rma-api.gravity.com/", 1.094655549583309, "http://secure-us.imrworldwide.com/", 0.9557813380690089, "http://www.boston.com/", 3.3166429338121124 ] ], [ "http://www.brighthub.com/", [ "http://a.analytics.yahoo.com/", 0.10954050276063686, "http://config.parsely.com/", 0.10954050276063686, "http://d.yimg.com/", 0.10954050276063686, "http://ping.chartbeat.net/", 0.10954050276063686, "http://pixel.parsely.com/", 0.10954050276063686, "http://s.brighthub.com/", 0.2687019170282289, "http://static.chartbeat.com/", 0.10954050276063686, "http://static.parsely.com/", 0.1254566441873961, "http://www.google-analytics.com/", 0.1254566441873961, "http://zdbb.net/", 0.10954050276063686 ] ], [ "http://www.brooksandrus.com/", [ "http://0.gravatar.com/", 3.3374639857731285, "http://1.gravatar.com/", 3.5778745271211934, "http://ajax.googleapis.com/", 1.6545901963366785, "http://edge.quantserve.com/", 1.6545901963366785, "http://pixel.quantserve.com/", 1.6545901963366785, "http://s.gravatar.com/", 2.1354112790328075, "http://stats.wordpress.com/", 1.8950007376847426, "http://www.brooksandrus.com/", 9.107316978126674, "http://www.google-analytics.com/", 1.8950007376847426 ] ], [ "http://www.calvinshub.com/", [ "http://0.gravatar.com/", 0.669935746251665, "http://1.gravatar.com/", 0.7532277576886253, "http://api.ak.facebook.com/", 0.47105482098381984, "http://feeds.delicious.com/", 0.6121412893362226, "http://pixel.quantserve.com/", 0.5849438978466032, "http://static.technorati.com/", 0.5849438978466032, "http://stats.wordpress.com/", 0.5849438978466032, "http://www.calvinshub.com/", 6.819945896841947, "http://www.google-analytics.com/", 0.8093223776359659, "http://www.topblogs.com.ph/", 0.5849438978466032 ] ], [ "http://www.catonmat.net/", [ "http://c.statcounter.com/", 0.30984961572685843, "http://feeds2.feedburner.com/", 0.30984961572685843, "http://tweetmeme.com/", 0.30984961572685843, "http://www.catonmat.net/", 2.1106849891821025, "http://www.google-analytics.com/", 0.35487050006323956, "http://www.gravatar.com/", 1.705497030154674, "http://www.statcounter.com/", 0.30984961572685843 ] ], [ "http://www.certforums.com/", [ "http://ajax.googleapis.com/", 2.066525344788971, "http://img223.imageshack.us/", 1.8043542189575343, "http://img530.imageshack.us/", 1.8043542189575343, "http://www.certforums.com/", 18.058964020506593, "http://www.google-analytics.com/", 2.328696470620408, "https://apis.google.com/", 1.8043542189575343 ] ], [ "http://www.checkupdown.com/", [ "http://platform.twitter.com/", 2.2086570657060003, "http://www.checkupdown.com/", 6.701480840389999, "http://www.google-analytics.com/", 2.529573049612 ] ], [ "http://www.cipher-ctf.org/", [ "http://www.cipher-ctf.org/", 3.1714050174239996, "http://www.w3.org/", 2.2086570657060003 ] ], [ "http://www.city-data.com/", [ "http://de.tynt.com/", 0.292457924393767, "http://edge.quantserve.com/", 0.292457924393767, "http://ic.tynt.com/", 0.292457924393767, "http://pics3.city-data.com/", 0.9298662211494124, "http://pixel.quantserve.com/", 0.292457924393767, "http://tcr.tynt.com/", 0.292457924393767, "http://www.city-data.com/", 0.3349518108441434, "http://www.google-analytics.com/", 0.3774456972945198 ] ], [ "http://www.cnngo.com/", [ "http://ads.cnn.com/", 0.7160126650558265, "http://beacon-1.newrelic.com/", 0.7160126650558265, "http://edge.quantserve.com/", 0.7160126650558265, "http://i.cdn.cnngo.com/", 1.8604089758715472, "http://images.outbrain.com/", 1.4442648628476489, "http://mediacdn.disqus.com/", 0.924084721567776, "http://odb.outbrain.com/", 0.8200486933118012, "http://script.csp.cyworld.com/", 0.8200486933118012, "http://widgets.outbrain.com/", 1.02812074982375, "http://www.cnngo.com/", 1.02812074982375 ] ], [ "http://www.codecogs.com/", [ "http://ecx.images-amazon.com/", 5.662366430172725, "http://www.codecogs.com/", 7.394555646600884, "http://www.google-analytics.com/", 1.950532394969525, "http://www.trustlogo.com/", 2.1979879973164054 ] ], [ "http://www.codeproject.com/", [ "http://ajax.googleapis.com/", 0.9837898346618312, "http://s.codeproject.com/", 2.842059522356399, "http://www.codeproject.com/", 4.128553921529561, "http://www.google-analytics.com/", 1.1267336567921824 ] ], [ "http://www.codingforums.com/", [ "http://www.codingforums.com/", 0.893958578636607, "http://www.google.com/", 0.08587650215890048, "https://apis.google.com/", 0.06608366574168253 ] ], [ "http://www.codingunit.com/", [ "http://w.sharethis.com/", 1.703076792622645, "http://www.codingunit.com/", 4.425088418438324, "http://www.google-analytics.com/", 1.950532394969525, "http://www.google.com/", 1.950532394969525 ] ], [ "http://www.computerhope.com/", [ "http://cdn.computerhope.com/", 0.25098020664192655, "http://feeds.feedburner.com/", 0.13408531587719374, "http://www.feedburner.com/", 0.13408531587719374, "http://www.google-analytics.com/", 0.15356779767131593 ] ], [ "http://www.connect.facebook.com/", [ "http://profile.ak.fbcdn.net/", 0.07806412632356141, "http://static.ak.fbcdn.net/", 0.5031962508441408 ] ], [ "http://www.convertpdftotext.net/", [ "http://www.convertpdftotext.net/", 0.09185231873257325 ] ], [ "http://www.cplusplus.com/", [ "http://www.cplusplus.com/", 1.6985089453135882, "http://www.google-analytics.com/", 1.1267336567921824 ] ], [ "http://www.cyberciti.biz/", [ "http://clients1.google.com/", 0.36236358299366456, "http://control.cyberciti.biz/", 2.8766945239913335, "http://figs.cyberciti.biz/", 0.6879135037498747, "http://files.cyberciti.biz/", 1.0613384527766279, "http://s0.cyberciti.org/", 3.482960641947764, "http://www.cyberciti.biz/", 0.7215025572428325, "http://www.google-analytics.com/", 0.7215025572428325, "http://www.google.com/", 3.2232431833312134, "https://www.googleapis.com/", 0.36236358299366456 ] ], [ "http://www.cypressnorth.com/", [ "http://0.gravatar.com/", 0.2185038827692165, "http://1.gravatar.com/", 0.2552817640274015, "http://ajax.googleapis.com/", 0.1265591796237542, "http://connect.facebook.net/", 0.1265591796237542, "http://platform.twitter.com/", 0.1265591796237542, "http://www.cypressnorth.com/", 1.2115066767402107, "http://www.google-analytics.com/", 0.14494812025284673, "https://ssl.gstatic.com/", 0.1265591796237542 ] ], [ "http://www.daniweb.com/", [ "http://ajax.googleapis.com/", 0.4379794352985892, "http://cdn.static.zdtag.com/", 0.4379794352985892, "http://edge.quantserve.com/", 0.4379794352985892, "http://images.thumbshots.com/", 2.3158678665431776, "http://pixel.quantserve.com/", 0.2775291375803886, "http://platform.linkedin.com/", 0.4379794352985892, "http://static.daniweb.com/", 1.2332772970476655, "http://www.daniweb.com/", 1.8681248610785424, "http://www.google-analytics.com/", 0.8356283661731276, "http://zdbb.net/", 0.4379794352985892 ] ], [ "http://www.de-ice.net/", [ "http://de-ice.net/", 2.692899202010165, "http://ecx.images-amazon.com/", 1.950532394969525, "http://www.amazon.com/", 1.703076792622645, "http://www.de-ice.net/", 3.435266009050805, "http://www.marrow.org/", 1.703076792622645 ] ], [ "http://www.debian-administration.org/", [ "http://a2a.lockerz.com/", 0.10858622756409143, "http://api.flattr.com/", 0.12236209225505823, "http://map.media6degrees.com/", 0.09481036287312458, "http://share.lockerz.com/", 0.09481036287312458, "http://static.addtoany.com/", 0.10858622756409143, "http://www.addtoany.com/", 0.09481036287312458, "http://www.debian-administration.org/", 0.20501728040085912 ] ], [ "http://www.debian.org/", [ "http://www.debian.org/", 0.2099597234622694 ] ], [ "http://www.dedoimedo.com/", [ "http://feeds.feedburner.com/", 0.23212029811267693, "http://www.dedoimedo.com/", 0.9066579165597726, "http://www.google-analytics.com/", 0.2658471790350317 ] ], [ "http://www.delorie.com/", [ "http://www.delorie.com/", 0.9837898346618312 ] ], [ "http://www.developer.com/", [ "http://ajax.googleapis.com/", 0.15945712325327943, "http://api.recaptcha.net/", 0.15945712325327943, "http://assets.devx.com/", 0.20579509069440335, "http://assets.internet.com/", 0.15945712325327943, "http://tweetmeme.com/", 0.15945712325327943, "http://www.developer.com/", 2.476355495309478, "http://www.google-analytics.com/", 0.1826261069738414, "http://www.google.com/", 0.3448089930177751, "http://www.qsstats.com/", 0.1826261069738414 ] ], [ "http://www.dropbox.com/", [ "https://www.dropbox.com/", 0.15806799344468614 ] ], [ "http://www.dummies.com/", [ "http://media.wiley.com/", 0.0937175569983289 ] ], [ "http://www.dzone.com/", [ "http://cdn.dzone.com/", 0.17217960086107853, "http://static.olark.com/", 0.06487418769714785, "http://widgets.dzone.com/", 0.052951364012266584, "http://www.dzone.com/", 0.18410242454595993 ] ], [ "http://www.ebay.com/", [ "http://fast.fonts.com/", 1.0892603437367754, "http://ir.ebaystatic.com/", 0.97903757085865, "http://pics.ebaystatic.com/", 2.632379164030539, "http://rover.ebay.com/", 0.7585920251023976, "http://www.google-analytics.com/", 0.8688147979805237 ] ], [ "http://www.ebooksclub.info/", [ "http://s7.addthis.com/", 0.6895677398038814, "http://www.ebooksclub.info/", 2.526699703311235 ] ], [ "http://www.eclipse.org/", [ "http://dev.eclipse.org/", 0.06731452809666792, "http://www.eclipse.org/", 0.29081791642070165 ] ], [ "http://www.effectiveperlprogramming.com/", [ "http://0.gravatar.com/", 2.0746161199187436, "http://i0.wp.com/", 1.6074840134469732, "http://www.effectiveperlprogramming.com/", 9.548729823467058, "https://www.paypal.com/", 1.841050066682858 ] ], [ "http://www.ehow.com/", [ "http://extended.dmtracker.com/", 0.19005922221611307, "http://fast.dm.demdex.net/", 0.13291721560434613, "http://img.ehowcdn.com/", 0.8747932163551372, "http://log3.optimizely.com/", 0.11605458377394398, "http://pix04.revsci.net/", 0.13291721560434613, "http://spark-v5-static.ehowcdn.com/", 0.13291721560434613, "http://v5-static.ehowcdn.com/", 0.5315688497488018, "http://vs.dmtracker.com/", 0.13291721560434613, "http://www.ehow.com/", 0.3689940612299753, "http://www.google-analytics.com/", 0.16664247926515022 ] ], [ "http://www.elook.org/", [ "http://edge.quantserve.com/", 1.0422931874998105, "http://maps.google.com/", 1.0422931874998105, "http://maps.googleapis.com/", 1.0422931874998105, "http://maps.gstatic.com/", 1.1937374967946544, "http://pixel.quantserve.com/", 1.0422931874998105, "http://www.elook.org/", 2.253847661858564, "http://www.google-analytics.com/", 1.1937374967946544 ] ], [ "http://www.engadget.com/", [ "http://www.blogcdn.com/", 0.0890514991230279, "http://www.blogsmithcdn.com/", 0.08681864442525286, "http://www.blogsmithmedia.com/", 0.14487286656740364 ] ], [ "http://www.eventim.de/", [ "http://cg-global.maxymiser.com/", 0.06900398662792741, "http://eu-sonar.sociomantic.com/", 0.06900398662792741, "http://music.eventim.de/", 0.11913508802428481, "http://nxtck.com/", 0.07903020690719893, "http://s7.addthis.com/", 0.12916130830355635, "http://sma.eventim.com/", 0.07903020690719893, "http://sonar.sociomantic.com/", 0.07903020690719893, "http://www.eventim.de/", 1.9739858396895236, "http://www1.mpnrs.com/", 0.10910886774501347, "https://logs1125.xiti.com/", 0.10910886774501347 ] ], [ "http://www.exampledepot.com/", [ "http://www.exampledepot.com/", 0.2521141450991224 ] ], [ "http://www.exploit-db.com/", [ "http://www.exploit-db.com/", 0.1752994860780779 ] ], [ "http://www.facebook.com/", [ "http://static.ak.fbcdn.net/", 0.3813406536208448 ] ], [ "http://www.fanpop.com/", [ "http://images.fanpop.com/", 6.701480840389999, "http://images1.fanpop.com/", 8.306060759919998, "http://images2.fanpop.com/", 8.626976743825997, "http://images4.fanpop.com/", 7.985144776013998, "http://images5.fanpop.com/", 10.231556663355997, "http://images6.fanpop.com/", 5.417816904765999, "http://pix04.revsci.net/", 2.529573049612, "http://pixel.quantserve.com/", 2.2086570657060003, "http://www.fanpop.com/", 17.291708309287994, "http://www.google-analytics.com/", 3.1714050174239996 ] ], [ "http://www.fbreader.org/", [ "http://www.fbreader.org/", 0.09228917180141061 ] ], [ "http://www.fcc.gov/", [ "http://www.fcc.gov/", 0.32118535869068676 ] ], [ "http://www.flickr.com/", [ "http://l.yimg.com/", 0.0548734963307569 ] ], [ "http://www.freebsd.org/", [ "http://www.freebsd.org/", 0.9837898346618312 ] ], [ "http://www.freesshd.com/", [ "http://www.freesshd.com/", 0.07903975563518045 ] ], [ "http://www.geom.uiuc.edu/", [ "http://www.geom.uiuc.edu/", 1.5617189435841379 ] ], [ "http://www.getmantra.com/", [ "http://sflogo.sourceforge.net/", 0.3378954272888522, "http://translate.google.com/", 0.3378954272888522, "http://translate.googleapis.com/", 0.534279094431091, "http://www.getmantra.com/", 1.0252382622866876, "http://www.google-analytics.com/", 0.3869913440744119, "http://www.google.com/", 0.3869913440744119 ] ], [ "http://www.google.com.hk/", [ "http://id.google.com.hk/", 0.7859766977779021, "http://ssl.gstatic.com/", 0.900178440190076, "http://www.google.com.hk/", 3.2984150308457263, "http://www.google.com/", 0.7859766977779021 ] ], [ "http://www.google.com/", [ "http://clients1.google.com/", 0.16607633930105847, "http://www.google.com/", 1.3928387006013336, "https://www.googleapis.com/", 0.33118357064582815 ] ], [ "http://www.greatestlook.com/", [ "http://cdn.undertone.com/", 0.11605458377394398, "http://edge.quantserve.com/", 0.11605458377394398, "http://pixel.quantserve.com/", 0.11605458377394398, "http://player.jambovideonetwork.com/", 0.11605458377394398, "http://s7.addthis.com/", 0.11605458377394398, "http://www.google-analytics.com/", 0.13291721560434613, "http://www.google.com/", 0.13291721560434613, "http://www.greatestlook.com/", 0.4533072203819866, "https://apis.google.com/", 0.11605458377394398 ] ], [ "http://www.groupon.hk/", [ "http://static.hk.groupon-content.net/", 0.4192791504212901, "https://static.groupon.hk/", 0.09112295686204056 ] ], [ "http://www.hackinglinuxexposed.com/", [ "http://www.google-analytics.com/", 0.1346307229551231, "http://www.hackinglinuxexposed.com/", 0.9567294707975269 ] ], [ "http://www.hackthissite.org/", [ "http://1.static.htscdn.org/", 1.2977581045392586, "http://affiliates.mozilla.org/", 0.28921466329732043, "http://www.google-analytics.com/", 0.28921466329732043, "http://www.hackthissite.org/", 0.37325995006748186, "https://affiliates.mozilla.org/", 0.28921466329732043 ] ], [ "http://www.haskell.org/", [ "http://www.haskell.org/", 0.06640629783104895 ] ], [ "http://www.haxathon.com/", [ "http://www.google-analytics.com/", 0.9996930709163544, "http://www.haxathon.com/", 0.9573906007840559 ] ], [ "http://www.hcidata.info/", [ "http://jigsaw.w3.org/", 1.703076792622645, "http://www.hcidata.info/", 2.4454435996632853, "http://www.w3.org/", 1.703076792622645 ] ], [ "http://www.hcon.in/", [ "http://cdn1.editmysite.com/", 0.5470440327953358, "http://edge.quantserve.com/", 0.22301098201064223, "http://pixel.quantserve.com/", 0.22301098201064223, "http://static.editmysite.com/", 0.3202208972460506, "http://twitter.com/", 0.22301098201064223, "http://www.google-analytics.com/", 0.3202208972460506, "http://www.hcon.in/", 0.4174308124814588 ] ], [ "http://www.historyisaweapon.org/", [ "http://www.historyisaweapon.org/", 0.05295719572319364 ] ], [ "http://www.hkticketing.com/", [ "http://fe1-au.imrworldwide.com/", 0.07917710694202791, "http://www.hkticketing.com/", 5.198158406877994, "https://seal.verisign.com/", 0.15238718110760194 ] ], [ "http://www.hongkongextras.com/", [ "http://www.hongkongextras.com/", 8.76834970021917 ] ], [ "http://www.hongkongpubcrawl.com/", [ "http://c1.tacdn.com/", 0.924084721567776, "http://hkpc.s3.amazonaws.com/", 0.7160126650558265, "http://static.ak.connect.facebook.com/", 0.7160126650558265, "http://static.ak.facebook.com/", 1.02812074982375, "http://www.facebook.com/", 0.8200486933118012, "http://www.google-analytics.com/", 0.924084721567776, "http://www.hongkongpubcrawl.com/", 8.414678755997954, "http://www.tripadvisor.co.uk/", 0.8200486933118012, "https://s-static.ak.facebook.com/", 1.02812074982375, "https://www.facebook.com/", 1.02812074982375 ] ], [ "http://www.how-do-you-spell.com/", [ "http://www.google-analytics.com/", 0.4220195828107198, "http://www.how-do-you-spell.com/", 0.4220195828107198 ] ], [ "http://www.howtoforge.com/", [ "http://static.howtoforge.com/", 0.18334881043345064, "http://www.howtoforge.com/", 0.06723695116374681 ] ], [ "http://www.howtogeek.com/", [ "http://cdn.howtogeek.com/", 0.12810473270629236, "http://www.howtogeek.com/", 0.14594373369521718 ] ], [ "http://www.html5rocks.com/", [ "http://ajax.googleapis.com/", 0.08206101562064164, "http://apis.google.com/", 0.08206101562064164, "http://disqus.com/", 0.09398441105270071, "http://fonts.googleapis.com/", 0.08206101562064164, "http://html5rocks.disqus.com/", 0.10590780648475974, "http://mediacdn.disqus.com/", 0.11783120191681871, "http://platform.twitter.com/", 0.08206101562064164, "http://themes.googleusercontent.com/", 0.12975459734887787, "http://www.google-analytics.com/", 0.10590780648475974, "http://www.html5rocks.com/", 0.08206101562064164 ] ], [ "http://www.imdb.com/", [ "http://a0255e1f2819ae96e8d25e193437883be.profile.hkg1.cloudfront.net/", 0.8514975635906711, "http://cloudfront-labs.amazonaws.com/", 0.8514975635906711, "http://g-ec2.images-amazon.com/", 0.8514975635906711, "http://g-ecx.images-amazon.com/", 0.8514975635906711, "http://i.media-imdb.com/", 2.9381950180214638, "http://ia.media-imdb.com/", 4.211523101496371, "http://p.media-imdb.com/", 0.8514975635906711, "http://s.media-imdb.com/", 1.0253706960052462, "http://www.google-analytics.com/", 0.8514975635906711, "http://www.imdb.com/", 1.1528628306054516 ] ], [ "http://www.irchighway.net/", [ "http://static.ak.facebook.com/", 0.7532277576886253, "http://www.facebook.com/", 0.6121412893362226, "http://www.irchighway.net/", 2.4462653779174595, "https://s-static.ak.facebook.com/", 0.6121412893362226, "https://www.facebook.com/", 0.6121412893362226 ] ], [ "http://www.itworld.com/", [ "http://computerworld.com.edgesuite.net/", 0.15728892704091438, "http://content.dl-rms.com/", 0.10954050276063686, "http://idg-itworldcom.disqus.com/", 0.1254566441873961, "http://idgenterprise.112.2o7.net/", 0.1254566441873961, "http://juggler.services.disqus.com/", 0.10954050276063686, "http://mediacdn.disqus.com/", 0.33236648273526553, "http://now.eloqua.com/", 0.10954050276063686, "http://secure-us.imrworldwide.com/", 0.10954050276063686, "http://www.google-analytics.com/", 0.1254566441873961, "http://www.itworld.com/", 2.449213292494246 ] ], [ "http://www.java-samples.com/", [ "http://s7.addthis.com/", 0.1826261069738414, "http://www.google-analytics.com/", 0.1826261069738414, "http://www.google.com/", 0.3679779767383367, "http://www.java-samples.com/", 0.3679779767383367 ] ], [ "http://www.javascriptbank.com/", [ "http://www.javascriptbank.com/", 0.3658322286513683 ] ], [ "http://www.jdejong.net/", [ "http://www.jdejong.net/", 0.5317198549453611 ] ], [ "http://www.jibbering.com/", [ "http://www.jibbering.com/", 0.11549397420243751 ] ], [ "http://www.jimmyr.com/", [ "http://a.thumbs.redditmedia.com/", 0.1416831425121501, "http://e.thumbs.redditmedia.com/", 0.9021338485453212, "http://www.google-analytics.com/", 0.19283888717076186, "http://www.jimmyr.com/", 6.314581966365201 ] ], [ "http://www.json.org/", [ "http://www.json.org/", 0.7369949101477324 ] ], [ "http://www.justskins.com/", [ "http://ajax.googleapis.com/", 1.5997189524327757, "http://connect.facebook.net/", 1.2395173340042036, "http://www.google-analytics.com/", 1.5997189524327757, "http://www.justskins.com/", 8.263448893361353 ] ], [ "http://www.kennberg.com/", [ "http://images3.linkwithin.com/", 0.97903757085865, "http://pictoreo.com/", 0.8688147979805237, "http://widget6.linkwithin.com/", 0.8688147979805237, "http://www.google-analytics.com/", 0.8688147979805237, "http://www.kennberg.com/", 2.081265299639911, "http://www.linkwithin.com/", 0.8688147979805237 ] ], [ "http://www.khairie.net/", [ "http://agorbatchev.typepad.com/", 0.06495614182538301, "http://www.blogger.com/", 0.09228917180141061, "http://www.google.com/", 0.05948953583017761 ] ], [ "http://www.korruptionsklotz-bielefeld.350.com/", [ "http://kriminalstaat.de/", 6.261263358091956, "http://www.350.com/", 1.8043542189575343, "http://www.korruptionsklotz-bielefeld.350.com/", 4.950407728934773, "http://www1.stats4free.de/", 2.328696470620408 ] ], [ "http://www.lb.lt/", [ "http://www.lb.lt/", 1.019875237194014 ] ], [ "http://www.linuxbsdos.com/", [ "http://www.linuxbsdos.com/", 0.15546847364124966 ] ], [ "http://www.linuxforum.com/", [ "http://www.google-analytics.com/", 0.1254566441873961, "http://www.linuxforum.com/", 1.3828318169013718, "https://ssl.gstatic.com/", 0.10954050276063686 ] ], [ "http://www.linuxforums.org/", [ "http://www.google-analytics.com/", 0.36404143246241616, "http://www.linuxforums.org/", 5.724016388960901 ] ], [ "http://www.linuxjournal.com/", [ "http://edge.quantserve.com/", 1.0728368526960674, "http://pixel.quantserve.com/", 0.18432149151957392, "http://s3.amazonaws.com/", 0.18071353156273826, "http://www.google-analytics.com/", 0.3402037692617375, "http://www.google.com/", 0.5177338067449148, "http://www.linuxjournal.com/", 3.845381038682884 ] ], [ "http://www.linuxquestions.org/", [ "http://account.thequestionsnetwork.org/", 0.45773393917516253, "http://ajax.googleapis.com/", 1.556086575102545, "http://www.google-analytics.com/", 1.323334968828781, "http://www.linuxquestions.org/", 3.087806107013798, "https://lqo-thequestionsnetw.netdna-ssl.com/", 9.334890545670875 ] ], [ "http://www.linuxtopia.org/", [ "http://twitter-badges.s3.amazonaws.com/", 0.9837898346618312, "http://www.google-analytics.com/", 1.1267336567921824, "http://www.google.com/", 1.1267336567921824, "http://www.linuxtopia.org/", 5.272104498572374 ] ], [ "http://www.liveleak.com/", [ "http://ajax.googleapis.com/", 0.4838443348175782, "http://connect.facebook.net/", 0.3560077360793466, "http://edge.liveleak.com/", 6.174509896831593, "http://edge.quantserve.com/", 0.3560077360793466, "http://pixel.quantserve.com/", 0.3560077360793466, "http://platform.twitter.com/", 0.3560077360793466, "http://w.sharethis.com/", 0.3560077360793466, "http://www.google-analytics.com/", 0.4838443348175782, "http://www.liveleak.com/", 0.5496995523493947, "https://apis.google.com/", 0.3560077360793466 ] ], [ "http://www.m2x.eu/", [ "http://www.m2x.eu/", 0.0674093246605145 ] ], [ "http://www.matteoparty.com/", [ "http://s7.addthis.com/", 0.7160126650558265, "http://www.hk-party.com/", 2.6926972019193456, "http://www.matteoparty.com/", 0.924084721567776, "https://ajax.googleapis.com/", 0.7160126650558265, "https://apis.google.com/", 0.7160126650558265 ] ], [ "http://www.mbta.com/", [ "http://maps.google.com/", 1.094655549583309, "http://maps.gstatic.com/", 1.094655549583309, "http://www.google-analytics.com/", 1.3724039726119095, "http://www.mbta.com/", 5.53863031804092 ] ], [ "http://www.meebo.com/", [ "http://rd.meebo.com/", 0.8161856404210343, "http://s.meebocdn.net/", 0.42251030628459174, "http://syndication.mmismm.com/", 0.42023293781769494, "http://www.meebo.com/", 0.7550515869339014, "https://www.meebo.com/", 0.8138445094184169 ] ], [ "http://www.metztli-it.com/", [ "http://twitpic.com/", 0.05008713185890333, "http://www.metztli-it.com/", 0.36623115720594185 ] ], [ "http://www.miniwebtool.com/", [ "http://www.google-analytics.com/", 0.5317198549453611, "http://www.miniwebtool.com/", 0.5317198549453611 ] ], [ "http://www.misanthropicgeek.net/", [ "http://1.gravatar.com/", 0.1254566441873961, "http://www.misanthropicgeek.net/", 0.2527857756014694 ] ], [ "http://www.mithral.com/", [ "http://www.mithral.com/", 0.10044848182540049 ] ], [ "http://www.mkssoftware.com/", [ "http://www.mkssoftware.com/", 0.13408531587719374 ] ], [ "http://www.mkyong.com/", [ "http://0.gravatar.com/", 0.2467100803561418, "http://1.gravatar.com/", 0.12537842812482689, "http://ajax.googleapis.com/", 0.06483745813864246, "http://ssl.gstatic.com/", 0.06483745813864246, "http://www.facebook.com/", 0.15345395033012593, "http://www.google-analytics.com/", 0.09437628886913699, "http://www.mkyong.com/", 0.4938425421270598 ] ], [ "http://www.mongodb.org/", [ "http://017-hgs-593.mktoresp.com/", 0.07618968646221341, "http://disqus.com/", 0.4047631097268731, "http://dochub.mongodb.org/", 0.25168539922398153, "http://media.mongodb.org/", 2.026860374576478, "http://mediacdn.disqus.com/", 0.3291432475542828, "http://munchkin.marketo.net/", 0.3552372221285801, "http://s.clicktale.net/", 0.07618968646221341, "http://www.google-analytics.com/", 0.3552372221285801, "http://www.mongodb.org/", 10.77955708922689 ] ], [ "http://www.motobit.com/", [ "http://cnt2.pocitadlo.cz/", 1.4116767217459323, "http://counter.cnw.cz/", 1.1569696078669167, "http://hit21.hotlog.ru/", 1.3250763030270671, "http://sys.itop.cz/", 1.3250763030270671, "http://www.countit.ch/", 1.1569696078669167, "http://www.google-analytics.com/", 1.5797834169060827, "http://www.motobit.com/", 2.3388106162655493, "http://www.toplist.cz/", 1.1569696078669167 ] ], [ "http://www.musiciansfriend.com/", [ "http://dis.us.criteo.com/", 0.07903020690719893, "http://metrics.gcimetrics.com/", 0.07903020690719893, "http://static.musiciansfriend.com/", 0.8209705075732898, "http://t.powerreviews.com/", 0.07903020690719893, "http://www.adobetag.com/", 0.06900398662792741, "http://www.google-analytics.com/", 0.07903020690719893, "http://www.googlecommerce.com/", 0.08905642718647042, "http://www.musiciansfriend.com/", 0.08905642718647042, "http://www.res-x.com/", 0.06900398662792741, "https://cdn.strcst.net/", 0.07903020690719893 ] ], [ "http://www.ncbi.nlm.nih.gov/", [ "http://static.pubmed.gov/", 0.13665685538745848 ] ], [ "http://www.neoworx.net/", [ "http://www.neoworx.net/", 0.34306808938451816 ] ], [ "http://www.newyorker.com/", [ "http://contest.newyorker.com/", 0.7585920251023976, "http://de.tynt.com/", 0.7585920251023976, "http://event.newyorker.com/", 0.8688147979805237, "http://ic.tynt.com/", 0.8688147979805237, "http://randomcartoon.s3.amazonaws.com/", 0.7585920251023976, "http://result.newyorker.com/", 0.8688147979805237, "http://stats2.newyorker.com/", 0.8688147979805237, "http://use.typekit.net/", 0.8688147979805237, "http://www.google-analytics.com/", 0.8688147979805237, "http://www.newyorker.com/", 4.175497984324308 ] ], [ "http://www.nirsoft.net/", [ "http://cdn.stumble-upon.com/", 0.9837898346618312, "http://s7.addthis.com/", 1.1267336567921824, "http://www.google-analytics.com/", 1.1267336567921824, "http://www.nirsoft.net/", 1.84145276744394 ] ], [ "http://www.nytimes.com/", [ "http://apiservices.krxd.net/", 1.8043542189575343, "http://beacon.krxd.net/", 1.8043542189575343, "http://graphics8.nytimes.com/", 29.594493557089866, "http://i1.nyt.com/", 3.6395520997775903, "http://js.nyt.com/", 2.5908675964518446, "http://json8.nytimes.com/", 1.8043542189575343, "http://pnytimes.chartbeat.net/", 1.8043542189575343, "http://static.chartbeat.com/", 1.8043542189575343, "http://wt.o.nytimes.com/", 2.066525344788971, "http://www.nytimes.com/", 2.853038722283281 ] ], [ "http://www.oipf.tv/", [ "http://www.google-analytics.com/", 0.7019038660172037, "http://www.oipf.tv/", 5.688564167870768, "http://www.youtube.com/", 1.2361888983586569 ] ], [ "http://www.omgubuntu.co.uk/", [ "http://cloudfront.omgubuntu.co.uk/", 0.2236223120766302, "http://disqus.com/", 0.055606033611902916, "http://mediacdn.disqus.com/", 0.0686602119788877, "https://s3.amazonaws.com/", 0.06854767595848274 ] ], [ "http://www.opera.com/", [ "http://www.google-analytics.com/", 0.4100046852880986, "http://www.opera.com/", 1.346284041244502 ] ], [ "http://www.oracle.com/", [ "http://www.oracle.com/", 0.07138228508607947, "http://www.oracleimg.com/", 0.13511088971435148 ] ], [ "http://www.ottawacitizen.com/", [ "http://a124.g.akamai.net/", 0.647654782338889, "http://ct1.addthis.com/", 0.647654782338889, "http://de.tynt.com/", 0.4510452948431553, "http://event.publishflow.com/", 0.4510452948431553, "http://graph.facebook.com/", 0.4510452948431553, "http://ic.tynt.com/", 0.4510452948431553, "http://ping.chartbeat.net/", 0.4510452948431553, "http://s3.amazonaws.com/", 0.4510452948431553, "http://static.chartbeat.com/", 0.4510452948431553, "http://www.ottawacitizen.com/", 7.5289868446896016 ] ], [ "http://www.overthewire.org/", [ "http://fonts.googleapis.com/", 0.28703651870495284, "http://themes.googleusercontent.com/", 0.39327735072213, "http://www.google-analytics.com/", 1.0980814464111126, "http://www.overthewire.org/", 0.8610845085923335, "http://www.youtube.com/", 0.8551993978889779 ] ], [ "http://www.packetnews.com/", [ "http://img.sedoparking.com/", 1.214462586520268, "http://www.google-analytics.com/", 0.7770502142566128, "http://www.packetnews.com/", 0.6895677398038814 ] ], [ "http://www.pbs.org/", [ "http://chrome.pbs.org/", 1.0381861200231004, "http://disqus.com/", 0.751983459908624, "http://mediacdn.disqus.com/", 0.9427852333182741, "http://now.eloqua.com/", 0.751983459908624, "http://pbs.global-chrome-prod.cdn.s3.amazonaws.com/", 1.4197896668424022, "http://player2.entropymedia.com/", 0.6565825732037986, "http://www-tc.pbs.org/", 0.6565825732037986, "http://www.google-analytics.com/", 1.3243887801375758, "http://www.pbs.org/", 12.677094298011827, "https://ssl.gstatic.com/", 0.6565825732037986 ] ], [ "http://www.pearltrees.com/", [ "http://cdn.pearltrees.com/", 6.785605609754829, "http://tracker.pearltrees.com/", 4.688236603103335, "http://tracker2.pearltrees.com/", 4.688236603103335, "http://www.google-analytics.com/", 4.688236603103335, "http://www.overthewire.org/", 2.066525344788971, "https://apis.google.com/", 1.8043542189575343 ] ], [ "http://www.perlhowto.com/", [ "http://www.perlhowto.com/", 5.4192982144885455 ] ], [ "http://www.perlmonks.org/", [ "http://perlmonks.org/", 0.5125862794195428, "http://promote.pair.com/", 0.5125862794195428, "http://www.perlmonks.org/", 0.9993122441634408 ] ], [ "http://www.personalweb.com/", [ "http://www.personalweb.com/", 0.07636045613561077 ] ], [ "http://www.php.net/", [ "http://static.php.net/", 0.05176569502475211 ] ], [ "http://www.picwing.com/", [ "http://static.picwing.com/", 0.1484603846436885, "http://www.picwing.com/", 0.1184148306086564 ] ], [ "http://www.plosbiology.org/", [ "http://alm.plos.org/", 3.4923210013299997, "http://cdn.stumble-upon.com/", 2.2086570657060003, "http://search.twitter.com/", 2.2086570657060003, "http://static.ak.fbcdn.net/", 2.2086570657060003, "http://widgets.twimg.com/", 2.2086570657060003, "http://www.google-analytics.com/", 2.529573049612, "http://www.plosbiology.org/", 21.142700116159993, "http://www.reddit.com/", 2.2086570657060003 ] ], [ "http://www.proxy-servers.org/", [ "http://www.google-analytics.com/", 0.669935746251665, "http://www.proxy-servers.org/", 0.669935746251665 ] ], [ "http://www.proxysecurity.com/", [ "http://c.statcounter.com/", 0.669935746251665, "http://www.google-analytics.com/", 0.8399194430617882, "http://www.proxysecurity.com/", 1.0099031398719125, "http://www.statcounter.com/", 0.669935746251665 ] ], [ "http://www.pubnub.com/", [ "http://cdn.optimizely.com/", 1.6545901963366785, "http://ps3.pubnub.com/", 2.3758218203808714, "http://ps9.pubnub.com/", 2.616232361728936, "http://pubnub-prod.appspot.com/", 1.8950007376847426, "http://pubsub.pubnub.com/", 2.1997573811067905, "http://www.pubnub.com/", 6.056448246145377, "https://fonts.googleapis.com/", 1.6545901963366785, "https://pubnub.s3.amazonaws.com/", 7.022987201726899, "https://s3.amazonaws.com/", 0.46548598714957146, "https://www.google-analytics.com/", 0.6448957393618588 ] ], [ "http://www.quickmeme.com/", [ "http://dm.demdex.net/", 0.9021338485453212, "http://e.thumbs.redditmedia.com/", 1.5575302342406394, "http://f.thumbs.redditmedia.com/", 1.1642924028234485, "http://fast.dm.demdex.net/", 1.0332131256843848, "http://ping.crowdscience.com/", 0.9021338485453212, "http://static.crowdscience.com/", 1.0332131256843848, "http://static.quickmeme.com/", 2.9994022827703395, "http://t.qkme.me/", 3.5237193913265963, "http://wac.20b8.edgecastcdn.net/", 1.0332131256843848, "http://www.google-analytics.com/", 1.1642924028234485 ] ], [ "http://www.quora.com/", [ "http://d1vgw4v7ja2ido.cloudfront.net/", 0.08964190616130584, "http://qph.cf.quoracdn.net/", 0.05455181789421582 ] ], [ "http://www.reddit.com/", [ "http://a.thumbs.redditmedia.com/", 0.0548777188339555, "http://ajax.googleapis.com/", 0.45631533511322775, "http://d.thumbs.redditmedia.com/", 0.2639696092602994, "http://e.thumbs.redditmedia.com/", 0.25935987292138557, "http://f.thumbs.redditmedia.com/", 0.12273161734219264, "http://pixel.redditmedia.com/", 0.7016735741996036, "http://www.google-analytics.com/", 0.6937010106944757, "http://www.redditstatic.com/", 2.6034531411430235 ] ], [ "http://www.redhat.com/", [ "http://img.en25.com/", 0.9421548199005881, "http://mtrcs.redhat.com/", 1.0543494397189344, "http://s1795.t.eloqua.com/", 0.9421548199005881, "http://s7.addthis.com/", 1.1699438965014737, "http://www.redhat.com/", 12.443803269763192 ] ], [ "http://www.remyfashion.com/", [ "http://www.free-web-counters.net/", 0.7160126650558265, "http://www.remyfashion.com/", 3.1088413149432443 ] ], [ "http://www.romneytaxplan.com/", [ "http://ajax.googleapis.com/", 1.0688884967213, "http://connect.facebook.net/", 1.0688884967213, "http://ping.chartbeat.net/", 1.0688884967213, "http://platform.twitter.com/", 1.0688884967213, "http://static.chartbeat.com/", 1.0688884967213, "http://www.google-analytics.com/", 1.3969816448616064, "http://www.romneytaxplan.com/", 2.7093542374228337, "https://d13ja4ud2claol.cloudfront.net/", 1.0688884967213 ] ], [ "http://www.roubaixinteractive.com/", [ "http://www.roubaixinteractive.com/", 1.4697542935602175 ] ], [ "http://www.salon.com/", [ "http://ct.buzzfeed.com/", 0.07102609968598747, "http://media.salon.com/", 0.194866478625658, "http://partner-us-east-1a-1806761701.us-east-1.elb.amazonaws.com/", 0.07102609968598747, "http://pg3.buzzfeed.com/", 0.07102609968598747, "http://ping.chartbeat.net/", 0.07102609968598747, "http://pixel.quantserve.com/", 0.08134613126429337, "http://static.open.salon.com/", 0.08134613126429337, "http://www.google-analytics.com/", 0.08134613126429337, "http://www.salon.com/", 0.194866478625658, "https://graph.facebook.com/", 0.13294628915582263 ] ], [ "http://www.scribd.com/", [ "http://fonts1.scribdassets.com/", 0.17237540237186094, "http://fonts3.scribdassets.com/", 0.15050688117543082, "http://html3.scribdassets.com/", 0.15050688117543082, "http://htmlimg2.scribdassets.com/", 0.15050688117543082, "http://htmlimg4.scribdassets.com/", 0.19424392356829107, "http://pixel.quantserve.com/", 0.17237540237186094, "http://s5.scribdassets.com/", 0.19424392356829107, "http://s6.scribdassets.com/", 0.5222717415147421, "http://www.google-analytics.com/", 0.19424392356829107, "http://www.scribd.com/", 0.19424392356829107 ] ], [ "http://www.searchquotes.com/", [ "http://apis.google.com/", 2.2086570657060003, "http://edge.quantserve.com/", 2.2086570657060003, "http://pixel.quantserve.com/", 2.2086570657060003, "http://w.sharethis.com/", 2.2086570657060003, "http://www.google-analytics.com/", 2.850489033518, "http://www.searchquotes.com/", 12.157052566791997 ] ], [ "http://www.sencha.com/", [ "http://ajax.googleapis.com/", 0.1633370608819392, "http://docs.sencha.com/", 0.1265591796237542, "http://p.typekit.net/", 0.1265591796237542, "http://staging.sencha.com/", 0.20011494214012418, "http://use.typekit.com/", 0.14494812025284673, "http://www.google-analytics.com/", 0.18172600151103158, "http://www.sencha.com/", 0.733394220383806 ] ], [ "http://www.skill-guru.com/", [ "http://ajax.googleapis.com/", 0.0835290585516777, "http://connect.facebook.net/", 0.0835290585516777, "http://stats.wordpress.com/", 0.0835290585516777, "http://w.sharethis.com/", 0.0835290585516777, "http://www.adobe.com/", 0.0835290585516777, "http://www.skill-guru.com/", 0.532586988714116, "https://apis.google.com/", 0.0835290585516777 ] ], [ "http://www.skype.com/", [ "http://survey.122.2o7.net/", 0.06685963565240703, "http://www.google-analytics.com/", 0.06685963565240703, "http://www.skypeassets.com/", 0.6407933397181208 ] ], [ "http://www.slate.com/", [ "http://api.echoenabled.com/", 0.6565825732037986, "http://bunsen.wapolabs.com/", 0.751983459908624, "http://event.slate.com/", 0.751983459908624, "http://id.slate.com/", 0.751983459908624, "http://metrics.slate.com/", 0.751983459908624, "http://p.visualrevenue.com/", 0.6565825732037986, "http://ping.chartbeat.net/", 0.6565825732037986, "http://static.chartbeat.com/", 0.6565825732037986, "http://widgets.outbrain.com/", 0.6565825732037986, "http://www.slate.com/", 10.005869470276695 ] ], [ "http://www.slyck.com/", [ "http://i40.photobucket.com/", 0.588187198251106, "http://img.photobucket.com/", 0.588187198251106, "http://members.cox.net/", 0.588187198251106, "http://nintenblog.free.fr/", 0.8367365545092547, "http://www.google-analytics.com/", 0.8367365545092547, "http://www.slyck.com/", 7.796118529737427 ] ], [ "http://www.social-engineer.org/", [ "http://api.ak.facebook.com/", 2.2086570657060003, "http://api.pinterest.com/", 2.2086570657060003, "http://d.shareaholic.com/", 2.529573049612, "http://dtym7iokkjlif.cloudfront.net/", 2.2086570657060003, "http://feeds.delicious.com/", 2.2086570657060003, "http://www.google-analytics.com/", 2.850489033518, "http://www.social-engineer.org/", 13.761632486321995 ] ], [ "http://www.softpanorama.org/", [ "http://www.google.com/", 1.6074840134469732, "http://www.softpanorama.org/", 2.541748226390513 ] ], [ "http://www.springsource.org/", [ "http://static.addtoany.com/", 0.05610024014710362, "http://www.google-analytics.com/", 0.06241616122326757, "http://www.springsource.org/", 0.441371425793106 ] ], [ "http://www.sqlite.org/", [ "http://www.sqlite.org/", 0.0612664740909389 ] ], [ "http://www.squidoo.com/", [ "http://beacon-1.newrelic.com/", 0.4382040352989707, "http://ecx.images-amazon.com/", 0.8838987378680084, "http://i1.squidoocdn.com/", 0.6928867224812784, "http://i2.squidoocdn.com/", 0.5655453788901245, "http://i3.squidoocdn.com/", 0.6292160506857007, "http://pixel.quantserve.com/", 0.4382040352989707, "http://the.squidoocdn.com/", 2.0936415019839685, "http://www.google-analytics.com/", 0.947569409663586, "http://www.squidoo.com/", 0.5655453788901245, "https://d1ros97qkrwjf5.cloudfront.net/", 0.4382040352989707 ] ], [ "http://www.stoimen.com/", [ "http://0.gravatar.com/", 0.6937620309717957, "http://1.gravatar.com/", 0.6353761174741697, "http://static.stoimen.com/", 0.6937620309717957, "http://www.google-analytics.com/", 0.46021837698129037, "http://www.stoimen.com/", 0.46021837698129037 ] ], [ "http://www.stormpath.com/", [ "http://badid.rsvpgenius.com/", 0.9204808925936929, "http://beacon-1.newrelic.com/", 0.8037034659213589, "http://s7.addthis.com/", 0.9204808925936929, "http://static.olark.com/", 1.0372583192660272, "http://stats.olark.com/", 0.8037034659213589, "http://themes.googleusercontent.com/", 1.6211454526276972, "http://www.stormpath.com/", 4.073471412746714, "http://www.youtube.com/", 0.9204808925936929, "https://d1ros97qkrwjf5.cloudfront.net/", 0.8037034659213589, "https://static.olark.com/", 0.9204808925936929 ] ], [ "http://www.syhunt.com/", [ "http://dnn506yrbagrg.cloudfront.net/", 0.3378954272888522, "http://static.olark.com/", 0.5833750112166505, "http://stats.olark.com/", 0.3378954272888522, "http://www.google-analytics.com/", 0.3869913440744119, "http://www.syhunt.com/", 2.0071565979978803, "https://static.olark.com/", 0.3869913440744119 ] ], [ "http://www.teamviewer.com/", [ "http://www.google-analytics.com/", 0.12236209225505823, "http://www.teamviewer.com/", 0.9351381090220998 ] ], [ "http://www.tech-recipes.com/", [ "http://0.gravatar.com/", 0.751983459908624, "http://1.gravatar.com/", 0.9427852333182741, "http://app.ubertags.com/", 0.751983459908624, "http://cloud.tech-recipes.com/", 3.137005627529257, "http://edge.quantserve.com/", 0.6565825732037986, "http://imgcdn.nrelate.com/", 1.0381861200231004, "http://pixel.quantserve.com/", 0.6565825732037986, "http://static.nrelate.com/", 0.8473843466134495, "http://www.google-analytics.com/", 0.751983459908624, "http://www.tech-recipes.com/", 0.751983459908624 ] ], [ "http://www.technologyreview.com/", [ "http://cdn.quilt.janrain.com/", 0.22354725990731183, "http://cdn.rpxnow.com/", 0.19518678663548863, "http://fonts.googleapis.com/", 0.19518678663548863, "http://metrics.technologyreview.com/", 0.22354725990731183, "http://static.parsely.com/", 0.22354725990731183, "http://widget-cdn.rpxnow.com/", 0.22354725990731183, "http://www.google-analytics.com/", 0.25190773317913495, "http://www.technologyreview.com/", 1.7266523433139365, "http://zor.fyre.co/", 0.25190773317913495, "https://www.technologyreview.com/", 0.22354725990731183 ] ], [ "http://www.techrepublic.com/", [ "http://apex.techrepublic.com/", 1.5617189435841379, "http://dw.com.com/", 1.5617189435841379, "http://i.techrepublic.com.com/", 2.242468226684916, "http://i1.trstatic.com/", 3.8308832205867303, "http://i2.trstatic.com/", 3.1501339374859527, "http://i3.trstatic.com/", 3.1501339374859527, "http://i4.trstatic.com/", 4.842583139702007, "http://ping.crowdscience.com/", 1.788635371284397, "http://static.crowdscience.com/", 2.6963010820854345, "http://www.google-analytics.com/", 1.788635371284397 ] ], [ "http://www.tenaciousd.com/", [ "http://beacon-1.newrelic.com/", 0.06900398662792741, "http://c.brightcove.com/", 0.06900398662792741, "http://edge.quantserve.com/", 0.06900398662792741, "http://goku.brightcove.com/", 0.06900398662792741, "http://metrics.myplay.com/", 0.08905642718647042, "http://pixel.quantserve.com/", 0.06900398662792741, "http://tag.sonymusic.com/", 0.09908264746574187, "http://www.google-analytics.com/", 0.13918752858282785, "http://www.tenaciousd.com/", 0.6104198817085882, "https://d1ros97qkrwjf5.cloudfront.net/", 0.06900398662792741 ] ], [ "http://www.testling.com/", [ "http://www.google-analytics.com/", 0.4100046852880986, "http://www.testling.com/", 1.346284041244502 ] ], [ "http://www.the-art-of-web.com/", [ "http://cdn.gday.net.au/", 0.09398441105270071, "http://s7.addthis.com/", 0.08206101562064164, "http://www.google-analytics.com/", 0.09398441105270071, "http://www.gravatar.com/", 0.10590780648475974, "http://www.the-art-of-web.com/", 0.18937157450917286 ] ], [ "http://www.theatlantic.com/", [ "http://ar.voicefive.com/", 1.8043542189575343, "http://cdn.theatlantic.com/", 1.8043542189575343, "http://cdn.theatlanticcities.com/", 2.328696470620408, "http://cdn.theatlanticwire.com/", 2.328696470620408, "http://disqus.com/", 2.328696470620408, "http://mediacdn.disqus.com/", 2.328696470620408, "http://pixel.parsely.com/", 1.8043542189575343, "http://static.chartbeat.com/", 1.8043542189575343, "http://static.parsely.com/", 1.8043542189575343, "http://widgets.outbrain.com/", 2.853038722283281 ] ], [ "http://www.thegeekstuff.com/", [ "http://feedproxy.google.com/", 0.3154127361792071, "http://platform.twitter.com/", 0.3154127361792071, "http://s7.addthis.com/", 0.3154127361792071, "http://static.thegeekstuff.com/", 5.309120780416576, "http://www.google-analytics.com/", 0.4812325788272961, "http://www.google.com/", 2.405546865496015 ] ], [ "http://www.time.com/", [ "http://cdn.insights.gravity.com/", 0.30984961572685843, "http://ct.buzzfeed.com/", 0.30984961572685843, "http://de.tynt.com/", 0.30984961572685843, "http://ic.tynt.com/", 0.35487050006323956, "http://img.timeinc.net/", 2.1608797138269464, "http://pg3.buzzfeed.com/", 0.30984961572685843, "http://pixel.quantserve.com/", 0.3998913843996207, "http://ptimeinc.chartbeat.net/", 0.30984961572685843, "http://rma-api.gravity.com/", 0.30984961572685843, "http://static.chartbeat.com/", 0.30984961572685843 ] ], [ "http://www.troubleshooters.com/", [ "http://www.troubleshooters.com/", 0.15356779767131593 ] ], [ "http://www.tvconnectevent.com/", [ "http://a0.twimg.com/", 0.9285702433741843, "http://beta.tvconnectevent.com/", 1.603172556936625, "http://img.youtube.com/", 3.4920590349114597, "http://platform.linkedin.com/", 0.9285702433741843, "http://platform.twitter.com/", 0.9285702433741843, "http://www.google-analytics.com/", 1.0634907060866723, "http://www.tvconnectevent.com/", 9.833320782398404 ] ], [ "http://www.typepad.com/", [ "http://doug1izaerwt3.cloudfront.net/", 1.8043542189575343, "http://i.kissmetrics.com/", 1.8043542189575343, "http://static.typepad.com/", 4.1638943514404625, "http://trk.kissmetrics.com/", 2.328696470620408 ] ], [ "http://www.ufc.com/", [ "http://cdnjs.cloudflare.com/", 0.41360787982220215, "http://cufon.shoqolate.com/", 0.41360787982220215, "http://media.ufc.tv/", 5.161260722567647, "http://pixel.fetchback.com/", 0.4737047512493596, "http://w.sharethis.com/", 0.41360787982220215, "http://www.google-analytics.com/", 0.4737047512493596, "http://www.ufcstore.com/", 0.5338016226765172, "https://apis.google.com/", 0.41360787982220215, "https://ssl.gstatic.com/", 0.41360787982220215, "https://www.google.com/", 0.5338016226765172 ] ], [ "http://www.unix.com/", [ "http://ajax.googleapis.com/", 0.15356779767131593, "http://cdn.wibiya.com/", 0.13408531587719374, "http://linux.unix.com/", 0.4263225427890258, "http://linux.unix.netdna-cdn.com/", 0.13408531587719374, "http://solaris.unix.com/", 0.15356779767131593, "http://ubuntu.unix.com/", 0.2314977248478044, "http://www.google-analytics.com/", 0.15356779767131593, "http://www.google.com/", 0.15356779767131593, "http://www.unix.com/", 0.15356779767131593 ] ], [ "http://www.unknownroad.com/", [ "http://www.google-analytics.com/", 0.7337048313994861 ] ], [ "http://www.urbandictionary.com/", [ "http://static0.urbandictionary.com/", 0.054503066310115575, "http://www.google-analytics.com/", 0.054503066310115575 ] ], [ "http://www.usdradio.org/", [ "http://connect.facebook.net/", 0.23892241939278966, "http://www.google-analytics.com/", 0.27363764272336594, "http://www.slidedeck.com/", 0.23892241939278966, "http://www.usdradio.org/", 1.3150943426406543 ] ], [ "http://www.useit.com/", [ "http://w.sharethis.com/", 0.4018324634836641, "http://www.google-analytics.com/", 0.46021837698129037, "http://www.useit.com/", 0.6353761174741697 ] ], [ "http://www.vanityfair.com/", [ "http://event.vanityfair.com/", 0.3349518108441434, "http://fonts.condenast.com/", 0.3349518108441434, "http://p.typekit.net/", 0.292457924393767, "http://ping.chartbeat.net/", 0.292457924393767, "http://result.vanityfair.com/", 0.292457924393767, "http://sitelife.vanityfair.com/", 1.9497194959584447, "http://static.chartbeat.com/", 0.292457924393767, "http://stats2.vanityfair.com/", 0.3349518108441434, "http://www.google-analytics.com/", 0.3349518108441434, "http://www.vanityfair.com/", 2.502140019813338 ] ], [ "http://www.velocityreviews.com/", [ "http://www.google.com/", 0.750745918411414, "http://www.velocityreviews.com/", 14.093441427078162 ] ], [ "http://www.w3.org/", [ "http://www.w3.org/", 3.1714050174239996 ] ], [ "http://www.w3resource.com/", [ "http://c.statcounter.com/", 0.6565825732037986, "http://code.jquery.com/", 0.6565825732037986, "http://connect.facebook.net/", 0.6565825732037986, "http://disqus.com/", 0.751983459908624, "http://mediacdn.disqus.com/", 0.8473843466134495, "http://syntaxhighlighter.googlecode.com/", 1.8013932136617035, "http://w3r.disqus.com/", 0.6565825732037986, "http://www.google-analytics.com/", 0.751983459908624, "http://www.statcounter.com/", 0.6565825732037986, "http://www.w3resource.com/", 2.2783976471858285 ] ], [ "http://www.w3schools.com/", [ "http://translate.google.com/", 0.40344740110424, "http://translate.googleapis.com/", 1.9915897977025612, "http://www.google-analytics.com/", 0.8067244475268391, "http://www.google.com/", 0.8068914463396311, "http://www.w3schools.com/", 8.313206237492382 ] ], [ "http://www.washingtonpost.com/", [ "http://bunsen.wapolabs.com/", 0.5734177666671455, "http://img.wpdigital.net/", 2.464840549255788, "http://img2.wpdigital.net/", 0.9371529171649619, "http://img3.wpdigital.net/", 0.7189118268662722, "http://js.washingtonpost.com/", 4.885543897977409, "http://ping.chartbeat.net/", 0.5006707365675821, "http://pix04.revsci.net/", 0.5006707365675821, "http://static.chartbeat.com/", 0.5006707365675821, "http://washpost.bloomberg.com/", 0.6461647967667083, "http://www.washingtonpost.com/", 1.5918761880610308 ] ], [ "http://www.waterpik.com/", [ "http://c.statcounter.com/", 0.22354725990731183, "http://dnn506yrbagrg.cloudfront.net/", 0.19518678663548863, "http://www.google-analytics.com/", 0.3369891529946043, "http://www.statcounter.com/", 0.19518678663548863, "http://www.waterpik.com/", 1.21616382442112 ] ], [ "http://www.webdeveloper.com/", [ "http://www.webdeveloper.com/", 0.15112243224967944 ] ], [ "http://www.which.co.uk/", [ "http://www.staticwhich.co.uk/", 0.058336445889586 ] ], [ "http://www.whynotwiki.com/", [ "http://www.whynotwiki.com/", 0.09365795869851232 ] ], [ "http://www.winehq.org/", [ "http://www.google-analytics.com/", 0.15728892704091438, "http://www.google.com/", 0.18912120989443276, "http://www.winehq.org/", 0.30053419988174734 ] ], [ "http://www.wolframalpha.com/", [ "http://ajax.googleapis.com/", 0.3254527531404038, "http://www.google-analytics.com/", 0.9147349495669855, "http://www.wolframalpha.com/", 11.938789789068453, "http://www.wolframcdn.com/", 4.5352469931222, "http://www4a.wolframalpha.com/", 0.16574110769390507, "http://www4c.wolframalpha.com/", 1.2153588265130002, "https://ajax.googleapis.com/", 0.14018620771285684 ] ], [ "http://www.worldlifeexpectancy.com/", [ "http://c.statcounter.com/", 0.6758232614574935, "http://www.google-analytics.com/", 0.774019803720548, "http://www.statcounter.com/", 0.6758232614574935, "http://www.worldlifeexpectancy.com/", 3.7199160716121864 ] ], [ "http://www.xenocafe.com/", [ "http://www.xenocafe.com/", 0.1347577339332791 ] ], [ "http://www.xkcd.com/", [ "http://clients1.google.com/", 1.703076792622645, "http://imgs.xkcd.com/", 5.167455225478966, "http://www.google.com/", 2.940354804357045 ] ], [ "http://www.xorbin.com/", [ "http://apis.google.com/", 0.46426285842244225, "http://edge.quantserve.com/", 0.46426285842244225, "http://pixel.quantserve.com/", 0.46426285842244225, "http://s7.addthis.com/", 0.46426285842244225, "http://www.google-analytics.com/", 0.5317198549453611, "http://www.xorbin.com/", 1.2062898201745496 ] ], [ "http://www.yolinux.com/", [ "http://apis.google.com/", 0.1380145912912558, "http://edge.quantserve.com/", 0.1380145912912558, "http://pixel.quantserve.com/", 0.15806799344468614, "http://s7.addthis.com/", 0.15806799344468614, "http://static.jobthread.com/", 0.1380145912912558, "http://syndication.jobthread.com/", 0.1380145912912558, "http://widgets.digg.com/", 0.1380145912912558, "http://www.google-analytics.com/", 0.15806799344468614, "http://www.jobthread.com/", 0.1380145912912558, "http://www.yolinux.com/", 0.2583350042118376 ] ], [ "http://www.youngzsoft.net/", [ "http://www.google-analytics.com/", 0.669935746251665, "http://www.youngzsoft.net/", 1.8598216239225318 ] ], [ "http://www.youtube.com/", [ "http://clients1.google.com/", 3.1714050174239996, "http://csi.gstatic.com/", 2.2086570657060003, "http://i1.ytimg.com/", 5.417816904765999, "http://i2.ytimg.com/", 4.134152969141999, "http://i3.ytimg.com/", 2.2086570657060003, "http://i4.ytimg.com/", 4.531559624589485, "http://o-o---preferred---sn-i3co-i3bz---v19---lscache6.c.youtube.com/", 2.529573049612, "http://s.ytimg.com/", 4.716045206496031, "http://www.google.com/", 2.2086570657060003, "https://plus.google.com/", 2.529573049612 ] ], [ "http://www.zdnet.com/", [ "http://cdn-static.zdnet.com/", 0.2267523732262498, "http://www.zdnet.com/", 0.2075027734054063 ] ], [ "http://www2.hkticketing.com/", [ "http://www2.hkticketing.com/", 2.0963202797826126, "https://seal.verisign.com/", 0.41360787982220215 ] ], [ "http://xbmc.org/", [ "http://xbmc.org/", 0.0789972704754811 ] ], [ "http://xmonad.org/", [ "http://xmonad.org/", 0.052920289421009 ] ], [ "http://ycombinator.com/", [ "http://www.picwing.com/", 0.10339205359114026, "http://ycombinator.com/", 0.1184148306086564 ] ], [ "http://yeda.cs.technion.ac.il/", [ "http://www.google-analytics.com/", 4.53951669251345 ] ], [ "http://yongfook.com/", [ "http://24.media.tumblr.com/", 1.4199286623711542, "http://25.media.tumblr.com/", 0.97903757085865, "http://ajax.googleapis.com/", 0.7585920251023976, "http://assets.tumblr.com/", 1.3097058894930278, "http://edge.quantserve.com/", 0.7585920251023976, "http://fonts.googleapis.com/", 0.7585920251023976, "http://pixel.quantserve.com/", 0.7585920251023976, "http://static.tumblr.com/", 1.199483116614902, "http://www.google-analytics.com/", 0.8688147979805237, "http://www.linkedin.com/", 0.7585920251023976 ] ], [ "http://z.about.com/", [ "http://0.tqn.com/", 1.6011498596885705, "http://i.pgcdn.com/", 1.6011498596885705, "http://z.about.com/", 1.012619100451691 ] ], [ "http://z.cdn.turner.com/", [ "http://aspen.turner.com/", 0.07903020690719893, "http://teamcoco.com/", 0.07903020690719893, "http://z.cdn.turner.com/", 0.11913508802428481 ] ], [ "http://zeroturnaround.com/", [ "http://static.zeroturnaround.org/", 0.12200024114449701, "http://themes.googleusercontent.com/", 0.06063917311324114, "http://www.google.com/", 0.06063917311324114, "http://zeroturnaround.com/", 0.06063917311324114 ] ], [ "https://accedobroadband.jira.com/", [ "https://accedobroadband.jira.com/", 65.8387391503168, "https://maps.google.com/", 0.22744464002905906, "https://maps.googleapis.com/", 0.5483605392605102, "https://maps.gstatic.com/", 0.45488919410780204, "https://ssl.google-analytics.com/", 1.6922398459685273 ] ], [ "https://accounts.google.com/", [ "https://accounts.google.com.hk/", 1.504039041058379, "https://accounts.google.com/", 1.3132281179390324, "https://accounts.youtube.com/", 0.8063248593668181, "https://mail.google.com/", 0.666906566315618, "https://ssl.google-analytics.com/", 0.6514850495153467, "https://ssl.gstatic.com/", 1.3431677715001202 ] ], [ "https://addons.mozilla.org/", [ "https://addons.cdn.mozilla.net/", 2.7186399450576855, "https://addons.mozilla.org/", 0.5363927041682115, "https://statse.webtrendslive.com/", 0.6143301056285497, "https://www.google.com/", 0.6922675070888882, "https://www.paypalobjects.com/", 0.5363927041682115 ] ], [ "https://apis.google.com/", [ "https://apis.google.com/", 0.7552824154126031 ] ], [ "https://bitbucket.org/", [ "https://dwz7u9t8u8usb.cloudfront.net/", 0.45756011094741916, "https://secure.gravatar.com/", 0.14494812025284673, "https://ssl.google-analytics.com/", 0.1633370608819392 ] ], [ "https://browserling.com/", [ "https://browserling.com/", 2.4906254763023274, "https://js.stripe.com/", 0.35798916551274285, "https://ssl.google-analytics.com/", 0.4100046852880986 ] ], [ "https://bugs.launchpad.net/", [ "https://bugs.launchpad.net/", 0.06203956198128353 ] ], [ "https://build.opensuse.org/", [ "https://static.opensuse.org/", 0.10391054946994406 ] ], [ "https://buildsecurityin.us-cert.gov/", [ "https://buildsecurityin.us-cert.gov/", 4.603642443311159, "https://ssl.google-analytics.com/", 1.7377129222639303 ] ], [ "https://careers-redhat.icims.com/", [ "https://c-2625-20120612-www-redhat-com.i.icims.com/", 0.08425329030712632 ] ], [ "https://cdn.strcst.net/", [ "https://ajax.googleapis.com/", 0.06900398662792741, "https://cdn.strcst.net/", 0.14921374886209945 ] ], [ "https://chrome.google.com/", [ "https://apis.google.com/", 0.751983459908624, "https://chrome.google.com/", 0.9431471094621464, "https://fonts.googleapis.com/", 0.6565825732037986, "https://lh3.googleusercontent.com/", 1.1604700972376532, "https://lh4.googleusercontent.com/", 1.0381861200231004, "https://lh5.googleusercontent.com/", 0.751983459908624, "https://lh6.googleusercontent.com/", 1.2431483654060056, "https://plusone.google.com/", 0.751983459908624, "https://ssl.google-analytics.com/", 1.3243887801375758, "https://www.google.com/", 0.9090935402493713 ] ], [ "https://class.coursera.org/", [ "https://class.coursera.org/", 7.520774927114817, "https://eventing.coursera.org/", 0.9167292247462273, "https://platform.twitter.com/", 0.36909934242516435, "https://s3.amazonaws.com/", 0.6462079275754832, "https://spark-university.s3.amazonaws.com/", 0.36909934242516435, "https://ssl.google-analytics.com/", 0.8165156963103891, "https://www.coursera.org/", 0.36909934242516435 ] ], [ "https://class.stanford.edu/", [ "https://ajax.googleapis.com/", 0.4382040352989707, "https://class.stanford.edu/", 1.2022520968458938, "https://ssl.google-analytics.com/", 0.5018747070945475, "https://www.youtube.com/", 0.5018747070945475 ] ], [ "https://code.google.com/", [ "https://apis.google.com/", 2.066525344788971, "https://plusone.google.com/", 2.066525344788971, "https://ssl.google-analytics.com/", 2.066525344788971, "https://ssl.gstatic.com/", 3.377380973946154 ] ], [ "https://developer.mozilla.org/", [ "https://developer.mozilla.org/", 4.741537177441898, "https://login.persona.org/", 0.23682657478177327, "https://statse.webtrendslive.com/", 0.20384358588385712, "https://www.google.com/", 0.8196215311965068, "https://www.mozilla.org/", 0.658339534622845 ] ], [ "https://en.wikipedia.org/", [ "https://bits.wikimedia.org/", 19.561359474489063, "https://en.wikipedia.org/", 3.361609124223434, "https://meta.wikimedia.org/", 2.2412235088727175, "https://upload.wikimedia.org/", 6.855081810232207 ] ], [ "https://encyclopediadramatica.se/", [ "http://encyclopediadramatica.se/", 0.11052879727978045, "https://encyclopediadramatica.se/", 0.24480303947493656, "https://images.encyclopediadramatica.se/", 0.7173123980857393, "https://ssl.google-analytics.com/", 0.11775241157508949, "https://static.encyclopediadramatica.se/", 0.6820441635851122 ] ], [ "https://forum.defcon.org/", [ "https://forum.defcon.org/", 5.738732888671998 ] ], [ "https://forums.virtualbox.org/", [ "https://forums.virtualbox.org/", 1.0752923211715464 ] ], [ "https://github.com/", [ "https://a248.e.akamai.net/", 10.228609366259564, "https://github.com/", 3.2537906983473786, "https://i2.wp.com/", 1.032174787912645, "https://secure.gaug.es/", 1.2787832454179702, "https://secure.gravatar.com/", 1.556591591362449, "https://ssl.google-analytics.com/", 1.77482142021825 ] ], [ "https://gitorious.org/", [ "https://fonts.googleapis.com/", 0.1462219502683663, "https://gitorious.org/", 0.9323211529931732, "https://secure.gravatar.com/", 0.8898293041972378, "https://ssl.google-analytics.com/", 0.18871379906430183 ] ], [ "https://groups.google.com/", [ "https://apis.google.com/", 0.06889158446170572, "https://groups.google.com/", 0.7814022278073123, "https://id.google.com/", 0.06889158446170572, "https://plusone.google.com/", 0.13366527931130642, "https://ssl.google-analytics.com/", 0.13366527931130642, "https://ssl.gstatic.com/", 0.26321266901050766, "https://www.google.com/", 0.572843596055233 ] ], [ "https://help.github.com/", [ "https://github-images.s3.amazonaws.com/", 0.05779586874509245, "https://github.s3.amazonaws.com/", 0.067617919033225, "https://help.github.com/", 0.1129832445403948 ] ], [ "https://help.pubnub.com/", [ "https://assets.zendesk.com/", 0.9278237241871284, "https://help.pubnub.com/", 0.647654782338889, "https://pubnub.zendesk.com/", 0.5165817906750667, "https://ssl.google-analytics.com/", 0.5165817906750667 ] ], [ "https://help.ubuntu.com/", [ "https://help.ubuntu.com/", 3.4319892205728912 ] ], [ "https://join.app.net/", [ "https://d2c01jv13s9if1.cloudfront.net/", 0.21089012701332682 ] ], [ "https://launchpad.net/", [ "https://launchpad.net/", 0.47731815572729647, "https://launchpadlibrarian.net/", 0.17772032755504763, "https://ssl.google-analytics.com/", 0.11114303240565913, "https://themes.googleusercontent.com/", 0.14443167998035342 ] ], [ "https://login.launchpad.net/", [ "https://login.launchpad.net/", 0.06267793816203512 ] ], [ "https://mail.google.com/", [ "https://apis.google.com/", 1.885660887297072, "https://chatenabled.mail.google.com/", 1.3132281179390324, "https://lh5.googleusercontent.com/", 0.22867704202023525, "https://lh6.googleusercontent.com/", 0.20493788479547834, "https://mail-attachment.googleusercontent.com/", 2.2672827335357653, "https://mail.google.com/", 15.362034510689329, "https://plus.google.com/", 0.25833788744588393, "https://ssl.gstatic.com/", 5.233848072640455, "https://static.googleusercontent.com/", 0.37793133889095976, "https://www.google.com/", 1.346699944271131 ] ], [ "https://maps.google.com/", [ "https://cbks3.google.com/", 1.5172568052602975, "https://maps-api-ssl.google.com/", 1.5172568052602975, "https://maps.google.com/", 4.162730209303893, "https://maps.gstatic.com/", 10.776413719412883, "https://mts0.google.com/", 8.571852549376546, "https://mts1.google.com/", 7.4695719643583836, "https://ssl.gstatic.com/", 1.9581690392675637 ] ], [ "https://maps.gstatic.com/", [ "https://cbks0.google.com/", 5.646214642188805, "https://cbks1.google.com/", 6.780796780690101, "https://cbks2.google.com/", 5.192381786788286, "https://cbks3.google.com/", 5.192381786788286, "https://maps.gstatic.com/", 2.6963010820854345, "https://mts0.google.com/", 2.015551798984657, "https://mts1.google.com/", 1.788635371284397, "https://mts3.google.com/", 1.788635371284397, "https://www.google.com/", 2.015551798984657 ] ], [ "https://npmjs.org/", [ "https://npmjs.org/", 0.9133146454901084, "https://secure.gravatar.com/", 0.1419528090603352, "https://ssl.google-analytics.com/", 0.09693192472395401, "https://www.google-analytics.com/", 0.09693192472395401 ] ], [ "https://pagekite.net/", [ "https://pagekite.net/", 0.05851763920149107, "https://secure.gravatar.com/", 0.05851763920149107 ] ], [ "https://player.vimeo.com/", [ "https://secure-a.vimeocdn.com/", 0.9588204375665964, "https://ssl.google-analytics.com/", 0.6473662436126019 ] ], [ "https://plus.google.com/", [ "https://plus.google.com/", 1.0481902719758496 ] ], [ "https://plusone.google.com/", [ "https://plusone.google.com/", 0.8717611488955817 ] ], [ "https://pubnub-prod.appspot.com/", [ "https://cdn.optimizely.com/", 0.33485567079434336, "https://pubnub-prod.appspot.com/", 3.433910628337755, "https://pubnub.s3.amazonaws.com/", 0.3102307368463833, "https://ssl.google-analytics.com/", 0.849886509831957, "https://www.google-analytics.com/", 0.07214258004093675 ] ], [ "https://razius.ro/", [ "https://razius.ro/", 0.5513345269668076, "https://secure.gravatar.com/", 0.1684864968945463, "https://ssl.google-analytics.com/", 0.11176827021717439 ] ], [ "https://rdot.org/", [ "https://rdot.org/", 7.007713208390361 ] ], [ "https://s.ytimg.com/", [ "https://i1.ytimg.com/", 0.49627279140671127, "https://i2.ytimg.com/", 0.21126004089176248, "https://i3.ytimg.com/", 0.751983459908624, "https://i4.ytimg.com/", 1.2363890589823316, "https://s.youtube.com/", 0.29993355937235444, "https://s.ytimg.com/", 0.6565825732037986, "https://s2.youtube.com/", 0.07717500317808686, "https://www.youtube.com/", 0.48476613566785887 ] ], [ "https://s1-us3.startpage.com/", [ "https://s1-us3.startpage.com/", 0.13291721560434613, "https://startpage.com/", 0.4533072203819866 ] ], [ "https://s2-us3.ixquick-proxy.com/", [ "https://ajax.googleapis.com/", 0.8200486933118012, "https://s2-us3.ixquick-proxy.com/", 0.49327442135270666, "https://startpage.com/", 0.11979710142302562 ] ], [ "https://s2-us3.startpage.com/", [ "https://s2-us3.startpage.com/", 4.177766019308922, "https://startpage.com/", 29.68899087212616 ] ], [ "https://s3-us3.startpage.com/", [ "https://s3-us3.startpage.com/", 1.4211765679228787, "https://startpage.com/", 10.532057522857833 ] ], [ "https://s4-us3.startpage.com/", [ "https://s4-us3.startpage.com/", 0.15806799344468614, "https://startpage.com/", 0.5390826343598626 ] ], [ "https://s5-us3.ixquick-proxy.com/", [ "https://images1-eu.ixquick.com/", 0.16893961231297014, "https://s16-us2.ixquick.com/", 0.16893961231297014, "https://s5-us3.ixquick-proxy.com/", 0.26712673741794424, "https://s5-us3.startpage.com/", 0.16893961231297014, "https://startpage.com/", 0.2916735186941876 ] ], [ "https://s5-us3.startpage.com/", [ "https://s5-us3.startpage.com/", 0.4993060079913502, "https://startpage.com/", 4.438711947233481 ] ], [ "https://sealinfo.thawte.com/", [ "https://sealinfo.thawte.com/", 0.8094625734143964 ] ], [ "https://secure-a.vimeocdn.com/", [ "https://player.vimeo.com/", 1.9041216322089247, "https://secure-b.vimeocdn.com/", 1.7818544627824344 ] ], [ "https://startpage.com/", [ "https://s2-us3.startpage.com/", 1.1018820204109874, "https://s3-us3.startpage.com/", 1.1777808890596038, "https://s4-us3.startpage.com/", 0.3572733324024646, "https://startpage.com/", 24.385868806490237 ] ], [ "https://status.github.com/", [ "https://search.twitter.com/", 0.3684797849914494, "https://status.github.com/", 0.9038777631841536 ] ], [ "https://stipple.com/", [ "https://api.mixpanel.com/", 0.46021837698129037, "https://ssl.google-analytics.com/", 0.46021837698129037, "https://stipple.com/", 0.4018324634836641 ] ], [ "https://stripe.com/", [ "https://stripe.com/", 0.05638905698271944 ] ], [ "https://support.mozilla.org/", [ "https://statse.webtrendslive.com/", 0.6143301056285497, "https://support.mozilla.org/", 2.0172033319146396, "https://www.mozilla.org/", 0.6922675070888882 ] ], [ "https://twitter.com/", [ "https://pbs.twimg.com/", 1.6617646130358055, "https://si0.twimg.com/", 7.731397599921374, "https://ssl.google-analytics.com/", 0.8325874698438875, "https://twitter.com/", 0.17026013596872788, "https://yfrog.com/", 0.06466934355079071 ] ], [ "https://www.alljoyn.org/", [ "https://www.alljoyn.org/", 0.1580258903317527 ] ], [ "https://www.coursera.org/", [ "https://coursera-course-photos.s3.amazonaws.com/", 1.1671386872342906, "https://coursera-university-assets.s3.amazonaws.com/", 10.99352795327369, "https://dt5zaw6a98blc.cloudfront.net/", 6.407977620632775, "https://eventing.coursera.org/", 1.8099540426171672, "https://s3.amazonaws.com/", 4.241798050503326, "https://ssl.google-analytics.com/", 0.5791949391428919, "https://www.coursera.org/", 1.0706225135376508 ] ], [ "https://www.dropbox.com/", [ "https://ssl.google-analytics.com/", 0.14560698153420804, "https://www.dropbox.com/", 0.3695058245742955 ] ], [ "https://www.gittip.com/", [ "https://fonts.googleapis.com/", 1.3132281179390324, "https://ssl.google-analytics.com/", 1.504039041058379, "https://themes.googleusercontent.com/", 1.504039041058379, "https://www.gittip.com/", 1.885660887297072 ] ], [ "https://www.greendot.com/", [ "https://seal.thawte.com/", 0.1184148306086564, "https://ssl.google-analytics.com/", 0.1184148306086564, "https://statse.webtrendslive.com/", 0.1334376076261725, "https://www.cdn-gdc.com/", 0.1184148306086564, "https://www.greendot.com/", 0.8244853504319133 ] ], [ "https://www.last.fm/", [ "https://www.last.fm/", 0.12999372127699715 ] ], [ "https://www.loopt.com/", [ "https://ajax.googleapis.com/", 0.1484603846436885, "https://apis.google.com/", 0.10339205359114026, "https://ssl.google-analytics.com/", 0.1184148306086564, "https://www.loopt.com/", 0.26864260078381713 ] ], [ "https://www.owasp.org/", [ "https://ssl.google-analytics.com/", 0.15728892704091438, "https://www.owasp.org/", 0.5386396756260644 ] ], [ "https://www.paypal.com/", [ "https://paypal.112.2o7.net/", 1.703076792622645, "https://paypal.d1.sc.omtrdc.net/", 2.1979879973164054, "https://www.paypal.com/", 1.950532394969525, "https://www.paypalobjects.com/", 6.157277634866485 ] ], [ "https://www.technologyreview.com/", [ "https://ajax.googleapis.com/", 0.19518678663548863, "https://www.technologyreview.com/", 0.3369891529946043 ] ], [ "https://www.vbulletin.com/", [ "https://www.vbulletin.com/", 0.21472660678497796 ] ], [ "https://www.virtualbox.org/", [ "https://www.virtualbox.org/", 0.7717503928703529 ] ], [ "https://www.youtube.com/", [ "https://s.ytimg.com/", 0.5754125342594846 ] ] ],
+      "startup_list": [ 1, "http://i1.ytimg.com/", "http://i2.ytimg.com/", "http://i4.ytimg.com/", "http://localhost/", "http://localhost:8080/", "http://s.ytimg.com/", "http://www.google-analytics.com/", "http://www.youtube.com/", "https://ad.alter-shopping.com/", "https://ssl.google-analytics.com/" ]
+   },
+   "download": {
+      "directory_upgrade": true,
+      "extensions_to_open": ""
+   },
+   "extensions": {
+      "autoupdate": {
+         "last_check": "12995367035044440",
+         "next_check": "12995385596737687"
+      },
+      "blacklistupdate": {
+         "lastpingday": "12995362802107596",
+         "version": "0.0.0.129"
+      },
+      "chrome_url_overrides": {
+         "bookmarks": [ "chrome-extension://eemcgdkfndhakfknompkggombfjjjeno/main.html" ]
+      },
+      "settings": {
+         "aakhlmakppmkkmfkoibponkmmpgpmjgl": {
+            "blacklist": true
+         },
+         "aandpgohbohmlknpjbblpmoladhoochg": {
+            "blacklist": true
+         },
+         "abciiempgohamehppammbkhkicmkgkob": {
+            "blacklist": true
+         },
+         "abfclfmhaemoockhhinpplncjehfpdbd": {
+            "blacklist": true
+         },
+         "acmpfcamncegnhjdeiodgilikjafcamg": {
+            "blacklist": true
+         },
+         "aebfkgcamgnimcbnbiopgdakknjgggnm": {
+            "blacklist": true
+         },
+         "aemcjbfajnnmhblifaejadoecfoaebld": {
+            "blacklist": true
+         },
+         "afenhmponmfmdmbmccbmglppcmjhmhmh": {
+            "blacklist": true
+         },
+         "aglmapjbjphdidmnileogpjkgpdoliep": {
+            "blacklist": true
+         },
+         "agmhonoepgcnakccfpidhjehlocaeaaj": {
+            "blacklist": true
+         },
+         "ahfgeienlihckogmohjhadlkjgocpleb": {
+            "active_bit": true,
+            "active_permissions": {
+               "api": [ "appNotifications", "management", "webstorePrivate" ]
+            },
+            "app_launcher_ordinal": "n",
+            "page_ordinal": "n"
+         },
+         "ahjfgnikolodijnpakeknpilnemojlhc": {
+            "blacklist": true
+         },
+         "aieglpnmmhleoenpbmfaffppfomgjmba": {
+            "blacklist": true
+         },
+         "aieihijcjcccdiepockaiekhpflicdii": {
+            "blacklist": true
+         },
+         "aifmjmboebdkdelpjenakhaodgneempp": {
+            "blacklist": true
+         },
+         "ajlkjjdbgcjdiklbcomhnfghjigfccoh": {
+            "blacklist": true
+         },
+         "alcbnnpmipohgdllkkglhkbncijplago": {
+            "blacklist": true
+         },
+         "aldalonecchncedclgcndcndgilaclnk": {
+            "blacklist": true
+         },
+         "alfahpoknocfdebmiclonikapcnljlob": {
+            "blacklist": true
+         },
+         "aljdncnajablgppdcfbehhmidlmbndda": {
+            "blacklist": true
+         },
+         "amfgdngndpfldigimkcindjalokfnmem": {
+            "blacklist": true
+         },
+         "amoobcjlpgloocplpikcldcpjjdnoeii": {
+            "blacklist": true
+         },
+         "anmjpohfnlopdfaojooicpemopnliimn": {
+            "blacklist": true
+         },
+         "apdmgffkfhjfeejmbjidennfjdkmmmbl": {
+            "blacklist": true
+         },
+         "aphncaagnlabkeipnbbicmcahnamibgb": {
+            "blacklist": true
+         },
+         "bcddmcejgphfgofbpoocakaeapfomlek": {
+            "blacklist": true
+         },
+         "benclngoadbppljglhphhnfknoppmjoa": {
+            "blacklist": true
+         },
+         "bhdkpmneahdelgdgfhddianklldfoell": {
+            "blacklist": true
+         },
+         "bilgncckogfgfipdlejkffnbkgjkmflh": {
+            "blacklist": true
+         },
+         "bioeopenmokdgbekbgpgnacecjmpckbb": {
+            "blacklist": true
+         },
+         "bjihddggcgnblgojnmhpnngonofbnkaj": {
+            "blacklist": true
+         },
+         "bkhafliomebnpccanacmlfaemgfiofko": {
+            "blacklist": true
+         },
+         "bkkchglolnigbfncnbnnbhhempjkdpkf": {
+            "blacklist": true
+         },
+         "bkplhcigeaiiliajeehehiikokgocbhb": {
+            "blacklist": true
+         },
+         "bldgnkigdcpgnbfehgbameigoohecdfl": {
+            "blacklist": true
+         },
+         "bndahdijlcnncjbpammoedeapmlobllc": {
+            "blacklist": true
+         },
+         "bnffnggkphadlnoopcoakdnkellnifjp": {
+            "blacklist": true
+         },
+         "boaoagnmpennjoigkkmnjhecapibhfko": {
+            "blacklist": true
+         },
+         "boclfockfmgcppbajihcgajhpggaakgl": {
+            "blacklist": true
+         },
+         "bokkificjhapflinbdejegngffgkcgfe": {
+            "blacklist": true
+         },
+         "caphkimknlmnhpjoneddiaakmcaajagb": {
+            "blacklist": true
+         },
+         "cbbbpmlnlpnjojeplppgeilanlihoojg": {
+            "blacklist": true
+         },
+         "cbbjhegipokkofhhicbckicchjpcpeni": {
+            "blacklist": true
+         },
+         "cdogaeccgljmkecjmoedambgiekkllij": {
+            "blacklist": true
+         },
+         "cekdjgnecpoooikhmceokdhojckkkhmh": {
+            "blacklist": true
+         },
+         "cepfogmgfkddnllaopgknbdfkceejmhk": {
+            "blacklist": true
+         },
+         "cfbdodejdeejbkffcmiaknpmojjeibpn": {
+            "blacklist": true
+         },
+         "cfhdojbkjhnklbpkdaibdccddilifddb": {
+            "active_permissions": {
+               "api": [ "contextMenus", "tabs", "unlimitedStorage", "webRequest", "webRequestBlocking" ],
+               "explicit_host": [ "http://*/*", "https://*/*" ],
+               "scriptable_host": [ "http://*.youtube-nocookie.com/*", "http://*.youtube.com/*", "http://*/*", "https://*.youtube-nocookie.com/*", "https://*.youtube.com/*", "https://*/*" ]
+            },
+            "delayNetworkRequests": true,
+            "from_bookmark": false,
+            "from_webstore": true,
+            "granted_permissions": {
+               "api": [ "contextMenus", "tabs", "unlimitedStorage", "webRequest", "webRequestBlocking" ],
+               "explicit_host": [ "http://*/*", "https://*/*" ],
+               "scriptable_host": [ "http://*.youtube-nocookie.com/*", "http://*.youtube.com/*", "http://*/*", "https://*.youtube-nocookie.com/*", "https://*.youtube.com/*", "https://*/*" ]
+            },
+            "install_time": "12987160430750111",
+            "lastpingday": "12995362802137626",
+            "location": 1,
+            "manifest": {
+               "background_page": "background.html",
+               "content_scripts": [ {
+                  "all_frames": true,
+                  "js": [ "contentScript1.js" ],
+                  "matches": [ "http://*.youtube.com/*", "https://*.youtube.com/*", "http://*.youtube-nocookie.com/*", "https://*.youtube-nocookie.com/*" ],
+                  "run_at": "document_start"
+               }, {
+                  "all_frames": true,
+                  "js": [ "contentScript2.js" ],
+                  "matches": [ "http://*/*", "https://*/*" ],
+                  "run_at": "document_start"
+               }, {
+                  "all_frames": true,
+                  "js": [ "contentScript3.js" ],
+                  "matches": [ "http://*/*", "https://*/*" ],
+                  "run_at": "document_end"
+               } ],
+               "current_locale": "en_US",
+               "default_locale": "en",
+               "description": "Ads were yesterday! The successful extension Adblock Plus is now available for Google Chrome\u2122.",
+               "icons": {
+                  "128": "icons/abp-128.png",
+                  "16": "icons/abp-16.png",
+                  "32": "icons/abp-32.png",
+                  "48": "icons/abp-48.png"
+               },
+               "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCxGWIIBRUVzQIXITqE6+js1FA24fsZC58G0fxcO1Duwfps+9gip5tedTziErKEpeAQVkgasdT4kk+b6Lw27yp3oysAj6zD9j+j4W+EMArTXqMIc6SMYD7Z8bPcwPb3tC1MUxMSpO6oOVpFE23UhKe91SYnrK92nHI2cmsor5elXQIDAQAB",
+               "minimum_chrome_version": "16.0",
+               "name": "Adblock Plus (Beta)",
+               "options_page": "options.html",
+               "page_action": {
+                  "default icon": "icons/abp-19.png",
+                  "default title": "Adblock Plus",
+                  "popup": "popup.html"
+               },
+               "permissions": [ "tabs", "http://*/*", "https://*/*", "contextMenus", "webRequest", "webRequestBlocking", "unlimitedStorage" ],
+               "update_url": "http://clients2.google.com/service/update2/crx",
+               "version": "1.2"
+            },
+            "path": "cfhdojbkjhnklbpkdaibdccddilifddb/1.2_0",
+            "state": 1
+         },
+         "cgnegjfmdfenjojhjffejinpnpoglmlh": {
+            "blacklist": true
+         },
+         "cgnkbnaiipmfbakpmhllalggoepniemh": {
+            "blacklist": true
+         },
+         "cihlkpohodpdkdnfalhdkhhlhmhffmbe": {
+            "blacklist": true
+         },
+         "cjhklhdjonhcohlacgggcbklpnldleck": {
+            "blacklist": true
+         },
+         "cjohbbapkbkkhpohinffggbphnhoblea": {
+            "blacklist": true
+         },
+         "ckckpgefkpjfopjppjfcikppehdhceah": {
+            "blacklist": true
+         },
+         "ckphhghhpjbfddcgkpfbelfeojcciglo": {
+            "blacklist": true
+         },
+         "clapnamcglekekmamicmbahkghdcjaeh": {
+            "blacklist": true
+         },
+         "cmjphjljejnfgdbkdgdlclaabimpknna": {
+            "blacklist": true
+         },
+         "cmlokmkdolieoaoddlfhaidnlmiadhik": {
+            "blacklist": true
+         },
+         "coajchbkdbfhmhbgcjepiofllfjjcpfp": {
+            "blacklist": true
+         },
+         "copjbedljgpkaakkmbhgkpoaadeahido": {
+            "blacklist": true
+         },
+         "cpiiakoibaohkfoaijaigdnocfolnmll": {
+            "blacklist": true
+         },
+         "dadcalgappognjbjpalfophhcfakoeac": {
+            "blacklist": true
+         },
+         "danapgfidmepmcfbjjacceiaiiioieio": {
+            "blacklist": true
+         },
+         "dbanhghadfmjndnjmmejdgfdmgidlbpm": {
+            "blacklist": true
+         },
+         "dbepggeogbaibhgnhhndojpepiihcmeb": {
+            "active_permissions": {
+               "api": [ "bookmarks", "clipboardRead", "history", "tabs" ],
+               "explicit_host": [ "\u003Call_urls\u003E" ],
+               "scriptable_host": [ "\u003Call_urls\u003E" ]
+            },
+            "from_bookmark": false,
+            "from_webstore": true,
+            "granted_permissions": {
+               "api": [ "bookmarks", "clipboardRead", "history", "tabs" ],
+               "explicit_host": [ "\u003Call_urls\u003E" ],
+               "scriptable_host": [ "\u003Call_urls\u003E" ]
+            },
+            "install_time": "12987157900118092",
+            "lastpingday": "12988710010290884",
+            "location": 1,
+            "manifest": {
+               "background_page": "background_page.html",
+               "content_scripts": [ {
+                  "all_frames": true,
+                  "css": [ "vimium.css" ],
+                  "js": [ "lib/utils.js", "lib/keyboard_utils.js", "lib/dom_utils.js", "lib/clipboard.js", "content_scripts/link_hints.js", "content_scripts/vomnibar.js", "content_scripts/vimium_frontend.js" ],
+                  "matches": [ "\u003Call_urls\u003E" ],
+                  "run_at": "document_start"
+               } ],
+               "description": "The Hacker's Browser. Vimium provides keyboard shortcuts for navigation and control in the spirit of Vim.",
+               "icons": {
+                  "128": "icons/icon128.png",
+                  "16": "icons/icon16.png",
+                  "48": "icons/icon48.png"
+               },
+               "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCavizCZ9EnBGbtcRmMErcaxD2WUHJ9ME8IYGQhUBlFgIvchJjAO8koyak3AM95dqu3sOLdtIYD+75T82V1Wl5fLnHAeij2/IWL2VViTHeZhXZl1+rD9sRDaEYd7aZetpJ29+XXfhVphKArCCfwbYCtoJhTIr6S6DYsXuRevoV0EwIDAQAB",
+               "name": "Vimium",
+               "options_page": "options.html",
+               "permissions": [ "tabs", "bookmarks", "history", "clipboardRead", "\u003Call_urls\u003E" ],
+               "update_url": "http://clients2.google.com/service/update2/crx",
+               "version": "1.37"
+            },
+            "path": "dbepggeogbaibhgnhhndojpepiihcmeb/1.37_0",
+            "state": 0
+         },
+         "dbiblcmlcgdjjbdpbmbcpineegngkiip": {
+            "blacklist": true
+         },
+         "dbmdicehacbaohlockjgdglcobimmjkh": {
+            "blacklist": true
+         },
+         "dejippphmhbpgckbhdidnjmdcpfccbaj": {
+            "blacklist": true
+         },
+         "dfafokiagoiocidlpglcanjkcdbdnioi": {
+            "blacklist": true
+         },
+         "dfoegfajplmijblljfancdapbdaopebb": {
+            "blacklist": true
+         },
+         "dgaehaeahdegbdlenicbmkbakhdgoeml": {
+            "blacklist": true
+         },
+         "dgcfmgdfbfbgcpbendbhbkfjppboebed": {
+            "blacklist": true
+         },
+         "dgkemngdheppgohkjjelnkjmdeimmfml": {
+            "blacklist": true
+         },
+         "dhclobcklknojliojkkclgjndemadnig": {
+            "blacklist": true
+         },
+         "diinokaoicgobepmadnmedlhdfnpehcj": {
+            "blacklist": true
+         },
+         "dinhjcapnfbffhiihdlnbdfjdjjfhcbk": {
+            "blacklist": true
+         },
+         "djnahdkbfgnhgpakidinfonfcjbagkgp": {
+            "blacklist": true
+         },
+         "dlghinpgoaaodchghecibkemeabjfled": {
+            "active_permissions": {
+               "api": [ "bookmarks", "clipboardRead", "history", "tabs" ],
+               "explicit_host": [ "\u003Call_urls\u003E" ],
+               "scriptable_host": [ "\u003Call_urls\u003E" ]
+            },
+            "from_bookmark": false,
+            "from_webstore": false,
+            "granted_permissions": {
+               "api": [ "bookmarks", "clipboardRead", "history", "tabs" ],
+               "explicit_host": [ "\u003Call_urls\u003E" ],
+               "scriptable_host": [ "\u003Call_urls\u003E" ]
+            },
+            "install_time": "12988801283711728",
+            "location": 4,
+            "newAllowFileAccess": true,
+            "path": "/home/admin/playground/github/vimium",
+            "state": 1
+         },
+         "dlobhinihbmedmheccecfnkcadpehmbf": {
+            "blacklist": true
+         },
+         "dmhgenmamfphbclmhdgmffajkfommkom": {
+            "blacklist": true
+         },
+         "dmhjdbigobajgnfoabodjgmcdgoeoljm": {
+            "blacklist": true
+         },
+         "dmkdhgkknhnfpdjeicefnpmhcpbimden": {
+            "blacklist": true
+         },
+         "dnemhlkdpajbbniphgkgceplmnkfnhfo": {
+            "blacklist": true
+         },
+         "doneghboglgnflpdicnkaojmmljgejkj": {
+            "blacklist": true
+         },
+         "dpgenihgggagjjggfocjceeobjkadcbc": {
+            "blacklist": true
+         },
+         "dpmloehicimdjkibmobhmpgdndgbcced": {
+            "blacklist": true
+         },
+         "ebdcdchjcndpjhehacedepnggfdbfkpn": {
+            "blacklist": true
+         },
+         "echngajnlpjeacbanjejlhcajjfoedcc": {
+            "blacklist": true
+         },
+         "edmnikahahfkfilbbjbdoiabnghbkmjc": {
+            "blacklist": true
+         },
+         "efbeabpbbkahnnjalakldjfhljboclkf": {
+            "blacklist": true
+         },
+         "efhjelcghjkfigiagdfbfilndaffpmdj": {
+            "blacklist": true
+         },
+         "efnaljpgehfilpmkhobibbjceeeondmn": {
+            "blacklist": true
+         },
+         "egljdhfnbjahogjahnigfnbpidlmdagi": {
+            "blacklist": true
+         },
+         "ehgoiaffgjoinpkllmmnikghgpghnabc": {
+            "blacklist": true
+         },
+         "ehmjnpjodmgeocfphkjjnheiheehcoid": {
+            "blacklist": true
+         },
+         "ehomcoocpagnlcakcbecdaknmacmedld": {
+            "blacklist": true
+         },
+         "eihjeehdobnpkonebmpanonopghepfle": {
+            "blacklist": true
+         },
+         "eijbdinddjecmebnlienfoijpjjobkjh": {
+            "blacklist": true
+         },
+         "ejijgghlncnaphklndknkbkclebfboca": {
+            "blacklist": true
+         },
+         "ejlekamipdcfcfpgfepjmklllbpeecaj": {
+            "blacklist": true
+         },
+         "elcaigjcaijbfpjngaekbblphmfjdhfo": {
+            "blacklist": true
+         },
+         "eofejpelggimkodeojpeojnbijgiglgh": {
+            "blacklist": true
+         },
+         "eopmhecjnginkckggjmhombbopmkjpam": {
+            "blacklist": true
+         },
+         "epbmnbdplhcomkedpjfceakddnbgfjmf": {
+            "blacklist": true
+         },
+         "fafoohpbicgbcejffcplajonhhooddle": {
+            "blacklist": true
+         },
+         "fbhiehmngojjcmljddjmgpmcockbccmo": {
+            "blacklist": true
+         },
+         "fcfepemfihgibdacjlnlecebknaaepmj": {
+            "blacklist": true
+         },
+         "ffgfbfakpcnngelphjnppokmoicdollk": {
+            "blacklist": true
+         },
+         "fhlkffpjoajppmhcakbkjndbjfljccpi": {
+            "blacklist": true
+         },
+         "fiapkdjniadkodmdibdnchoifkpfoiid": {
+            "blacklist": true
+         },
+         "fibgploapkhokkbncddlkcmbmiengcfp": {
+            "blacklist": true
+         },
+         "fihepkmlkmciffbhijldnpmifhbkiinp": {
+            "blacklist": true
+         },
+         "fjhfnfakmfcejgmfkmnapemgblmehppf": {
+            "blacklist": true
+         },
+         "fjjeecfjmgfnleghoellhldedkaocjfc": {
+            "blacklist": true
+         },
+         "fleljamdchegbjeiipbnmiebnhgheeld": {
+            "blacklist": true
+         },
+         "flmmgcfcpbfddenepkfmgfpbaceolcoe": {
+            "blacklist": true
+         },
+         "fmcccidacjgnfiafddkngmeolkoiihil": {
+            "blacklist": true
+         },
+         "fmonlemffgbabjifjfaoamdflijecdbk": {
+            "blacklist": true
+         },
+         "fngmhnnpilhplaeedifhccceomclgfbg": {
+            "active_permissions": {
+               "api": [ "contextMenus", "cookies", "notifications", "tabs", "unlimitedStorage" ],
+               "explicit_host": [ "\u003Call_urls\u003E" ],
+               "scriptable_host": [ "http://*/*", "https://*/*" ]
+            },
+            "browser_action_visible": true,
+            "from_bookmark": false,
+            "from_webstore": true,
+            "granted_permissions": {
+               "api": [ "contextMenus", "cookies", "notifications", "tabs", "unlimitedStorage" ],
+               "explicit_host": [ "\u003Call_urls\u003E" ],
+               "scriptable_host": [ "http://*/*", "https://*/*" ]
+            },
+            "install_time": "12994544784327870",
+            "lastpingday": "12995362802137626",
+            "location": 1,
+            "manifest": {
+               "background": {
+                  "scripts": [ "/alternet/alter-network-background.js", "/lib/jquery-1.8.1.min.js", "/lib/object-watch.js", "/js/cookie_helpers.js", "/js/analytics.js", "/js/utils.js", "/js/data.js", "/js/background.js" ]
+               },
+               "browser_action": {
+                  "default_icon": "img/icon_19x19.png",
+                  "default_popup": "popup.html",
+                  "default_title": "Edit This Cookie"
+               },
+               "content_scripts": [ {
+                  "js": [ "/alternet/jquery-1.7.2.min.js", "/alternet/injectorChecker.js" ],
+                  "matches": [ "http://*/*", "https://*/*" ],
+                  "run_at": "document_start"
+               } ],
+               "content_security_policy": "script-src 'self' https://ssl.google-analytics.com; object-src 'self'",
+               "current_locale": "en_US",
+               "default_locale": "en",
+               "description": "Edit This Cookie is a cookie manager. You can add, delete, edit, search, protect and block cookies!",
+               "icons": {
+                  "128": "img/icon_128x128.png",
+                  "16": "img/icon_16x16.png",
+                  "48": "img/icon_48x48.png"
+               },
+               "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDSn5dhR3eTtYJoXe4DW2j9oFWIg71/f21Z3b6tzFva3M9xo07+xUWo9qLmyWkMeisCMhT7VNsuRbP4kIWjWFcFCi/FgtYCWwCV29CVDvj5Xv+Jzrp8znbCICaczf4ZNqCDdk3WrvSBqp1WqRqJ5q8Y7A0aoFRvMoIxqn1/u11rrwIDAQAB",
+               "manifest_version": 2,
+               "minimum_chrome_version": "12.0.707.0",
+               "name": "Edit This Cookie",
+               "options_page": "options_main_page.html",
+               "permissions": [ "tabs", "\u003Call_urls\u003E", "cookies", "contextMenus", "unlimitedStorage", "notifications", "storage" ],
+               "update_url": "http://clients2.google.com/service/update2/crx",
+               "version": "1.1.24"
+            },
+            "path": "fngmhnnpilhplaeedifhccceomclgfbg/1.1.24_0",
+            "state": 1
+         },
+         "fngolbdmkneakeaoiieafkilnogbocda": {
+            "blacklist": true
+         },
+         "fnhcgnmfccojojojacgeiaaeacefdohb": {
+            "blacklist": true
+         },
+         "fnkaadkanmfgpfbmdcllhjdgmdbgljpi": {
+            "blacklist": true
+         },
+         "fnnmbghphdnmmjdapccfobgjemjadeli": {
+            "blacklist": true
+         },
+         "fnoadkjdjfgafomgmablhmffooijcfbn": {
+            "blacklist": true
+         },
+         "foenbafkkmajnmfnlcmejonkfaipdmme": {
+            "blacklist": true
+         },
+         "fommcgokigkhmnhlhlkckfjhefnmfohd": {
+            "blacklist": true
+         },
+         "fpbippbofbmgmbojjmgfcifpmdaelcmd": {
+            "blacklist": true
+         },
+         "fpjdackpllilinpkgmhkpidkanmccblc": {
+            "blacklist": true
+         },
+         "fpmajanjndhgpifbcbnklbiehgnpkgmf": {
+            "blacklist": true
+         },
+         "fpoajjnnpmledpmohlgpgbmlhbgkgahg": {
+            "blacklist": true
+         },
+         "fpokembamndopkflopmplkklbdngnknd": {
+            "blacklist": true
+         },
+         "gaicmfjflflabagobdiodejfpjikheeo": {
+            "blacklist": true
+         },
+         "gandihaiobadcggbfkhpbkocmiemjlnf": {
+            "blacklist": true
+         },
+         "gbenikfjhilhpgagllmfgggdjaflbmbi": {
+            "blacklist": true
+         },
+         "gdggdkkjecogagaffaemnbfmllcoihjp": {
+            "blacklist": true
+         },
+         "gekkhpjigmckhgmgngadbeknekgpgolb": {
+            "blacklist": true
+         },
+         "ghgphbmpcfgkfneodjpbdanmdoemklio": {
+            "blacklist": true
+         },
+         "ghmaokcegalalefnhlfcnjhnpdbanjkj": {
+            "blacklist": true
+         },
+         "gifglngcdbggmlgkcombebegdaoknkho": {
+            "blacklist": true
+         },
+         "gjkbghdignnlcknknflbigpammebiolo": {
+            "blacklist": true
+         },
+         "gjmhdmobkhfhkpfmfegnkkimlamjdldi": {
+            "blacklist": true
+         },
+         "gkjeccpmibljcfpfapfljciimedljpnm": {
+            "blacklist": true
+         },
+         "gkjmgdpdndoaiholejnmdbbpdaafahmm": {
+            "blacklist": true
+         },
+         "gmghjgfdialcnhadahmjefeflgnhcjeb": {
+            "blacklist": true
+         },
+         "gnapdhmknipknfmhhnhdmhakdfhgeing": {
+            "blacklist": true
+         },
+         "gncfgndgeoddelbfhlndhljnecoednaa": {
+            "blacklist": true
+         },
+         "gngmkbiihflpghldjnbpemaicedhdddk": {
+            "blacklist": true
+         },
+         "gobjcjhhebpjbmjdgmejhebbleadnceo": {
+            "blacklist": true
+         },
+         "goedioiidkokkbobdnopnlnaaalniegm": {
+            "blacklist": true
+         },
+         "gplgjmecjpbfcdikpbicknafcnfcidek": {
+            "blacklist": true
+         },
+         "hbaajkahagmlkdekmbdabikbopdgpaac": {
+            "blacklist": true
+         },
+         "hbdhabpmbbanaopgkbaondabkkepjfaf": {
+            "blacklist": true
+         },
+         "hbmlheccjkodhfejcmblndjodllmnlnl": {
+            "blacklist": true
+         },
+         "hcapokajkngndbglnfglpfdpoeidmpha": {
+            "blacklist": true
+         },
+         "hcpndbchnlgojmnijaldkicigmihmdca": {
+            "blacklist": true
+         },
+         "hdijkiondgomjpehfhopomicjbiodmcm": {
+            "blacklist": true
+         },
+         "hdnbmmfjbblajkjkcaeofolgfnljpnim": {
+            "blacklist": true
+         },
+         "hecijapnccjhonbmacmkmffooodfokoo": {
+            "blacklist": true
+         },
+         "hefmoncdemhjembgbnkgglhlookbipdc": {
+            "blacklist": true
+         },
+         "hfjpjodbolkmheaehcnmfhjakjileoof": {
+            "blacklist": true
+         },
+         "hfpfbhnmbbigpmoodjemilggabklpopj": {
+            "blacklist": true
+         },
+         "hgbaomphocgmdpmiohjclchaaljpaelp": {
+            "blacklist": true
+         },
+         "hgboiaecclcbjphldpbgfgggcbihmnai": {
+            "blacklist": true
+         },
+         "hgjgaeknhmidehalnmokomhpfhbfmpcm": {
+            "blacklist": true
+         },
+         "hgmloofddffdnphfgcellkdfbfbjeloo": {
+            "active_bit": false,
+            "active_permissions": {
+               "api": [ "cookies", "history" ],
+               "explicit_host": [ "\u003Call_urls\u003E" ]
+            },
+            "app_launcher_ordinal": "w",
+            "from_bookmark": false,
+            "from_webstore": true,
+            "granted_permissions": {
+               "api": [ "cookies", "history" ],
+               "explicit_host": [ "\u003Call_urls\u003E" ]
+            },
+            "install_time": "12993254646299933",
+            "last_active_pingday": "12995017216527857",
+            "lastpingday": "12995362802137626",
+            "location": 1,
+            "manifest": {
+               "app": {
+                  "launch": {
+                     "local_path": "RestClientApp.html"
+                  }
+               },
+               "description": "Helper for web developers for creating custom HTTP requests.",
+               "icons": {
+                  "128": "img/arc_icon_128.png",
+                  "16": "img/arc_icon_16.png"
+               },
+               "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCcwog3RvKBNlbE9nxa06ruwxAKR2kauzTVWYN4e1uFK8g3ScGxqG08gvuzgbOlbIO0TNHXdkJzf6DY0EPH0w8wUYDNlyav4DToaB2pdJAjcHOPsvUwktc0N0Y6ABrnreww23ZvNfqHuF0+u/Zzn3vGEFjHIcG2LGMXgP3R0QgdDQIDAQAB",
+               "minimum_chrome_version": "10.0.0",
+               "name": "Advanced REST client Application",
+               "permissions": [ "\u003Call_urls\u003E", "cookies", "history" ],
+               "update_url": "http://clients2.google.com/service/update2/crx",
+               "version": "2.2.1"
+            },
+            "page_ordinal": "n",
+            "path": "hgmloofddffdnphfgcellkdfbfbjeloo/2.2.1_0",
+            "state": 1
+         },
+         "hhfffemhgkginfafaoapljdllodppana": {
+            "blacklist": true
+         },
+         "hhfiljkpjapjjphcocclhhaldpfkkjbi": {
+            "blacklist": true
+         },
+         "hhjmkijkgojfifipdgmiemghfikbohcm": {
+            "blacklist": true
+         },
+         "hhlgbfcfbkhlmajakkcjippgpcmejkko": {
+            "blacklist": true
+         },
+         "hilncbjbdpnfepdidfchmdclhpnlegpj": {
+            "blacklist": true
+         },
+         "hjkhligcnpfjhjlapmejaiaiigibofif": {
+            "blacklist": true
+         },
+         "hkbgccpdcpbdckohbknjlamamelcnlki": {
+            "blacklist": true
+         },
+         "hkjcejgfmaanpncnpoidgbhoikcaeepd": {
+            "blacklist": true
+         },
+         "hkjfdgjkgpbbdmadbglcgljjjddkcdha": {
+            "blacklist": true
+         },
+         "hmmoglffhpmacaacfbbmbbkcbdkjphnc": {
+            "blacklist": true
+         },
+         "hnbcdmfeoldeppcbnnjmjkdofohaljbn": {
+            "blacklist": true
+         },
+         "hncomkjbbkchfjelocejkbbflmjhlhfp": {
+            "blacklist": true
+         },
+         "hnipgljcblpgnnojcfldehpeknhakbgj": {
+            "blacklist": true
+         },
+         "hnkcpoijaeegompjgbjjhkdmljldaccg": {
+            "blacklist": true
+         },
+         "hnnebfeppcbhhbhiifeaajgcjnkljlld": {
+            "blacklist": true
+         },
+         "hnonhhpgjnjcjfbkjdpfbkfpaodcmncb": {
+            "blacklist": true
+         },
+         "hpcdoodjfcmpcpkeendjnjkeinimhkih": {
+            "blacklist": true
+         },
+         "hpibmhghjndideebpackbdlpncgkcppp": {
+            "blacklist": true
+         },
+         "iablioliielnhdianpbiijaoncbmfend": {
+            "blacklist": true
+         },
+         "iccblehkchfmjgfafjcpjlkjcponhdhl": {
+            "blacklist": true
+         },
+         "icihfeaofpcfehanhbnjigdlpfahjlee": {
+            "blacklist": true
+         },
+         "iemfpgbdjfoihicbocpbjppipdbfimeh": {
+            "blacklist": true
+         },
+         "ifbkndkaolfbjjhnnhfmkbkoclpdkpli": {
+            "blacklist": true
+         },
+         "ifeijfpkjckedpclgncedmgdiaoeahmk": {
+            "blacklist": true
+         },
+         "igaajdmlejbjcbmpmnigopikfdaccdcm": {
+            "blacklist": true
+         },
+         "igbaoknfddliiaoimhehfbkfekpmmfll": {
+            "blacklist": true
+         },
+         "igghanohiioehififjoalfkdoicafjof": {
+            "blacklist": true
+         },
+         "ihnembcpodnfgkafmiojebccomjekopm": {
+            "blacklist": true
+         },
+         "iiiinekimabooeihccihfopoadcaaphn": {
+            "blacklist": true
+         },
+         "ijecjbcgpblkacpijljpaienknanaloa": {
+            "blacklist": true
+         },
+         "ijenlpgidnapbndonoinbkhekgjonojg": {
+            "blacklist": true
+         },
+         "ijjmbbddenkbenbcfldgghhjgjmcnioo": {
+            "blacklist": true
+         },
+         "ilhjicgcglhjigdehkcehjdokmkahbjl": {
+            "blacklist": true
+         },
+         "imfbomjbodpfgfhfahlgkkcllmhbelhk": {
+            "blacklist": true
+         },
+         "imkffpjpdngdkpgadcmnlkhhmhdocijn": {
+            "blacklist": true
+         },
+         "indfhnliadamglhalanplbajgenpjdml": {
+            "blacklist": true
+         },
+         "iobnpmeeecphddicmhhmdjbnlbdhjlne": {
+            "blacklist": true
+         },
+         "iomejadoamfilglofmeaffghddcgapmf": {
+            "blacklist": true
+         },
+         "jabpdgllijbnknhkgjideeajfofafckp": {
+            "blacklist": true
+         },
+         "jaejgaoiipdjjlbnapngknalafalbkej": {
+            "blacklist": true
+         },
+         "janhdpmhnighonkkbkdpnljcoenpfkbh": {
+            "blacklist": true
+         },
+         "jbmbiepnidbnhbbfdbgioomdkgnbcacj": {
+            "blacklist": true
+         },
+         "jbnafcjbcfgejacaanogofkkehcomamp": {
+            "blacklist": true
+         },
+         "jcmipejepoimfflnoapdmkdephgjinck": {
+            "blacklist": true
+         },
+         "jdiakcmbpmcnniggjcmcjknnklpdlogc": {
+            "blacklist": true
+         },
+         "jfalnphfjdoalcdhlnhdpekbmmopkgkj": {
+            "blacklist": true
+         },
+         "jfjagidcpadkoaonbogmbgfimmnefeie": {
+            "blacklist": true
+         },
+         "jgdkappiifgomhgikcjbanhnmlekpeje": {
+            "blacklist": true
+         },
+         "jgmpapdckakiohhebmeoemejibommimi": {
+            "blacklist": true
+         },
+         "jhhabiomopkibeecgngiggmopkeofacl": {
+            "blacklist": true
+         },
+         "jindbcpkhnnnjgcjgmkjedbibibiojjf": {
+            "blacklist": true
+         },
+         "jiofcofpcbijcnlpekdkpmgjdppajbjb": {
+            "blacklist": true
+         },
+         "jjnkfllhcgkgnfbekpnmoikpfihpjfli": {
+            "blacklist": true
+         },
+         "jkihmglffmfjedfbpbpdbbimcodjbmdh": {
+            "blacklist": true
+         },
+         "jkmhalpofmlfeglboejbchpoijnkmcgh": {
+            "blacklist": true
+         },
+         "jljfnkmkkdkppfndippkedacgfkafped": {
+            "blacklist": true
+         },
+         "jmbkhogpjgjpfjhpdikloblkbkljkgao": {
+            "blacklist": true
+         },
+         "jmeanodbelbflfmnkfdjgpikmldgjjko": {
+            "blacklist": true
+         },
+         "jmifipgdcllamghkhdplfjffkciekbgo": {
+            "blacklist": true
+         },
+         "jpehgolpfgnknboibogccapmdcadjkbd": {
+            "blacklist": true
+         },
+         "jpeijjbllejgmokmahkeommcodahoobm": {
+            "blacklist": true
+         },
+         "jpgidahfcgiajlcbleeiaibpmmblcmnb": {
+            "blacklist": true
+         },
+         "jpkdlckejfjidmplieobnhijmoiecbhl": {
+            "blacklist": true
+         },
+         "kbipembkfhbdmkkkfbigmohilmknjnof": {
+            "blacklist": true
+         },
+         "kcanfkmhccbaheheaackijegkclkaeic": {
+            "blacklist": true
+         },
+         "kcfnnanmpghdnoompcfclakpacapnfbn": {
+            "blacklist": true
+         },
+         "kcgplbmkmfcpngilmhjmebdgkkpbdemp": {
+            "blacklist": true
+         },
+         "kdchmeaiapjkejkcbeclgjklemecieeg": {
+            "blacklist": true
+         },
+         "kdfahjokahcbmecgaandpobmgiiknagf": {
+            "blacklist": true
+         },
+         "kelcbonmemlciepjdmfcifnhloeammhj": {
+            "blacklist": true
+         },
+         "kelljdoinjlkmkncffgadbebgpmlcang": {
+            "blacklist": true
+         },
+         "kffhenjbibjnbnjhlkcdlmpeccpaohio": {
+            "blacklist": true
+         },
+         "kgbkdabomfdpfoibliicpmibceaoohgh": {
+            "blacklist": true
+         },
+         "kgdhnhadbnpeibkghaebmhmngobdafag": {
+            "blacklist": true
+         },
+         "kgdkcodealpfjolmiagcogfbgmaamegh": {
+            "blacklist": true
+         },
+         "kgdmldjagfciieddcnlhampgkajkpanc": {
+            "blacklist": true
+         },
+         "kibgmcdcfmcglajcfbecilngejnfppjp": {
+            "blacklist": true
+         },
+         "kiefmccciemniajdkgikpnocipidaaeg": {
+            "active_bit": false,
+            "app_launcher_ordinal": "t",
+            "from_bookmark": false,
+            "from_webstore": true,
+            "install_time": "12987160156173638",
+            "last_active_pingday": "12992598008062233",
+            "lastpingday": "12995362802137626",
+            "location": 1,
+            "manifest": {
+               "app": {
+                  "launch": {
+                     "web_url": "http://lichess.org"
+                  },
+                  "urls": [ "http://lichess.org/" ]
+               },
+               "description": "Free online chess, without the clutter. Play your friends, concentrate on the board.",
+               "icons": {
+                  "128": "128.png"
+               },
+               "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDS6LkVdZLgI/zLejuJlrp6loRuBTYMkBJV42A8oFM7KnCbQwo8toel8/YLBA/WggTU6CBndBpG8s2VJf3AXI8GkMtr4B/SC9fuoWehAKyaYNXLQsJ7gn70QZbI1+YwKhSBp/IbSYOvHuYyZgcV2/xjy0mO/phsWJ+AJiAVELS8NwIDAQAB",
+               "name": "Chess",
+               "update_url": "http://clients2.google.com/service/update2/crx",
+               "version": "1"
+            },
+            "page_ordinal": "n",
+            "path": "kiefmccciemniajdkgikpnocipidaaeg/1_0",
+            "state": 1
+         },
+         "kiipngoehgkgkackngaidmhmnchfbmio": {
+            "blacklist": true
+         },
+         "kinhljbhjmcmoddhdoodekeklmjapjff": {
+            "blacklist": true
+         },
+         "kkhomejdleoonmbdhcigkhkjcghngncf": {
+            "blacklist": true
+         },
+         "kleaapgdkahaekcocmkbgfainbhihccj": {
+            "blacklist": true
+         },
+         "kmlebjoghkhpapfhbdikannggmmffnco": {
+            "blacklist": true
+         },
+         "kolbbghckjilleabphhgeggcgpfidofi": {
+            "blacklist": true
+         },
+         "lambangeielkjcnmioccboaphdfcffib": {
+            "blacklist": true
+         },
+         "lbaddolhebpnhdcdkicpcflhnfamcemn": {
+            "blacklist": true
+         },
+         "lbficnmfealeidppcbgdcbemgfjodbkg": {
+            "blacklist": true
+         },
+         "lceaiepehinnomgijphkmjccbigkljkj": {
+            "blacklist": true
+         },
+         "lcfkojlnjnedeoepfemhdgkhiabkeadc": {
+            "blacklist": true
+         },
+         "ldgfapfmnplpaohbbadnecegcpfkfall": {
+            "blacklist": true
+         },
+         "leccghfplhenabeogpibljliijgapfgb": {
+            "blacklist": true
+         },
+         "lgalokbapphhklmilicdefmgbjkcmldf": {
+            "blacklist": true
+         },
+         "lgcnahanhlfpceencjmlehpfklokhojk": {
+            "blacklist": true
+         },
+         "likifpgnijjfbdegfepoalpamlgnfofi": {
+            "blacklist": true
+         },
+         "liomofjeffddiiccaolcnllbhnipbkhe": {
+            "blacklist": true
+         },
+         "ljcicfibknpmlcmcecddjlbgkejehhpa": {
+            "blacklist": true
+         },
+         "ljeihpebkahejeacdalhkhmckmggppif": {
+            "blacklist": true
+         },
+         "ljmjoloiepllcndinchenhomcdcgbgef": {
+            "blacklist": true
+         },
+         "lkdimamelhbiijkiljlnedmhnnkkmlbl": {
+            "blacklist": true
+         },
+         "lkfdchejjogilmloogbbjlnlpbhgjfab": {
+            "blacklist": true
+         },
+         "lkhcbijhgfchgdmklonlobkfbcadbokg": {
+            "blacklist": true
+         },
+         "lljnngafekbnkpdfophmcdlbfebcbcld": {
+            "blacklist": true
+         },
+         "lnahlgmhpghkhmafjppdidhcoaomipfg": {
+            "blacklist": true
+         },
+         "lnbeebaenahmkbffnimghceldeeihfak": {
+            "blacklist": true
+         },
+         "lncjcfkpannmofmpgdfoonkniofdnaba": {
+            "blacklist": true
+         },
+         "lndempehphjoeimfchjflohpmhamiamf": {
+            "blacklist": true
+         },
+         "lnjgjionmhobdfdegbciceafphgemjnc": {
+            "blacklist": true
+         },
+         "lnlaeblencbjjjeaanegaldcjfekeled": {
+            "blacklist": true
+         },
+         "lodollblmkailkkdiijmoccefdfjohgk": {
+            "blacklist": true
+         },
+         "loggadfheaoeabmkgolecncpfdfioefa": {
+            "blacklist": true
+         },
+         "lojppnndedobolgfepahepphhloediji": {
+            "blacklist": true
+         },
+         "loldehkdjdncebfnncknlkdchjclifbn": {
+            "blacklist": true
+         },
+         "lookpbabilcplifjdeifacodednpacmk": {
+            "blacklist": true
+         },
+         "lpgiafapdmlapiokjnmpbbfkomiceoml": {
+            "blacklist": true
+         },
+         "lplmcpcnhpbffpcfiaddbeaplhhbengd": {
+            "blacklist": true
+         },
+         "maakimnachffhlgdhfomaejeeaikgjap": {
+            "blacklist": true
+         },
+         "mamfageekafifnickhgkibkofcclfefe": {
+            "blacklist": true
+         },
+         "mbmdaiddhfoljplpdhohimgieioblfif": {
+            "blacklist": true
+         },
+         "mcbkimglepddodbiongpohpeidioafgk": {
+            "blacklist": true
+         },
+         "mcknnlhkkdbcppajgefagceglahcafjd": {
+            "blacklist": true
+         },
+         "mdiehnlecbjlppbpaaipmlnhhjgepfcg": {
+            "blacklist": true
+         },
+         "mdngbiejioalifclonjepjjfppmbgned": {
+            "blacklist": true
+         },
+         "megkcfpbmemnpkgadkoompnoajcolpni": {
+            "blacklist": true
+         },
+         "mfffdpnblflpobcnekhekiahepofaane": {
+            "blacklist": true
+         },
+         "mfhfkclojmdocagbmecgcnlofppebebd": {
+            "blacklist": true
+         },
+         "mfncimdpmknolnnnccdmkpnpkaofonkc": {
+            "blacklist": true
+         },
+         "mgdgiplcofghdmpekdeeceolepakodcb": {
+            "blacklist": true
+         },
+         "mjalegijammcloleihdmooifidcjggjp": {
+            "blacklist": true
+         },
+         "mjgobkikdipfikmaoakdcdbicpioljgg": {
+            "blacklist": true
+         },
+         "mjolnadmlahbpepjaemohnkhpjkbhmef": {
+            "blacklist": true
+         },
+         "mknjbohhleiicbpagpgmhoaigbblmnic": {
+            "blacklist": true
+         },
+         "mkobblpffgbncfhijabakfafmkjdmmnm": {
+            "blacklist": true
+         },
+         "mlmegahemifabfmdnndafagnncfbnahn": {
+            "blacklist": true
+         },
+         "mlmmbepkgelpbenpobinockmiehdahai": {
+            "blacklist": true
+         },
+         "mlnoedbhndgbjcbeadjfnmjloejlgojk": {
+            "blacklist": true
+         },
+         "mmjodihhmnpkldljaifiajmlnpflfhpm": {
+            "blacklist": true
+         },
+         "mndoohjdoechinpkfbkolflbonciahfo": {
+            "blacklist": true
+         },
+         "mnhcgaghminpdabllkbkecahjfkdiabk": {
+            "blacklist": true
+         },
+         "mnichagcickblneeijmfnmoiakigmmhf": {
+            "blacklist": true
+         },
+         "mnllienogacopjnkmhgnniopjpgjpopp": {
+            "blacklist": true
+         },
+         "mogepbcllienegdibkfpmombhefhcoic": {
+            "blacklist": true
+         },
+         "mpgehpkneknbopplhmmkfijfiniddipf": {
+            "blacklist": true
+         },
+         "mplhbhmkccidaokcelbcbcmhhedebcng": {
+            "blacklist": true
+         },
+         "naopgnjebjeeedbbhcadkhkmeefmloho": {
+            "blacklist": true
+         },
+         "nbieffehfdniifkgdckbndjhojohbfjj": {
+            "blacklist": true
+         },
+         "nckmikohoilfkcoahbjpbgbpegcjgngm": {
+            "blacklist": true
+         },
+         "ncpdanjmicnihdlijomcggnnekloephc": {
+            "blacklist": true
+         },
+         "ndhkiimgbjnendpcfbiadlifmangejoa": {
+            "blacklist": true
+         },
+         "ndiogongcmocdgjciemhagfhpjamehpe": {
+            "blacklist": true
+         },
+         "negkalblfongjbphdcbbhddlickhlamd": {
+            "blacklist": true
+         },
+         "nepfiodmbijheamafkiglonfkjebdjmf": {
+            "blacklist": true
+         },
+         "nfecfkjnlkbphobjbcnphimihniieehc": {
+            "blacklist": true
+         },
+         "nhbfbnmmdjkjahhfdeklgphihfodfgnb": {
+            "blacklist": true
+         },
+         "nhboiakpmibkbkbeehchlfkggmhphpnk": {
+            "blacklist": true
+         },
+         "nhkmojkfnknbbmhbnacjdlodokeophkl": {
+            "blacklist": true
+         },
+         "nibohffepnilngkecenfdgnokfhmnkod": {
+            "blacklist": true
+         },
+         "nidmbljkkcbdfklgdkklgjgmhejmbojn": {
+            "blacklist": true
+         },
+         "nidodbfomffkfabciljelkbdiabkeehe": {
+            "blacklist": true
+         },
+         "nifbebeekindefklojhchehidpikbjfc": {
+            "blacklist": true
+         },
+         "nihhbeikpchdddoillfdcdinnnnllmna": {
+            "blacklist": true
+         },
+         "nlgapikcofpablcmfgaoodlhiejiehhh": {
+            "blacklist": true
+         },
+         "nloaaepkhcnmoakooihnefhhggbmemed": {
+            "blacklist": true
+         },
+         "nmgpbidjnaebdlbdbpjggenmbaolmfoi": {
+            "blacklist": true
+         },
+         "nmmnodocfckpoddcgihiihcdinaonckb": {
+            "blacklist": true
+         },
+         "nmphbnbmgfccfhcmibikmhcgajjpelpf": {
+            "blacklist": true
+         },
+         "nnioepmjbjjlflmdgjanlcmbjahljeeo": {
+            "blacklist": true
+         },
+         "nochkknnbahbhmmknnmdhagelcnfagom": {
+            "blacklist": true
+         },
+         "noefghcilkpcabnhhilojimkkjplhcnd": {
+            "blacklist": true
+         },
+         "npadaghbcdejfngcjpbnoikajdnongca": {
+            "blacklist": true
+         },
+         "npolaghondefgiomhkbiiompikfjneep": {
+            "blacklist": true
+         },
+         "oakhllhnbcpgagdafgbninlpjdemdmjk": {
+            "blacklist": true
+         },
+         "oanjogmonneelfpnfmdlalfddkeckdej": {
+            "blacklist": true
+         },
+         "obgljnmbldahelaakfdbjkplokjoneip": {
+            "blacklist": true
+         },
+         "ocmhjnhildbnglmlfimkjnnfgddelacb": {
+            "blacklist": true
+         },
+         "ocnlnkjmfnolmbclblfhfhcakldceiec": {
+            "blacklist": true
+         },
+         "odnamglmogfldajnhkfodmloofeokcmm": {
+            "blacklist": true
+         },
+         "oghphhcagopecifjblgdcfihjnlcbcfc": {
+            "blacklist": true
+         },
+         "ogjbodghhojomghbdfnlkppdagkfjede": {
+            "blacklist": true
+         },
+         "oidjdpbndkjhmhmgdoggibcjnippkcgo": {
+            "blacklist": true
+         },
+         "ojglppmhgfohhfeinlhklglifnbfebak": {
+            "blacklist": true
+         },
+         "omceiakkomngangmllpgbjcoeloglald": {
+            "blacklist": true
+         },
+         "omnicnmbagoinlpamknknbcgopadcoci": {
+            "blacklist": true
+         },
+         "onfbaaifbbahonepmednhkjbhdgogkbl": {
+            "blacklist": true
+         },
+         "onpnpccdagncipgnoofbhchlbajcjnkd": {
+            "blacklist": true
+         },
+         "oocfbmollajebjjpkahmlnclfhkjijea": {
+            "blacklist": true
+         },
+         "ookcgejbfhcmcanfkfmmmpahflnlajbl": {
+            "blacklist": true
+         },
+         "opnnngnphijodjhemhdafpnnpdjggofe": {
+            "blacklist": true
+         },
+         "pajgiddgjidlcajihkjoacjbplimkgfe": {
+            "blacklist": true
+         },
+         "pbdgmppmccanplobanhfkjndjkmmabgk": {
+            "blacklist": true
+         },
+         "pbekednmpdekknlffkiopooofokfmkla": {
+            "blacklist": true
+         },
+         "pbglijbamgmlcpnnpbfjkbdeheejjloj": {
+            "blacklist": true
+         },
+         "peahabnpipmmfiajjjhgfggbeigbmbgp": {
+            "blacklist": true
+         },
+         "peiijdmlgbelnnmnkighhkpeihmmamio": {
+            "blacklist": true
+         },
+         "pfaooklcbjnkgconjjepimkohgcjmdji": {
+            "blacklist": true
+         },
+         "pfcelnbmkeoaeicedjomcjkcammlkdbk": {
+            "blacklist": true
+         },
+         "pfhlnanelpgjbhndafjamnpfhkjadoip": {
+            "blacklist": true
+         },
+         "pfoiaildicnbcjojocjlpcibenphhbln": {
+            "blacklist": true
+         },
+         "pfonklmafadkmcedjlodommcoipgbcde": {
+            "blacklist": true
+         },
+         "pgelifedkjaohmjehecojkfldinjlamn": {
+            "blacklist": true
+         },
+         "pghncadecdbeoiklgemofaoampiiicmn": {
+            "active_permissions": {
+               "scriptable_host": [ "http://*/*", "https://*/*" ]
+            },
+            "from_bookmark": false,
+            "from_webstore": true,
+            "granted_permissions": {
+               "scriptable_host": [ "http://*/*", "https://*/*" ]
+            },
+            "install_time": "12987160691033676",
+            "lastpingday": "12995362802137626",
+            "location": 1,
+            "manifest": {
+               "content_scripts": [ {
+                  "all_frames": true,
+                  "exclude_globs": [ "*addthis.com*", "*digg.com*", "*facebook.com*", "*google.com*", "*klout.com*", "*linkedin.com*", "*meebo.com*", "*pinterest.com*", "*po.st*", "*reddit.com*", "*sharethis.com*", "*stumbleupon.com*", "*tumblr.com*", "*twitter.com*", "*wibiya.com*", "*vk.com*" ],
+                  "js": [ "antisocial.js" ],
+                  "matches": [ "http://*/*", "https://*/*" ],
+                  "run_at": "document_start"
+               } ],
+               "description": "Blocks social plugins from loading",
+               "icons": {
+                  "128": "128.png",
+                  "16": "16.png",
+                  "48": "48.png"
+               },
+               "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCf7u6X5h5px6jRcg0nWjp/xH+pNGH5RcjiGLL9NcIZBgMTXWG4H3LO7Xyczembyp5RmNFceea5AyYe6oix00KX45ZcNfENlE/MQIIxsIr1qZWDvzP20lWP3oOMayoK/bZlyrd+K3PW41/sS9PggCXf23f1ZgvPuw7HQ83cnOeWVQIDAQAB",
+               "name": "Antisocial",
+               "update_url": "http://clients2.google.com/service/update2/crx",
+               "version": "0.2.4"
+            },
+            "path": "pghncadecdbeoiklgemofaoampiiicmn/0.2.4_0",
+            "state": 1
+         },
+         "pgjpnfpidejcmjibaaohcmehfohacckf": {
+            "blacklist": true
+         },
+         "pgldfhecfiofkhnbgcncepnkjkeoahlk": {
+            "blacklist": true
+         },
+         "phkpgooenaonkpnabopdbjjfmphclela": {
+            "blacklist": true
+         },
+         "pihcfdffalbcnmbghijdfcaanagapelf": {
+            "blacklist": true
+         },
+         "pjdhkkcnlbfebiokpeghfffajaabahfo": {
+            "blacklist": true
+         },
+         "pjgbfgdpkbfimabdalhjmmeeelbmkcac": {
+            "blacklist": true
+         },
+         "pjloefkigphblpjminnlpbhjchjafcfc": {
+            "blacklist": true
+         },
+         "pkbbbncikcipejaiiiioboongndhmjgl": {
+            "blacklist": true
+         },
+         "pkbkkendemaimikinaefldfljliecapm": {
+            "blacklist": true
+         },
+         "pkhidkonipdjidjglnkfcfhnkfnlefbk": {
+            "blacklist": true
+         },
+         "plfijddblbcdcnammpdmfccchkbdekmm": {
+            "blacklist": true
+         },
+         "pnaiiipilbpcceggeanphcpkkihnojan": {
+            "blacklist": true
+         },
+         "pndadpldhngimdmhnajebjldbmcbpjol": {
+            "blacklist": true
+         },
+         "pnnbdjcjeiobikdfikegpclkcimgafpp": {
+            "blacklist": true
+         },
+         "pnpfkfanlgljpkpilhgiimfadggfmhcd": {
+            "blacklist": true
+         },
+         "pnpgiaejfbdapllkchhgchjpdbcpiooa": {
+            "blacklist": true
+         },
+         "pobponmhkpmphbnfhpjdagklbkmjhked": {
+            "blacklist": true
+         },
+         "ppmfajacidhcjbddpgmcmigffpppcadd": {
+            "blacklist": true
+         }
+      },
+      "theme": {
+         "id": ""
+      },
+      "toolbar": [ "fngmhnnpilhplaeedifhccceomclgfbg" ],
+      "toolbarsize": -1,
+      "ui": {
+         "developer_mode": true
+      }
+   },
+   "homepage": "http://localhost/test",
+   "homepage_changed": true,
+   "homepage_is_newtabpage": true,
+   "http_throttling": {
+      "enabled": true
+   },
+   "instant": {
+      "enabled_time": "12982041145573126"
+   },
+   "ntp": {
+      "app_page_names": [ "Apps" ],
+      "promo_build": 4,
+      "promo_closed": false,
+      "promo_end": 1338965940.0,
+      "promo_feature_mask": 0,
+      "promo_group": 98,
+      "promo_group_max": 99,
+      "promo_group_timeslice": 0,
+      "promo_is_logged_in_to_plus": false,
+      "promo_line": "We\u2019ve remodeled! \u003Ca href=\"https://support.google.com/chromeos/?p=ntp19\"\u003ELearn more about the latest features\u003C/a\u003E on your Chromebook.",
+      "promo_platform": 8,
+      "promo_resource_cache_update": "1350786647.040454",
+      "promo_start": 1338321600.0,
+      "promo_views": 0,
+      "promo_views_max": 20,
+      "shown_page": 2048
+   },
+   "plugins": {
+      "enabled_internal_pdf3": true,
+      "enabled_nacl": true,
+      "last_internal_directory": "/usr/lib/chromium-browser",
+      "plugins_list": [ {
+         "enabled": true,
+         "name": "Remoting Viewer",
+         "path": "internal-remoting-viewer",
+         "version": ""
+      }, {
+         "enabled": true,
+         "name": "Remoting Viewer"
+      }, {
+         "enabled": true,
+         "name": "Shockwave Flash",
+         "path": "/usr/lib/flashplugin-installer/libflashplayer.so",
+         "version": "11.2 r202"
+      }, {
+         "enabled": true,
+         "name": "Flash"
+      } ]
+   },
+   "profile": {
+      "avatar_index": 0,
+      "content_settings": {
+         "pattern_pairs": {
+            "[*.]localhost,*": {
+               "popups": 1
+            },
+            "http://107.20.189.223,*": {
+               "popups": 1
+            }
+         },
+         "patterns": {
+            "[*.]localhost": {
+               "popups": 1
+            },
+            "http://107.20.189.223": {
+               "popups": 1
+            }
+         },
+         "pref_version": 1
+      },
+      "exited_cleanly": false,
+      "local_profile_id": 16316638,
+      "name": "First user",
+      "per_host_zoom_levels": {
+         "forum.videolan.org": 0.5227587223052979,
+         "pubnub-prod.appspot.com": 0.5227587223052979,
+         "technotales.wordpress.com": 1.2239010334014893,
+         "www.seangw.com": 2.2239010334014893,
+         "www.waffles.fm": 2.2239010334014893
+      }
+   },
+   "savefile": {
+      "default_directory": "/home/admin/playground/CTF/level04-code",
+      "type": 1
+   },
+   "selectfile": {
+      "last_directory": "/home/admin/war_game/monxla"
+   },
+   "sync_promo": {
+      "startup_count": 1,
+      "user_skipped": true,
+      "view_count": 1
+   },
+   "translate_accepted_count": {
+      "ru": 1,
+      "zh-TW": 0
+   },
+   "translate_denied_count": {
+      "ru": 0,
+      "zh-TW": 2
+   }
+}

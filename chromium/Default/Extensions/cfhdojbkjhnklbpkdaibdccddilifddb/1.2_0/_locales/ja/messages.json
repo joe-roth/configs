@@ -1,0 +1,53 @@
+{
+   "filters_addSubscriptionAdd_label": {
+      "message": "\u8FFD\u52A0"
+   },
+   "filters_addSubscriptionOther_label": {
+      "message": "\u4ED6\u306E\u30D5\u30A3\u30EB\u30BF\u8CFC\u8AAD\u3092\u8FFD\u52A0"
+   },
+   "filters_addSubscription_label": {
+      "message": "\u30D5\u30A3\u30EB\u30BF\u8CFC\u8AAD\u3092\u8FFD\u52A0"
+   },
+   "filters_subscription_delete_label": {
+      "message": "\u524A\u9664"
+   },
+   "filters_subscription_enabled_label": {
+      "message": "\u6709\u52B9"
+   },
+   "filters_subscription_lastDownload_checksumMismatch": {
+      "message": "\u66F4\u65B0\u5931\u6557:\u30C1\u30A7\u30C3\u30AF\u30B5\u30E0\u4E0D\u4E00\u81F4"
+   },
+   "filters_subscription_lastDownload_connectionError": {
+      "message": "\u66F4\u65B0\u5931\u6557:\u63A5\u7D9A\u30A8\u30E9\u30FC"
+   },
+   "filters_subscription_lastDownload_inProgress": {
+      "message": "\u30C0\u30A6\u30F3\u30ED\u30FC\u30C9\u4E2D\u2026"
+   },
+   "filters_subscription_lastDownload_invalidData": {
+      "message": "\u66F4\u65B0\u5931\u6557:\u30D5\u30A3\u30EB\u30BF\u30EA\u30B9\u30C8\u7121\u52B9"
+   },
+   "filters_subscription_lastDownload_invalidURL": {
+      "message": "\u66F4\u65B0\u5931\u6557:\u30A2\u30C9\u30EC\u30B9\u7121\u52B9"
+   },
+   "global_remove_subscription_warning": {
+      "message": "\u672C\u5F53\u306B\u3053\u306E\u30D5\u30A3\u30EB\u30BF\u8CFC\u8AAD\u3092\u524A\u9664\u3057\u307E\u3059\u304B\uFF1F"
+   },
+   "global_subscription_invalid_location": {
+      "message": "\u30D5\u30A3\u30EB\u30BF\u8CFC\u8AAD\u306E URL \u304C\u7121\u52B9\u3001\u3082\u3057\u304F\u306F\u4E0D\u6B63\u306A\u30D5\u30A1\u30A4\u30EB\u540D\u3067\u3059\u3002"
+   },
+   "name": {
+      "message": "Adblock Plus (Beta)"
+   },
+   "overlay_hideplaceholders_label": {
+      "message": "\u30D6\u30ED\u30C3\u30AF\u3057\u305F\u8981\u7D20\u306E\u300C\u4EE3\u308F\u308A\u300D\u3092\u975E\u8868\u793A"
+   },
+   "subscriptionSelection_location_label": {
+      "message": "\u30D5\u30A3\u30EB\u30BF\u8CFC\u8AAD\u306E\u5834\u6240:"
+   },
+   "subscriptionSelection_subscriptionSelector_label": {
+      "message": "\u30EA\u30B9\u30C8\u304B\u3089\u30D5\u30A3\u30EB\u30BF\u8CFC\u8AAD\u3092\u9078\u629E\u3057\u3066\u304F\u3060\u3055\u3044:"
+   },
+   "subscriptionSelection_title_label": {
+      "message": "\u30D5\u30A3\u30EB\u30BF\u8CFC\u8AAD\u306E\u540D\u79F0:"
+   }
+}

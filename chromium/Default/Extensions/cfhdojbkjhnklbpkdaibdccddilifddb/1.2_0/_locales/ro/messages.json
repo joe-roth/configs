@@ -1,0 +1,53 @@
+{
+   "filters_addSubscriptionAdd_label": {
+      "message": "Adaug\u0103"
+   },
+   "filters_addSubscriptionOther_label": {
+      "message": "Adaug\u0103 alt abonament"
+   },
+   "filters_addSubscription_label": {
+      "message": "Adaug\u0103 abonament filtru"
+   },
+   "filters_subscription_delete_label": {
+      "message": "\u0218terge"
+   },
+   "filters_subscription_enabled_label": {
+      "message": "Activat"
+   },
+   "filters_subscription_lastDownload_checksumMismatch": {
+      "message": "E\u015Fuat, suma de control nu se potrive\u015Fte."
+   },
+   "filters_subscription_lastDownload_connectionError": {
+      "message": "E\u015Fuat, desc\u0103rcare nereu\u015Fit\u0103"
+   },
+   "filters_subscription_lastDownload_inProgress": {
+      "message": "Desc\u0103rcare..."
+   },
+   "filters_subscription_lastDownload_invalidData": {
+      "message": "E\u015Fuat, lista nu este valid\u0103"
+   },
+   "filters_subscription_lastDownload_invalidURL": {
+      "message": "E\u015Fuat, adresa nu este valid\u0103"
+   },
+   "global_remove_subscription_warning": {
+      "message": "Sigur dori\u0163i s\u0103 \u00EEndep\u0103rta\u0163i aceast\u0103 subscriere?"
+   },
+   "global_subscription_invalid_location": {
+      "message": "Loca\u0163ia pentru filtre nu este valid\u0103"
+   },
+   "name": {
+      "message": "Adblock Plus (Beta)"
+   },
+   "overlay_hideplaceholders_label": {
+      "message": "Ascunde indicatoarele elementelor blocate"
+   },
+   "subscriptionSelection_location_label": {
+      "message": "Loca\u0163ia listei de filtre:"
+   },
+   "subscriptionSelection_subscriptionSelector_label": {
+      "message": "Alege\u0163i un abonamente filtre din list\u0103:"
+   },
+   "subscriptionSelection_title_label": {
+      "message": "Titlul abonamentului:"
+   }
+}

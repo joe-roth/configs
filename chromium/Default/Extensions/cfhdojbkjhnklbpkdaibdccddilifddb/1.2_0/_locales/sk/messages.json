@@ -1,0 +1,53 @@
+{
+   "filters_addSubscriptionAdd_label": {
+      "message": "Prida\u0165"
+   },
+   "filters_addSubscriptionOther_label": {
+      "message": "Prida\u0165 in\u00E9 odoberania"
+   },
+   "filters_addSubscription_label": {
+      "message": "Prida\u0165 povolenie filtra"
+   },
+   "filters_subscription_delete_label": {
+      "message": "Zmaza\u0165"
+   },
+   "filters_subscription_enabled_label": {
+      "message": "Zapnut\u00E9"
+   },
+   "filters_subscription_lastDownload_checksumMismatch": {
+      "message": "Zlyhalo, chybn\u00E9 prisp\u00F4sobenie kontroln\u00E9ho s\u00FA\u010Dtu"
+   },
+   "filters_subscription_lastDownload_connectionError": {
+      "message": "Zlyhanie, s\u0165ahovanie ne\u00FAspe\u0161n\u00E9"
+   },
+   "filters_subscription_lastDownload_inProgress": {
+      "message": "Preberanie..."
+   },
+   "filters_subscription_lastDownload_invalidData": {
+      "message": "Zlyhanie, neplatn\u00FD zoznam filtrov"
+   },
+   "filters_subscription_lastDownload_invalidURL": {
+      "message": "Zlyhanie, neplatn\u00E1 adresa"
+   },
+   "global_remove_subscription_warning": {
+      "message": "Naozaj si \u017Eel\u00E1te odstr\u00E1ni\u0165 toto povolenie?"
+   },
+   "global_subscription_invalid_location": {
+      "message": "Umiestnenie zoznamu filtrov nem\u00E1 platn\u00FA URL alebo platn\u00FD n\u00E1zov s\u00FAboru."
+   },
+   "name": {
+      "message": "Adblock Plus (Beta)"
+   },
+   "overlay_hideplaceholders_label": {
+      "message": "Skry\u0165 symboly blokovan\u00FDch prvkov"
+   },
+   "subscriptionSelection_location_label": {
+      "message": "Umiestnenie zoznamu filtrov:"
+   },
+   "subscriptionSelection_subscriptionSelector_label": {
+      "message": "Pros\u00EDm, zvo\u013Ete odber zo zoznamu:"
+   },
+   "subscriptionSelection_title_label": {
+      "message": "N\u00E1zov povolenia:"
+   }
+}

@@ -1,0 +1,18 @@
+{
+   "app": {
+      "launch": {
+         "local_path": "RestClientApp.html"
+      }
+   },
+   "description": "Helper for web developers for creating custom HTTP requests.",
+   "icons": {
+      "128": "img/arc_icon_128.png",
+      "16": "img/arc_icon_16.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCcwog3RvKBNlbE9nxa06ruwxAKR2kauzTVWYN4e1uFK8g3ScGxqG08gvuzgbOlbIO0TNHXdkJzf6DY0EPH0w8wUYDNlyav4DToaB2pdJAjcHOPsvUwktc0N0Y6ABrnreww23ZvNfqHuF0+u/Zzn3vGEFjHIcG2LGMXgP3R0QgdDQIDAQAB",
+   "minimum_chrome_version": "10.0.0",
+   "name": "Advanced REST client Application",
+   "permissions": [ "\u003Call_urls\u003E", "cookies", "history" ],
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "2.2.1"
+}

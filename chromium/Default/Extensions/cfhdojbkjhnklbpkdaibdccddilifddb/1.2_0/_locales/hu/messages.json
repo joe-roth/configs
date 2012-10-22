@@ -1,0 +1,173 @@
+{
+   "add": {
+      "description": "This is the label for the 'Add' buttons.",
+      "message": "Hozz\u00E1ad\u00E1s"
+   },
+   "add_domain_button": {
+      "message": "Domain hozz\u00E1ad\u00E1sa"
+   },
+   "add_filter_button": {
+      "message": "Sz\u0171r\u0151 hozz\u00E1ad\u00E1sa"
+   },
+   "add_filters_msg": {
+      "message": "Sz\u0171r\u0151(k) hozz\u00E1ad\u00E1sa?"
+   },
+   "add_your_own_filters": {
+      "message": "Add hozz\u00E1 a saj\u00E1t sz\u0171r\u0151idet"
+   },
+   "apply_changes": {
+      "message": "V\u00E1ltoztat\u00E1sok alkalmaz\u00E1sa"
+   },
+   "block_youtube": {
+      "message": "Youtube vide\u00F3kon bel\u00FCli rekl\u00E1mok tilt\u00E1sa"
+   },
+   "cancel": {
+      "description": "Cancel button label",
+      "message": "M\u00E9gse"
+   },
+   "clickhide_instructions": {
+      "message": "Miut\u00E1n bez\u00E1rtad ezt a bubor\u00E9kot, kattints egy elemre az oldalon.."
+   },
+   "description": {
+      "message": "Blokkolja a rekl\u00E1mokat a Firefox Adblock Plus sz\u0171r\u0151 seg\u00EDts\u00E9g\u00E9vel. Mondj b\u00FAcs\u00FAt a rekl\u00E1moknak \u00E9s b\u00F6ng\u00E9ssz b\u00E9k\u00E9ben!"
+   },
+   "disable_inline": {
+      "message": "Sz\u00F6veges rekl\u00E1mok tilt\u00E1sa"
+   },
+   "disabled_for_these_domains": {
+      "message": "Az Adblock Plus le van tiltva az al\u00E1bb felsorolt ter\u00FCleteken. Egy domaint megadhatsz az Adblock Plus ikonra kattintva a c\u00EDmsorban, vagy be\u00EDrhatod a donaint (nem az URL-t) a dobozba \u00E9s kattints a  \"Add domain\" gombra."
+   },
+   "easy_create_filter": {
+      "description": "Button label in popup balloon",
+      "message": "K\u00F6nny\u0171 sz\u0171r\u0151 l\u00E9trehoz\u00E1s"
+   },
+   "edit_filters_raw": {
+      "message": "Sz\u0171r\u0151k szerkeszt\u00E9se nyers sz\u00F6vegk\u00E9nt"
+   },
+   "enable_only_the": {
+      "message": "Csak azokat a sz\u0171r\u0151ket enged\u00E9lyezd, amelyekre sz\u00FCks\u00E9ged van. A t\u00FAl sok sz\u0171r\u0151 miatt a Chrome lefagyhat."
+   },
+   "enabled_for_site": {
+      "description": "Popup balloon checkbox label",
+      "message": "Ezen az oldalon enged\u00E9lyezve"
+   },
+   "filter_lists": {
+      "description": "This is a tab heading.",
+      "message": "Sz\u0171r\u0151 lista"
+   },
+   "filter_must_follow_syntax": {
+      "message": "A sz\u0171r\u0151dnek k\u00F6vetnie kell a \u003Ca href='$url$'\u003EAdblock Plus filter syntax\u003C/a\u003E. Bizonyos t\u00EDpus\u00FA sz\u0171r\u0151k, mint az 'object-subrequest', nem t\u00E1mogatottak.",
+      "placeholders": {
+         "url": {
+            "content": "$1"
+         }
+      }
+   },
+   "filters_addSubscriptionAdd_label": {
+      "message": "Hozz\u00E1ad\u00E1s"
+   },
+   "filters_addSubscriptionOther_label": {
+      "message": "K\u00FCls\u0151 sz\u0171r\u0151 hozz\u00E1ad\u00E1sa"
+   },
+   "filters_addSubscription_label": {
+      "message": "K\u00FCls\u0151 sz\u0171r\u0151 hozz\u00E1ad\u00E1sa"
+   },
+   "filters_subscription_delete_label": {
+      "message": "T\u00F6rl\u00E9s"
+   },
+   "filters_subscription_enabled_label": {
+      "message": "Enged\u00E9lyezve"
+   },
+   "filters_subscription_lastDownload_checksumMismatch": {
+      "message": "Sikertelen, \u00E9rv\u00E9nytelen ellen\u0151rz\u0151 \u00F6sszeg"
+   },
+   "filters_subscription_lastDownload_connectionError": {
+      "message": "Sikertelen, let\u00F6lt\u00E9si hiba"
+   },
+   "filters_subscription_lastDownload_inProgress": {
+      "message": "Let\u00F6lt\u00E9s..."
+   },
+   "filters_subscription_lastDownload_invalidData": {
+      "message": "Sikertelen, \u00E9rv\u00E9nytelen sz\u0171r\u0151lista"
+   },
+   "filters_subscription_lastDownload_invalidURL": {
+      "message": "Sikertelen, \u00E9rv\u00E9nytelen c\u00EDm"
+   },
+   "found_a_bug": {
+      "message": "Tal\u00E1lt\u00E1l egy hib\u00E1t az Adblock Plus-ban? K\u00E9rlek \u003Ca href='$url$'\u003Ejelentsd itt\u003C/a\u003E.",
+      "placeholders": {
+         "url": {
+            "content": "$1"
+         }
+      }
+   },
+   "general": {
+      "description": "This is a tab heading.",
+      "message": "\u00C1ltal\u00E1nos"
+   },
+   "global_remove_subscription_warning": {
+      "message": "Val\u00F3ban el k\u00EDv\u00E1nja t\u00E1vol\u00EDtani ezt a sz\u0171r\u0151t?"
+   },
+   "global_subscription_invalid_location": {
+      "message": "A megadott k\u00FCls\u0151 sz\u0171r\u0151t tartalmaz\u00F3 c\u00EDm helytelen, vagy hib\u00E1s f\u00E1jlnevet tartalmaz."
+   },
+   "last_updated_at": {
+      "description": "Last updated at time on date.",
+      "message": "Utolj\u00E1ra ekkor lett friss\u00EDtve: $time$ $date$",
+      "placeholders": {
+         "date": {
+            "content": "$2"
+         },
+         "time": {
+            "content": "$1"
+         }
+      }
+   },
+   "last_updated_at_today": {
+      "description": "e.g. Last updated at 3:00pm today",
+      "message": "Utolj\u00E1ra ekkor lett friss\u00EDtve: $time$ ma",
+      "placeholders": {
+         "time": {
+            "content": "$1"
+         }
+      }
+   },
+   "name": {
+      "message": "Adblock Plus (Beta)"
+   },
+   "new_filters_added": {
+      "message": "\u00DAj sz\u0171r\u0151k hozz\u00E1adva; l\u00E1sd \u003Ca id='options_url' target='_blank'\u003EOptions\u003C/a\u003E a szerkeszt\u00E9shez."
+   },
+   "options": {
+      "message": "Adblock Plus Be\u00E1ll\u00EDt\u00E1sai"
+   },
+   "out_of_date_lists": {
+      "message": "Az elavult list\u00E1k id\u0151k\u00F6z\u00F6nk\u00E9nt friss\u00FClnek."
+   },
+   "overlay_hideplaceholders_label": {
+      "message": "Letiltott elemek hely\u0151rz\u0151inek elrejt\u00E9se"
+   },
+   "remove_button": {
+      "description": "This is the label for the 'Remove selected' buttons.",
+      "message": "Kijel\u00F6lt elt\u00E1vol\u00EDt\u00E1sa"
+   },
+   "show_icon": {
+      "message": "Mutasd az ikont a c\u00EDmsorban"
+   },
+   "subscriptionSelection_location_label": {
+      "message": "Sz\u0171r\u0151lista c\u00EDme:"
+   },
+   "subscriptionSelection_subscriptionSelector_label": {
+      "message": "K\u00E9rem v\u00E1lassza ki a sz\u0171r\u0151t a list\u00E1b\u00F3l:"
+   },
+   "subscriptionSelection_title_label": {
+      "message": "K\u00FCls\u0151 sz\u0171r\u0151 neve:"
+   },
+   "update_now": {
+      "message": "Friss\u00EDt\u00E9s most"
+   },
+   "whitelisted_domains": {
+      "description": "This is a tab heading.",
+      "message": "Enged\u00E9lyezett domainek"
+   }
+}

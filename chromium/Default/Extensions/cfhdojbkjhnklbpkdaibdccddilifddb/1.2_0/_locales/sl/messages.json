@@ -1,0 +1,41 @@
+{
+   "filters_addSubscriptionOther_label": {
+      "message": "Dodaj novo naro\u010Dnino"
+   },
+   "filters_addSubscription_label": {
+      "message": "Dodaj naro\u010Dnino filtra"
+   },
+   "filters_subscription_lastDownload_checksumMismatch": {
+      "message": "Neuspe\u0161no, kontrolna vsota se ne ujema"
+   },
+   "filters_subscription_lastDownload_connectionError": {
+      "message": "Neuspe\u0161no, napaka prenosa"
+   },
+   "filters_subscription_lastDownload_inProgress": {
+      "message": "Prenos s stre\u017Enika ..."
+   },
+   "filters_subscription_lastDownload_invalidData": {
+      "message": "Neuspe\u0161no, ni veljaven seznam filtrov"
+   },
+   "filters_subscription_lastDownload_invalidURL": {
+      "message": "Neuspe\u0161no, ni veljaven naslov"
+   },
+   "global_remove_subscription_warning": {
+      "message": "\u017Delite res odpovedati naro\u010Dnino?"
+   },
+   "global_subscription_invalid_location": {
+      "message": "Mesto seznama filtrov ni niti veljaven URL niti veljavno ime datoteke."
+   },
+   "name": {
+      "message": "Adblock Plus (Beta)"
+   },
+   "subscriptionSelection_location_label": {
+      "message": "Mesto seznama filtriranja:"
+   },
+   "subscriptionSelection_subscriptionSelector_label": {
+      "message": "Izberite naro\u010Dnino na filter s seznama:"
+   },
+   "subscriptionSelection_title_label": {
+      "message": "Naslov naro\u010Dnine:"
+   }
+}

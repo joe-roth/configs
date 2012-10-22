@@ -1,0 +1,53 @@
+{
+   "filters_addSubscriptionAdd_label": {
+      "message": "Agregar"
+   },
+   "filters_addSubscriptionOther_label": {
+      "message": "Agregar un filtro de suscripci\u00F3n"
+   },
+   "filters_addSubscription_label": {
+      "message": "Agregar suscripci\u00F3n de filtros"
+   },
+   "filters_subscription_delete_label": {
+      "message": "Eliminar"
+   },
+   "filters_subscription_enabled_label": {
+      "message": "Habilitado"
+   },
+   "filters_subscription_lastDownload_checksumMismatch": {
+      "message": "Fall\u00F3, el archivo checksum no coincide"
+   },
+   "filters_subscription_lastDownload_connectionError": {
+      "message": "Fall\u00F3, error en la descarga"
+   },
+   "filters_subscription_lastDownload_inProgress": {
+      "message": "Descargando..."
+   },
+   "filters_subscription_lastDownload_invalidData": {
+      "message": "Fall\u00F3, no es una lista de filtros v\u00E1lida"
+   },
+   "filters_subscription_lastDownload_invalidURL": {
+      "message": "Fall\u00F3, no es una direcci\u00F3n v\u00E1lida"
+   },
+   "global_remove_subscription_warning": {
+      "message": "\u00BFEst\u00E1s seguro de querer quitar esta suscripci\u00F3n?"
+   },
+   "global_subscription_invalid_location": {
+      "message": "La ubicaci\u00F3n de lista de filtros no es v\u00E1lida, o no es v\u00E1lido el nombre de archivo."
+   },
+   "name": {
+      "message": "Adblock Plus (Beta)"
+   },
+   "overlay_hideplaceholders_label": {
+      "message": "Colapsar elementos bloqueados"
+   },
+   "subscriptionSelection_location_label": {
+      "message": "Ubicaci\u00F3n de la lista de filtros:"
+   },
+   "subscriptionSelection_subscriptionSelector_label": {
+      "message": "Por favor, seleccion\u00E1 una suscripci\u00F3n de la lista:"
+   },
+   "subscriptionSelection_title_label": {
+      "message": "T\u00EDtulo de suscripci\u00F3n:"
+   }
+}

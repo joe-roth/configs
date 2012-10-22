@@ -1,0 +1,17 @@
+{
+   "app": {
+      "launch": {
+         "web_url": "http://lichess.org"
+      },
+      "urls": [ "http://lichess.org/" ]
+   },
+   "description": "Free online chess, without the clutter. Play your friends, concentrate on the board.",
+   "icons": {
+      "128": "128.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDS6LkVdZLgI/zLejuJlrp6loRuBTYMkBJV42A8oFM7KnCbQwo8toel8/YLBA/WggTU6CBndBpG8s2VJf3AXI8GkMtr4B/SC9fuoWehAKyaYNXLQsJ7gn70QZbI1+YwKhSBp/IbSYOvHuYyZgcV2/xjy0mO/phsWJ+AJiAVELS8NwIDAQAB",
+   "name": "Chess",
+   "permissions": [  ],
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "1"
+}

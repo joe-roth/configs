@@ -1,0 +1,168 @@
+{
+   "add": {
+      "description": "This is the label for the 'Add' buttons.",
+      "message": "Pievienot"
+   },
+   "add_domain_button": {
+      "message": "Pievienot dom\u0113nu"
+   },
+   "add_filter_button": {
+      "message": "Pievienot filtru"
+   },
+   "add_filters_msg": {
+      "message": "Pievienot filtru(s)?"
+   },
+   "add_your_own_filters": {
+      "message": "Pievieno savus filtrus"
+   },
+   "apply_changes": {
+      "message": "Pielietot izmai\u0146as"
+   },
+   "block_element": {
+      "description": "Label for 'Block Element' context menu item",
+      "message": "Blo\u0137\u0113t elementu"
+   },
+   "block_youtube": {
+      "message": "Blo\u0137\u0113t rekl\u0101mas YouTube videoklipos"
+   },
+   "cancel": {
+      "description": "Cancel button label",
+      "message": "Atcelt"
+   },
+   "clickhide_instructions": {
+      "message": "P\u0113c \u0161\u012B aizv\u0113r\u0161anas, noklik\u0161\u0137iniet (vai noklik\u0161\u0137iniet ar labo pogu) uz elementa \u0161aj\u0101 lap\u0101."
+   },
+   "description": {
+      "message": "Rekl\u0101mas bija vakardiena! Veiksm\u012Bgais papildin\u0101jums Adblock Plus tagad ir pieejams Google Chrome\u2122."
+   },
+   "disable_inline": {
+      "message": "Atsp\u0113jot iek\u0161-rindu teksta rekl\u0101mas"
+   },
+   "disabled_for_these_domains": {
+      "message": "Adblock Plus J\u016Bsu izv\u0113l\u0113tajos dom\u0113nos ir atsl\u0113gts. J\u016Bs varat pievienot dom\u0113nu izmantojot Adblock Plus, kas atrodas adreses josl\u0101, vai ievadot dom\u0113nu (nevis URL) kast\u0113 un noklik\u0161\u0137inot uz pogas \"Pievienot dom\u0113nu\"."
+   },
+   "easy_create_filter": {
+      "description": "Button label in popup balloon",
+      "message": "Viegli izveidot filtru"
+   },
+   "edit_filters_raw": {
+      "message": "Labot filtrus k\u0101 j\u0113lu tekstu"
+   },
+   "enable_only_the": {
+      "message": "Iesp\u0113jo tikai vajadz\u012Bgos filtru sarakstus. P\u0101r\u0101k daudzi var padar\u012Bt Chrome nerea\u0123\u0113jo\u0161u."
+   },
+   "enabled_for_site": {
+      "description": "Popup balloon checkbox label",
+      "message": "Iesp\u0113jots \u0161aj\u0101 vietn\u0113"
+   },
+   "filter_lists": {
+      "description": "This is a tab heading.",
+      "message": "Filtru saraksts"
+   },
+   "filter_must_follow_syntax": {
+      "message": "J\u016Bsu filtram ir j\u0101atbilst \u003Ca href='$url$'\u003EAdblock Plus filtru sintaksei\u003C/a\u003E. Atsevi\u0161\u0137i filtru tipi, k\u0101 objekta apak\u0161-piepras\u012Bjums, nav atbalst\u012Bti.",
+      "placeholders": {
+         "url": {
+            "content": "$1"
+         }
+      }
+   },
+   "filters_addSubscriptionOther_label": {
+      "message": "Pievienot citu abonementu"
+   },
+   "filters_addSubscription_label": {
+      "message": "Pievienot filtra abon\u0113\u0161anu"
+   },
+   "filters_subscription_lastDownload_checksumMismatch": {
+      "message": "Neizdev\u0101s, kontrolsummas neatbilst\u012Bba"
+   },
+   "filters_subscription_lastDownload_connectionError": {
+      "message": "Neizdev\u0101s, lejupiel\u0101de neizdev\u0101s"
+   },
+   "filters_subscription_lastDownload_inProgress": {
+      "message": "Lejupiel\u0101d\u0113..."
+   },
+   "filters_subscription_lastDownload_invalidData": {
+      "message": "Neizdev\u0101s, nav der\u012Bgs filtru saraksts"
+   },
+   "filters_subscription_lastDownload_invalidURL": {
+      "message": "Neizdev\u0101s, nav der\u012Bga adrese"
+   },
+   "found_a_bug": {
+      "message": "Atradi defektu? V\u0113lies iztulkot Adblock Plus sav\u0101 valod\u0101? L\u016Bdzu \u003Ca href='$url$'\u003Eiesniedz piepras\u012Bjumu \u0161eit\u003C/a\u003E.",
+      "placeholders": {
+         "url": {
+            "content": "$1"
+         }
+      }
+   },
+   "general": {
+      "description": "This is a tab heading.",
+      "message": "Visp\u0101r\u012Bgi"
+   },
+   "global_remove_subscription_warning": {
+      "message": "Vai J\u016Bs tie\u0161\u0101m v\u0113laties no\u0146emt \u0161o abonementu?"
+   },
+   "global_subscription_invalid_location": {
+      "message": "Filtru saraksta atra\u0161an\u0101s vieta nav ne der\u012Bgs URL ne ar\u012B der\u012Bgs faila nosaukums."
+   },
+   "last_updated_at": {
+      "description": "e.g. Last updated at 3:00pm on Apr 1, 2011",
+      "message": "P\u0113d\u0113jo reiz atjaunin\u0101ts $time$ $date$",
+      "placeholders": {
+         "date": {
+            "content": "$2"
+         },
+         "time": {
+            "content": "$1"
+         }
+      }
+   },
+   "last_updated_at_today": {
+      "description": "e.g. Last updated at 3:00pm today",
+      "message": "P\u0113d\u0113jo reiz atjaunin\u0101ts \u0161odien plkst. $time$",
+      "placeholders": {
+         "time": {
+            "content": "$1"
+         }
+      }
+   },
+   "name": {
+      "message": "Adblock Plus (Beta)"
+   },
+   "new_filters_added": {
+      "message": "Jauni filtri pievienoti; lai tos p\u0101rvald\u012Btu, skatiet \u003Ca id='options_url' target='_blank'\u003EOpcijas\u003C/a\u003E."
+   },
+   "options": {
+      "message": "Adblock Plus Opcijas"
+   },
+   "out_of_date_lists": {
+      "message": "Novecoju\u0161ie saraksti tiek periodiski atjaunin\u0101ti."
+   },
+   "remove_button": {
+      "description": "This is the label for the 'Remove selected' buttons.",
+      "message": "No\u0146emt izv\u0113l\u0113to"
+   },
+   "show_block_element_menu": {
+      "message": "R\u0101d\u012Bt 'Blo\u0137\u0113t elementu''lab\u0101 klik\u0161\u0137a izv\u0113ln\u0113"
+   },
+   "show_icon": {
+      "message": "R\u0101d\u012Bt ikonu adreses josl\u0101"
+   },
+   "subscriptionSelection_location_label": {
+      "message": "Filtru saraksta atra\u0161an\u0101s vieta:"
+   },
+   "subscriptionSelection_subscriptionSelector_label": {
+      "message": "L\u016Bdzu, izv\u0113lieties filtru abonementu no saraksta:"
+   },
+   "subscriptionSelection_title_label": {
+      "message": "Abonementa nosaukums:"
+   },
+   "update_now": {
+      "message": "Atjaunin\u0101t tagad"
+   },
+   "whitelisted_domains": {
+      "description": "This is a tab heading.",
+      "message": "Dom\u0113ni baltaj\u0101 sarakst\u0101"
+   }
+}
