@@ -10,6 +10,9 @@ map + ?^\s*$<CR>
 set pastetoggle=<F2>
 command W w
 
+"always show filename at bottom
+set ls=2
+
 "make hjkl movements accessible from insert mode via the <Alt> modifier key
 inoremap <C-h> <C-o>h
 inoremap <C-j> <C-o>j
@@ -18,6 +21,10 @@ inoremap <C-l> <C-o>l
 inoremap <C-b> <C-o>b
 inoremap <C-w> <C-o>w
 inoremap <C-n> <C-o>$
+
+" Allow saving of files as sudo when I forgot to start vim using sudo.
+cmap w!! %!sudo tee > /dev/null %
+
 
 "autoclose things
 imap { {}<left>
@@ -83,3 +90,6 @@ set wrap! "Word wrap on
 set bs=2
 set hidden "allow hiding buffers with unsaved changes
 set cmdheight=2 "make the command line a little taller to hide "press enter to viem more" text
+
+"this makes nicer highlighting for git sign buffer plugin
+highlight clear SignColumn
