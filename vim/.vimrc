@@ -37,6 +37,11 @@ nnoremap <F3> :TlistToggle<CR>
 
 nnoremap <Leader>s :s/<C-r><C-w>/
 
+"perl shortcuts
+nnoremap <Leader>n :s/;$/\."\\n";/<CR>
+nnoremap <Leader>u :'<,'>s/\%V\(.*\)\%V/unpack\("H\*",\1\)/<CR>
+
+
 set nocompatible "don't need to keep compatibility with Vi
 
 filetype plugin indent on "enable detection, plugins and indenting in one step
@@ -83,3 +88,5 @@ set wrap! "Word wrap on
 set bs=2
 set hidden "allow hiding buffers with unsaved changes
 set cmdheight=2 "make the command line a little taller to hide "press enter to viem more" text
+
+set clipboard=unnamedplus
