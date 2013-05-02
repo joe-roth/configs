@@ -93,10 +93,16 @@ snippet xhr
 	xhr = new XMLHttpRequest();
 	xhr.open('GET', url, true);
 	xhr.onreadystatechange = function () {
-			if (xhr.readyState === 4 && xhr.status === 200) {
-					var response = xhr.responseText;
-					${2}
-			}
+		if (xhr.readyState === 4) {
+				if (xhr.responseText) {
+						${2}
+				}
+		}
 	};
 	xhr.send(null);
-
+snippet create
+	var ${1:name} = document.createElement('${2:name}');
+snippet app
+	appendChild('${1}');
+snippet timestamp
+	new Date().getTime();	

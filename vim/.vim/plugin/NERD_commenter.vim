@@ -97,6 +97,7 @@ let s:delimiterMap = {
     \ 'bc': { 'left': '#' },
     \ 'bib': { 'left': '%' },
     \ 'bindzone': { 'left': ';' },
+    \ 'brs': { 'left': "'" },
     \ 'bst': { 'left': '%' },
     \ 'btm': { 'left': '::' },
     \ 'caos': { 'left': '*' },
