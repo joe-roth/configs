@@ -1,4 +1,4 @@
-# ~/.bashrc: executed by bash(1) for non-login shells.
+#~/.bashrc: executed by bash(1) for non-login shells.
 # see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
 # for examples
 
@@ -102,4 +102,5 @@ alias vmi="vim"
 alias cdv="cd /var/www/"
 alias h="cd ~"
 alias k="cd .."
+alias xc="xclip -selection c"
 export SVN_EDITOR=vim

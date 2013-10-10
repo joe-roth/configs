@@ -1,5 +1,9 @@
 {
    "apps_promo_counter": 11,
+   "autofill": {
+      "negative_upload_rate": 1.0,
+      "positive_upload_rate": 1.0
+   },
    "bookmark_bar": {
       "show_on_all_tabs": false
    },
@@ -11,29 +15,31 @@
          "time_period": 4
       },
       "clear_lso_data_enabled": true,
+      "last_known_google_url": "http://www.google.com/",
+      "last_prompted_google_url": "http://www.google.com/",
       "pepper_flash_settings_enabled": false,
       "show_home_button": true,
       "window_placement": {
-         "bottom": 874,
+         "bottom": 898,
          "left": 0,
          "maximized": false,
-         "right": 960,
+         "right": 1438,
          "top": 26,
          "work_area_bottom": 900,
          "work_area_left": 0,
          "work_area_right": 1440,
-         "work_area_top": 26
+         "work_area_top": 0
       },
       "window_placement_DevToolsApp": {
          "always_on_top": false,
-         "bottom": 1080,
-         "left": 0,
+         "bottom": 606,
+         "left": 720,
          "maximized": false,
-         "right": 960,
-         "top": 25,
-         "work_area_bottom": 1051,
+         "right": 1438,
+         "top": 317,
+         "work_area_bottom": 900,
          "work_area_left": 0,
-         "work_area_right": 1920,
+         "work_area_right": 1440,
          "work_area_top": 0
       }
    },
@@ -56,8 +62,9 @@
       "suggest_url": ""
    },
    "devtools": {
+      "dock_side": "dock_bottom",
       "open_docked": true,
-      "split_location": 419
+      "split_location": 320
    },
    "download": {
       "directory_upgrade": true,
@@ -68,11 +75,11 @@
          "initialized": true
       },
       "autoupdate": {
-         "last_check": "12995367035044440",
-         "next_check": "13021855124125161"
+         "last_check": "13025718502567612",
+         "next_check": "13025870111512100"
       },
       "blacklistupdate": {
-         "lastpingday": "13021801201009408",
+         "lastpingday": "13025689200809816",
          "version": "0.0.0.149"
       },
       "chrome_url_overrides": {
@@ -338,16 +345,15 @@
                "scriptable_host": [ "http://*/*", "https://*/*" ]
             },
             "creation_flags": 9,
-            "delayNetworkRequests": true,
             "from_bookmark": false,
             "from_webstore": true,
             "granted_permissions": {
-               "api": [ "contextMenus", "tabs", "unlimitedStorage", "webRequest", "webRequestBlocking" ],
+               "api": [ "contextMenus", "notifications", "tabs", "unlimitedStorage", "webNavigation", "webRequest", "webRequestBlocking", "webRequestInternal" ],
                "explicit_host": [ "http://*/*", "https://*/*" ],
-               "scriptable_host": [ "http://*.youtube-nocookie.com/*", "http://*.youtube.com/*", "http://*/*", "https://*.youtube-nocookie.com/*", "https://*.youtube.com/*", "https://*/*" ]
+               "scriptable_host": [ "http://*/*", "https://*/*" ]
             },
-            "install_time": "13021854714625794",
-            "lastpingday": "13021801201126969",
+            "install_time": "13022594800975393",
+            "lastpingday": "13025689200867701",
             "location": 1,
             "manifest": {
                "background": {
@@ -386,10 +392,10 @@
                },
                "permissions": [ "tabs", "http://*/*", "https://*/*", "contextMenus", "webRequest", "webRequestBlocking", "webNavigation", "unlimitedStorage", "notifications" ],
                "update_url": "https://clients2.google.com/service/update2/crx",
-               "version": "1.5.4",
+               "version": "1.5.5",
                "web_accessible_resources": [ "block.html" ]
             },
-            "path": "cfhdojbkjhnklbpkdaibdccddilifddb/1.5.4_0",
+            "path": "cfhdojbkjhnklbpkdaibdccddilifddb/1.5.5_0",
             "state": 1,
             "was_installed_by_default": false
          },
@@ -479,11 +485,11 @@
             "from_webstore": true,
             "granted_permissions": {
                "api": [ "bookmarks", "clipboardRead", "history", "tabs" ],
-               "explicit_host": [ "\u003Call_urls\u003E" ],
+               "explicit_host": [ "\u003Call_urls\u003E", "chrome://favicon/*" ],
                "scriptable_host": [ "\u003Call_urls\u003E" ]
             },
-            "install_time": "13021854715148046",
-            "lastpingday": "13021801201126969",
+            "install_time": "13022044312773420",
+            "lastpingday": "13025689200867701",
             "location": 1,
             "manifest": {
                "background": {
@@ -842,60 +848,6 @@
          "fmonlemffgbabjifjfaoamdflijecdbk": {
             "blacklist": true
          },
-         "fngmhnnpilhplaeedifhccceomclgfbg": {
-            "active_permissions": {
-               "api": [ "contextMenus", "cookies", "notifications", "storage", "tabs", "unlimitedStorage" ],
-               "explicit_host": [ "\u003Call_urls\u003E", "chrome://favicon/*" ],
-               "scriptable_host": [ "http://*/*", "https://*/*" ]
-            },
-            "browser_action_visible": true,
-            "creation_flags": 9,
-            "from_bookmark": false,
-            "from_webstore": true,
-            "granted_permissions": {
-               "api": [ "contextMenus", "cookies", "notifications", "tabs", "unlimitedStorage" ],
-               "explicit_host": [ "\u003Call_urls\u003E" ],
-               "scriptable_host": [ "http://*/*", "https://*/*" ]
-            },
-            "install_time": "13021854716154525",
-            "lastpingday": "13021801201126969",
-            "location": 1,
-            "manifest": {
-               "background": {
-                  "scripts": [ "/alternet/alter-network-background.js", "/lib/jquery-1.8.1.min.js", "/lib/object-watch.js", "/js/cookie_helpers.js", "/js/utils.js", "/js/data.js", "/js/background.js" ]
-               },
-               "browser_action": {
-                  "default_icon": "img/icon_19x19.png",
-                  "default_popup": "popup.html",
-                  "default_title": "Edit This Cookie"
-               },
-               "content_scripts": [ {
-                  "js": [ "/alternet/jquery-1.7.2.min.js", "/alternet/injectorChecker.js" ],
-                  "matches": [ "http://*/*", "https://*/*" ],
-                  "run_at": "document_start"
-               } ],
-               "content_security_policy": "script-src 'self' https://ssl.google-analytics.com; object-src 'self'",
-               "current_locale": "en_US",
-               "default_locale": "en",
-               "description": "Edit This Cookie is a cookie manager. You can add, delete, edit, search, protect and block cookies!",
-               "icons": {
-                  "128": "img/icon_128x128.png",
-                  "16": "img/icon_16x16.png",
-                  "48": "img/icon_48x48.png"
-               },
-               "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDSn5dhR3eTtYJoXe4DW2j9oFWIg71/f21Z3b6tzFva3M9xo07+xUWo9qLmyWkMeisCMhT7VNsuRbP4kIWjWFcFCi/FgtYCWwCV29CVDvj5Xv+Jzrp8znbCICaczf4ZNqCDdk3WrvSBqp1WqRqJ5q8Y7A0aoFRvMoIxqn1/u11rrwIDAQAB",
-               "manifest_version": 2,
-               "minimum_chrome_version": "12.0.707.0",
-               "name": "Edit This Cookie",
-               "options_page": "options_main_page.html",
-               "permissions": [ "tabs", "\u003Call_urls\u003E", "cookies", "contextMenus", "unlimitedStorage", "notifications", "storage" ],
-               "update_url": "http://clients2.google.com/service/update2/crx",
-               "version": "1.2.1"
-            },
-            "path": "fngmhnnpilhplaeedifhccceomclgfbg/1.2.1_0",
-            "state": 1,
-            "was_installed_by_default": false
-         },
          "fngolbdmkneakeaoiieafkilnogbocda": {
             "blacklist": true
          },
@@ -958,6 +910,54 @@
          },
          "gbenikfjhilhpgagllmfgggdjaflbmbi": {
             "blacklist": true
+         },
+         "gcbommkclmclpchllfjekcdonpmejbdp": {
+            "active_permissions": {
+               "api": [ "cookies", "tabs", "webRequest", "webRequestBlocking", "webRequestInternal" ],
+               "explicit_host": [ "\u003Call_urls\u003E", "chrome://favicon/*" ]
+            },
+            "creation_flags": 9,
+            "from_bookmark": false,
+            "from_webstore": true,
+            "granted_permissions": {
+               "api": [ "cookies", "tabs", "webRequest", "webRequestBlocking", "webRequestInternal" ],
+               "explicit_host": [ "\u003Call_urls\u003E", "chrome://favicon/*" ]
+            },
+            "install_time": "13022044734616907",
+            "lastpingday": "13025689200867701",
+            "location": 1,
+            "manifest": {
+               "author": {
+                  "email": "eff.software.projects@gmail.com"
+               },
+               "background": {
+                  "scripts": [ "util.js", "URI.js", "rule_list.js", "rules.js", "background.js" ]
+               },
+               "current_locale": "en_US",
+               "default_locale": "en",
+               "description": "Encrypt the Web! Automatically use HTTPS security on many sites.",
+               "homepage_url": "https://www.eff.org/https-everywhere",
+               "icons": {
+                  "128": "icon128.png",
+                  "16": "icon16.png",
+                  "48": "icon48.png"
+               },
+               "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA6MR8W/galdxnpGqBsYbqOzQb2eyW15YFjDDEMI0ZOzt8f504obNs920lDnpPD2/KqgsfjOgw2K7xWDJIj/18xUvWPk3LDkrnokNiRkA3KOx3W6fHycKL+zID7zy+xZYBuh2fLyQtWV1VGQ45iNRp9+Zo7rH86cdfgkdnWTlNSHyTLW9NbXvyv/E12bppPcEvgCTAQXgnDVJ0/sqmeiijn9tTFh03aM+R2V/21h8aTraAS24qiPCz6gkmYGC8yr6mglcnNoYbsLNYZ69zF1XHcXPduCPdPdfLlzVlKK1/U7hkA28eG3BIAMh6uJYBRJTpiGgaGdPd7YekUB8S6cy+CQIDAQAB",
+               "manifest_version": 2,
+               "minimum_chrome_version": "18",
+               "name": "HTTPS Everywhere",
+               "page_action": {
+                  "default_icon": "icon48.png",
+                  "default_popup": "popup.html",
+                  "default_title": "HTTPS Everywhere"
+               },
+               "permissions": [ "webRequest", "webRequestBlocking", "tabs", "cookies", "\u003Call_urls\u003E" ],
+               "update_url": "http://clients2.google.com/service/update2/crx",
+               "version": "2013.8.17"
+            },
+            "path": "gcbommkclmclpchllfjekcdonpmejbdp/2013.8.17_0",
+            "state": 1,
+            "was_installed_by_default": false
          },
          "gchbiabnbdikkgfhnkclecjncojnkmhb": {
             "blacklist": true
@@ -1109,12 +1109,13 @@
             "from_bookmark": false,
             "from_webstore": true,
             "granted_permissions": {
-               "api": [ "cookies", "history" ],
-               "explicit_host": [ "\u003Call_urls\u003E" ]
+               "api": [ "background", "clipboardWrite", "declarativeWebRequest", "history", "storage", "webRequest", "webRequestInternal" ],
+               "explicit_host": [ "\u003Call_urls\u003E", "chrome://favicon/*" ],
+               "scriptable_host": [ "https://chromerestclient.appspot.com/GDrive.html*", "https://chromerestclient.appspot.com/oauth2callback.html*" ]
             },
-            "install_time": "13021854716590577",
-            "last_active_pingday": "12995017216527857",
-            "lastpingday": "13021801201126969",
+            "install_time": "13022753915396274",
+            "last_active_pingday": "13022405149629109",
+            "lastpingday": "13025689200867701",
             "location": 1,
             "manifest": {
                "app": {
@@ -1133,7 +1134,7 @@
                   "matches": [ "https://chromerestclient.appspot.com/oauth2callback.html*" ],
                   "run_at": "document_start"
                } ],
-               "content_security_policy": "script-src 'unsafe-eval' chrome-extension:// chrome-extension-resource:// https://*.google.com https://chromerestclient.appspot.com https://ssl.google-analytics.com https://www-onepick-opensocial.googleusercontent.com https://*.googleapis.com https://*.googleusercontent.com 'self'; object-src chrome-extension:// chrome-extension-resource:// 'self'; frame-src https://apis.google.com https://www.google.com https://docs.google.com https://www-onepick-opensocial.googleusercontent.com https://www.googleapis.com https://accounts.google.com chrome-extension:// chrome-extension-resource:// https://plusone.google.com  https://doc-0k-0o-docs.googleusercontent.com https://*.googleusercontent.com 'self'",
+               "content_security_policy": "script-src 'unsafe-eval' chrome-extension:// chrome-extension-resource:// https://*.google.com https://chromerestclient.appspot.com https://ssl.google-analytics.com https://www-onepick-opensocial.googleusercontent.com https://*.googleapis.com https://*.googleusercontent.com 'self'; object-src chrome-extension:// chrome-extension-resource:// 'self'; frame-src https://apis.google.com https://www.google.com https://docs.google.com https://www-onepick-opensocial.googleusercontent.com https://www.googleapis.com https://content.googleapis.com https://accounts.google.com chrome-extension:// chrome-extension-resource:// https://plusone.google.com  https://doc-0k-0o-docs.googleusercontent.com https://*.googleusercontent.com 'self'",
                "description": "The web developers helper program to create and test custom HTTP requests.",
                "icons": {
                   "128": "img/arc_icon_128.png",
@@ -1153,10 +1154,10 @@
                "options_page": "RestClient.html#SettingsPlace:view",
                "permissions": [ "webRequest", "declarativeWebRequest", "\u003Call_urls\u003E", "history", "background", "storage", "clipboardWrite" ],
                "update_url": "https://clients2.google.com/service/update2/crx",
-               "version": "3.1.5"
+               "version": "3.1.6"
             },
             "page_ordinal": "n",
-            "path": "hgmloofddffdnphfgcellkdfbfbjeloo/3.1.5_0",
+            "path": "hgmloofddffdnphfgcellkdfbfbjeloo/3.1.6_0",
             "state": 1,
             "was_installed_by_default": false
          },
@@ -1524,7 +1525,7 @@
             "from_webstore": true,
             "install_time": "12987160156173638",
             "last_active_pingday": "12992598008062233",
-            "lastpingday": "13021801201126969",
+            "lastpingday": "13025689200867701",
             "location": 1,
             "manifest": {
                "app": {
@@ -1837,7 +1838,7 @@
             "active_permissions": {
                "api": [ "tabs", "webNavigation", "webRequest", "webRequestBlocking", "webRequestInternal" ],
                "explicit_host": [ "http://*/*", "https://*/*" ],
-               "scriptable_host": [ "http://*.ghostery.com/", "http://*.ghostery.com/download", "http://*/*", "https://*.ghostery.com/", "https://*.ghostery.com/download", "https://*/*" ]
+               "scriptable_host": [ "http://*.ghostery.com/*", "http://*/*", "https://*.ghostery.com/*", "https://*/*" ]
             },
             "creation_flags": 9,
             "from_bookmark": false,
@@ -1847,14 +1848,18 @@
                "explicit_host": [ "http://*/*", "https://*/*" ],
                "scriptable_host": [ "http://*.ghostery.com/", "http://*.ghostery.com/download", "http://*/*", "https://*.ghostery.com/", "https://*.ghostery.com/download", "https://*/*" ]
             },
-            "install_time": "13021854743837326",
+            "install_time": "13023360650841741",
+            "lastpingday": "13025689200867701",
             "location": 1,
             "manifest": {
                "background": {
                   "page": "background.html"
                },
                "browser_action": {
-                  "default_icon": "images/icon16_off.png",
+                  "default_icon": {
+                     "19": "images/icon19_off.png",
+                     "38": "images/icon38_off.png"
+                  },
                   "default_popup": "panel.html",
                   "default_title": "View Ghostery's findings"
                },
@@ -1866,7 +1871,7 @@
                }, {
                   "all_frames": false,
                   "js": [ "includes/ghostery_dot_com.js" ],
-                  "matches": [ "http://*.ghostery.com/", "https://*.ghostery.com/", "http://*.ghostery.com/download", "https://*.ghostery.com/download" ],
+                  "matches": [ "http://*.ghostery.com/*", "https://*.ghostery.com/*" ],
                   "run_at": "document_end"
                } ],
                "current_locale": "en_US",
@@ -1875,19 +1880,19 @@
                "icons": {
                   "128": "images/icon128.png",
                   "16": "images/icon16.png",
-                  "32": "images/icon32.png",
-                  "64": "images/icon64.png"
+                  "48": "images/icon48.png"
                },
                "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDWKbhv4tbugT5f8XlKtXmjzhsWjGX+ILAnBL9AOzUA2nYu9Y2P8PAxbOHSRKeLE9zHYD2MzsGgBE4LlLKGV7p5FhrtURBMJrkN5RooOH/RkAPbAvyfJ+sku5qgg2Ijrf10cxXqED39WsTaa4ZWnnkOXl9Y7XMGbuolzBz2m+SfSwIDAQAB",
                "manifest_version": 2,
-               "minimum_chrome_version": "18.0",
+               "minimum_chrome_version": "23",
                "name": "Ghostery",
                "options_page": "options.html",
                "permissions": [ "http://*/*", "https://*/*", "tabs", "webNavigation", "webRequest", "webRequestBlocking" ],
                "update_url": "https://clients2.google.com/service/update2/crx",
-               "version": "4.1.2"
+               "version": "5.0.0",
+               "web_accessible_resources": [ "images/click2play/allow_once.png", "images/click2play/allow_unblock.png", "images/click2play/ghostery_facebook.png", "images/click2play/ghostery_linkedin.png", "images/click2play/ghostery_pinterest.png", "images/click2play/ghostery_plus.png", "images/click2play/ghostery_stumble.png", "images/click2play/ghostery_tumblr.png", "images/click2play/ghostery_twitter.png", "images/click2play/ghostery_vkontakte.png", "images/click2play/ghosty_blocked.png" ]
             },
-            "path": "mlomiejdfkolichcflejclcbmpeaniij/4.1.2_0",
+            "path": "mlomiejdfkolichcflejclcbmpeaniij/5.0.0_0",
             "state": 1,
             "was_installed_by_default": false
          },
@@ -2173,40 +2178,6 @@
          "pgelifedkjaohmjehecojkfldinjlamn": {
             "blacklist": true
          },
-         "pghncadecdbeoiklgemofaoampiiicmn": {
-            "active_permissions": {
-               "scriptable_host": [ "http://*/*", "https://*/*" ]
-            },
-            "from_bookmark": false,
-            "from_webstore": true,
-            "granted_permissions": {
-               "scriptable_host": [ "http://*/*", "https://*/*" ]
-            },
-            "install_time": "12987160691033676",
-            "lastpingday": "13021801201126969",
-            "location": 1,
-            "manifest": {
-               "content_scripts": [ {
-                  "all_frames": true,
-                  "exclude_globs": [ "*addthis.com*", "*digg.com*", "*facebook.com*", "*google.com*", "*klout.com*", "*linkedin.com*", "*meebo.com*", "*pinterest.com*", "*po.st*", "*reddit.com*", "*sharethis.com*", "*stumbleupon.com*", "*tumblr.com*", "*twitter.com*", "*wibiya.com*", "*vk.com*" ],
-                  "js": [ "antisocial.js" ],
-                  "matches": [ "http://*/*", "https://*/*" ],
-                  "run_at": "document_start"
-               } ],
-               "description": "Blocks social plugins from loading",
-               "icons": {
-                  "128": "128.png",
-                  "16": "16.png",
-                  "48": "48.png"
-               },
-               "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCf7u6X5h5px6jRcg0nWjp/xH+pNGH5RcjiGLL9NcIZBgMTXWG4H3LO7Xyczembyp5RmNFceea5AyYe6oix00KX45ZcNfENlE/MQIIxsIr1qZWDvzP20lWP3oOMayoK/bZlyrd+K3PW41/sS9PggCXf23f1ZgvPuw7HQ83cnOeWVQIDAQAB",
-               "name": "Antisocial",
-               "update_url": "http://clients2.google.com/service/update2/crx",
-               "version": "0.2.4"
-            },
-            "path": "pghncadecdbeoiklgemofaoampiiicmn/0.2.4_0",
-            "state": 1
-         },
          "pgjpnfpidejcmjibaaohcmehfohacckf": {
             "blacklist": true
          },
@@ -2289,7 +2260,7 @@
       "theme": {
          "id": ""
       },
-      "toolbar": [ "fngmhnnpilhplaeedifhccceomclgfbg", "dbepggeogbaibhgnhhndojpepiihcmeb", "mlomiejdfkolichcflejclcbmpeaniij" ],
+      "toolbar": [ "dbepggeogbaibhgnhhndojpepiihcmeb", "mlomiejdfkolichcflejclcbmpeaniij" ],
       "toolbarsize": -1,
       "ui": {
          "developer_mode": true
@@ -2307,63 +2278,10 @@
    "net": {
       "http_server_properties": {
          "servers": {
-            "chrome.google.com:443": {
-               "settings": {
-                  "4": 100,
-                  "5": 12,
-                  "6": 1
-               },
+            "2542116.fls.doubleclick.net:443": {
                "supports_spdy": true
             },
-            "csi.gstatic.com:443": {
-               "settings": {
-                  "4": 100,
-                  "5": 32,
-                  "6": 0
-               },
-               "supports_spdy": true
-            },
-            "fls.doubleclick.net:443": {
-               "settings": {
-                  "4": 100,
-                  "5": 32,
-                  "6": 0
-               },
-               "supports_spdy": true
-            },
-            "fonts.googleapis.com:443": {
-               "settings": {
-                  "4": 100,
-                  "5": 32,
-                  "6": 0
-               },
-               "supports_spdy": true
-            },
-            "googleads.g.doubleclick.net:443": {
-               "settings": {
-                  "4": 100,
-                  "5": 32,
-                  "6": 0
-               },
-               "supports_spdy": true
-            },
-            "i.ytimg.com:443": {
-               "settings": {
-                  "4": 100,
-                  "5": 34,
-                  "6": 0
-               },
-               "supports_spdy": true
-            },
-            "lh5.googleusercontent.com:443": {
-               "settings": {
-                  "4": 100,
-                  "5": 77,
-                  "6": 0
-               },
-               "supports_spdy": true
-            },
-            "plus.google.com:443": {
+            "accounts.google.com:443": {
                "settings": {
                   "4": 100,
                   "5": 33,
@@ -2371,21 +2289,186 @@
                },
                "supports_spdy": true
             },
-            "s.ytimg.com:443": {
+            "accounts.youtube.com:443": {
                "settings": {
                   "4": 100,
-                  "5": 78,
+                  "5": 22,
+                  "6": 16
+               },
+               "supports_spdy": true
+            },
+            "ajax.cloudflare.com:443": {
+               "supports_spdy": true
+            },
+            "ajax.googleapis.com:443": {
+               "supports_spdy": true
+            },
+            "chatenabled.mail.google.com:443": {
+               "settings": {
+                  "4": 10,
+                  "5": 32,
                   "6": 0
                },
                "supports_spdy": true
             },
+            "checkout.google.com:443": {
+               "supports_spdy": true
+            },
+            "chrome.google.com:443": {
+               "supports_spdy": true
+            },
+            "chromerestclient.appspot.com:443": {
+               "supports_spdy": true
+            },
+            "clients1.google.com:443": {
+               "supports_spdy": true
+            },
+            "clients2.google.com:443": {
+               "settings": {
+                  "4": 100,
+                  "5": 29,
+                  "6": 0
+               },
+               "supports_spdy": true
+            },
+            "clients2.googleusercontent.com:443": {
+               "supports_spdy": true
+            },
+            "csi.gstatic.com:443": {
+               "supports_spdy": true
+            },
+            "docs.google.com:443": {
+               "supports_spdy": true
+            },
+            "encrypted-tbn1.gstatic.com:443": {
+               "supports_spdy": true
+            },
+            "encrypted.google.com:443": {
+               "supports_spdy": true
+            },
+            "fls.doubleclick.net:443": {
+               "supports_spdy": true
+            },
+            "fonts.googleapis.com:443": {
+               "supports_spdy": true
+            },
+            "fromdevstatic.googlecode.com:443": {
+               "supports_spdy": true
+            },
+            "gmail.com:443": {
+               "supports_spdy": true
+            },
+            "googleads.g.doubleclick.net:443": {
+               "supports_spdy": true
+            },
+            "i.ytimg.com:443": {
+               "supports_spdy": true
+            },
+            "i1.ytimg.com:443": {
+               "supports_spdy": true
+            },
+            "id.google.com:443": {
+               "supports_spdy": true
+            },
+            "img1.blogblog.com:443": {
+               "supports_spdy": true
+            },
+            "img2.blogblog.com:443": {
+               "supports_spdy": true
+            },
+            "khms1.googleapis.com:443": {
+               "supports_spdy": true
+            },
+            "lh3.ggpht.com:443": {
+               "supports_spdy": true
+            },
+            "lh4.googleusercontent.com:443": {
+               "supports_spdy": true
+            },
+            "lh5.googleusercontent.com:443": {
+               "supports_spdy": true
+            },
+            "lh6.googleusercontent.com:443": {
+               "supports_spdy": true
+            },
+            "mail-attachment.googleusercontent.com:443": {
+               "settings": {
+                  "4": 10,
+                  "5": 32,
+                  "6": 0
+               },
+               "supports_spdy": true
+            },
+            "mail.google.com:443": {
+               "settings": {
+                  "4": 10,
+                  "5": 110,
+                  "6": 0
+               },
+               "supports_spdy": true
+            },
+            "maps.google.com:443": {
+               "supports_spdy": true
+            },
+            "maps.googleapis.com:443": {
+               "supports_spdy": true
+            },
+            "maps.gstatic.com:443": {
+               "supports_spdy": true
+            },
+            "plus.google.com:443": {
+               "settings": {
+                  "4": 100,
+                  "5": 154,
+                  "6": 0
+               },
+               "supports_spdy": true
+            },
+            "plus.googleapis.com:443": {
+               "supports_spdy": true
+            },
+            "productforums.google.com:443": {
+               "supports_spdy": true
+            },
+            "public-api.wordpress.com:443": {
+               "supports_spdy": true
+            },
+            "s.ytimg.com:443": {
+               "supports_spdy": true
+            },
             "secure.fanboy.co.nz:443": {
+               "supports_spdy": true
+            },
+            "secure.gravatar.com:443": {
                "settings": {
                   "4": 100
                },
                "supports_spdy": true
             },
             "ssl.google-analytics.com:443": {
+               "supports_spdy": true
+            },
+            "ssl.gstatic.com:443": {
+               "settings": {
+                  "4": 100,
+                  "5": 63,
+                  "6": 0
+               },
+               "supports_spdy": true
+            },
+            "themes.googleusercontent.com:443": {
+               "supports_spdy": true
+            },
+            "translate.googleapis.com:443": {
+               "supports_spdy": true
+            },
+            "twitter.com:443": {
+               "supports_spdy": true
+            },
+            "www.blogger.com:443": {
+               "supports_spdy": true
+            },
+            "www.google.com:443": {
                "settings": {
                   "4": 100,
                   "5": 32,
@@ -2393,31 +2476,10 @@
                },
                "supports_spdy": true
             },
-            "ssl.gstatic.com:443": {
-               "settings": {
-                  "4": 100,
-                  "5": 22,
-                  "6": 0
-               },
-               "supports_spdy": true
-            },
-            "themes.googleusercontent.com:443": {
-               "settings": {
-                  "4": 100,
-                  "5": 12,
-                  "6": 0
-               },
-               "supports_spdy": true
-            },
-            "www.google.com:443": {
-               "settings": {
-                  "4": 100,
-                  "5": 43,
-                  "6": 0
-               },
-               "supports_spdy": true
-            },
             "www.googleadservices.com:443": {
+               "supports_spdy": true
+            },
+            "www.gstatic.com:443": {
                "settings": {
                   "4": 100,
                   "5": 32,
@@ -2426,11 +2488,9 @@
                "supports_spdy": true
             },
             "www.youtube.com:443": {
-               "settings": {
-                  "4": 100,
-                  "5": 32,
-                  "6": 0
-               },
+               "supports_spdy": true
+            },
+            "youtube.com:443": {
                "supports_spdy": true
             }
          },
@@ -2506,6 +2566,7 @@
       "name": "First user",
       "per_host_zoom_levels": {
          "forum.videolan.org": 0.5227587223052979,
+         "news.ycombinator.com": 0.5227587223052979,
          "pubnub-prod.appspot.com": 0.5227587223052979,
          "technotales.wordpress.com": 1.2239010334014893,
          "www.seangw.com": 2.2239010334014893,
@@ -2513,11 +2574,11 @@
       }
    },
    "savefile": {
-      "default_directory": "/home/admin/playground/CTF/level04-code",
+      "default_directory": "/home/joe/Desktop",
       "type": 1
    },
    "selectfile": {
-      "last_directory": "/home/admin/war_game/monxla"
+      "last_directory": "/home/joe/Downloads"
    },
    "session": {
       "restore_on_startup_migrated": true
@@ -2531,10 +2592,12 @@
       "view_count": 1
    },
    "translate_accepted_count": {
+      "cs": 1,
       "ru": 1,
       "zh-TW": 0
    },
    "translate_denied_count": {
+      "cs": 0,
       "ru": 0,
       "zh-TW": 2
    }
