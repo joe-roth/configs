@@ -1,5 +1,10 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =3
+let g:netrw_dirhist_cnt =8
 let g:netrw_dirhist_1='/home/joe/btcloudsync/www'
 let g:netrw_dirhist_2='/home/joe/btcloudsync/testing'
 let g:netrw_dirhist_3='/home/joe/matasano/crypto/1'
+let g:netrw_dirhist_4='/home/joe/btcloudsync/www/inc/scripts'
+let g:netrw_dirhist_5='/home/joe/btcloudsync/scripts'
+let g:netrw_dirhist_6='/home/joe/.tmux'
+let g:netrw_dirhist_7='/home/joe/btcloudsync/folder/AQJCAAGMTJRWQ2ACPAXZVAUJXBCYQ27H4/.SyncArchive'
+let g:netrw_dirhist_8='/home/joe/btc_int/env'
