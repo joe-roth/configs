@@ -35,6 +35,8 @@ imap ( ()<left>
 
 "to run jslint
 nmap <F4> :w<CR>:make<CR>:cw<CR>
+map <F5> :execute "vimgrep /" . expand("<cword>") . "/g **" <Bar> cw<CR>
+set switchbuf+=usetab,newtab
 
 "tlist things
 let g:tlist_javascript_settings = 'javascript;f:function'
