@@ -1,10 +1,8 @@
 "This is my default vimrc file
-set number "show line numbers
-map LL l
-map HH h
+set number "show line numbers map LL l map HH h
 map JJ j
 map KK k
-nmap <silent> <c-n> :NERDTreeToggle<CR>
+nmap <silent> <c-n> :NERDTreeTabsToggle<CR>
 map = /^\s*$<CR>
 map + ?^\s*$<CR>
 set pastetoggle=<F2>
