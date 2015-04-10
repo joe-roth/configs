@@ -7,11 +7,14 @@ import XMonad.Layout.LayoutCombinators
 import XMonad.Config.Desktop
 import XMonad.Prompt.Shell
 import XMonad.Layout.ResizableTile
+import XMonad.Hooks.SetWMName
 
 import qualified Data.Map        as M
 
 myBorderWidth	= 1
-myModMask	= mod1Mask
+myModMask	= mod3Mask
+
+myWorkspaces = ["main", "web", "chat"]
 
 myLayout = desktopLayoutModifiers $ ResizableTall 1 (10/100) (1/2) [] ||| tiled ||| Mirror tiled ||| Full
   where
@@ -30,7 +33,8 @@ myLayout = desktopLayoutModifiers $ ResizableTall 1 (10/100) (1/2) [] ||| tiled 
 main = xmonad $ xfceConfig {
 	borderWidth	= myBorderWidth,
   modMask		= myModMask,
-  layoutHook  = myLayout
+  layoutHook  = myLayout,
+  startupHook = setWMName "LG3D"
 }
                 `additionalKeys`
                  [ ((myModMask, xK_f        ), spawn "firefox")
