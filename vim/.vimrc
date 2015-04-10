@@ -1,101 +1,145 @@
-"This is my default vimrc file
-set number "show line numbers map LL l map HH h
-map JJ j
-map KK k
-nmap <silent> <c-n> :NERDTreeTabsToggle<CR>
-map = /^\s*$<CR>
-map + ?^\s*$<CR>
-set pastetoggle=<F2>
-command W w
+set shell=/bin/bash " when using fish, vim will need /bin/sh shell for things to work
+set nocompatible              " be iMproved, required
+filetype off                  " required
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
 
-"always show filename at bottom
-set ls=2
+Plugin 'fatih/vim-go' 
+Plugin 'Valloric/YouCompleteMe'
+Plugin 'scrooloose/nerdtree'
+Plugin 'tpope/vim-surround'
+Plugin 'scrooloose/nerdcommenter'
+"Plugin 'jistr/vim-nerdtree-tabs'
+Plugin 'kien/ctrlp.vim'
+Plugin 'Tagbar'
+Plugin 'Raimondi/delimitMate'
+Plugin 'SirVer/ultisnips'
+Plugin 'ervandew/supertab'
+Plugin 'honza/vim-snippets'
 
-"make hjkl movements accessible from insert mode via the <Alt> modifier key
-inoremap <C-h> <C-o>h
-inoremap <C-j> <C-o>j
-inoremap <C-k> <C-o>k
-inoremap <C-l> <C-o>l
-inoremap <C-b> <C-o>b
-inoremap <C-w> <C-o>w
-inoremap <C-n> <C-o>$
+call vundle#end()            " required
+filetype plugin indent on    " required
+syntax on
 
-" Allow saving of files as sudo when I forgot to start vim using sudo.
+" ========== Custom Key Bindings ==========="
+" Better split switching
+map <C-j> <C-W>j
+map <C-k> <C-W>k
+map <C-h> <C-W>h
+map <C-l> <C-W>l
+
+" Fast saving, quitting
+nmap <leader>w :w!<cr>
+nnoremap <leader>q :q<CR>
+
+" Center the screen
+nnoremap <space> zz
+
+" Just go out in insert mode
+imap jk <ESC>l
+
+" common shortcuts
+cabbrev t tabnew
+cabbrev reload so %
 cmap w!! %!sudo tee > /dev/null %
 
-
-"autoclose things
-imap { {}<left>
-imap [ []<left>
-inoremap ' ''<LEFT>
-inoremap " ""<LEFT>
-imap ( ()<left>
-
-"to run jslint
-nmap <F4> :w<CR>:make<CR>:cw<CR>
-map <F5> :execute "vimgrep /" . expand("<cword>") . "/g **" <Bar> cw<CR>
-set switchbuf+=usetab,newtab
-
-"tlist things
-let g:tlist_javascript_settings = 'javascript;f:function'
-let Tlist_Use_Right_Window = 1
-let Tlist_Enable_Fold_Column = 0
-nnoremap <F3> :TlistToggle<CR>
-
+" replace thing under cursor globally from cursor position to end of line
+nnoremap <leader>p :<c-u>s/\%><c-r>=col(".")-1<cr>c<c-r><c-w>//g<left><left>
 nnoremap <Leader>s :s/<C-r><C-w>/
 
-"perl shortcuts
-nnoremap <Leader>n :s/;$/\."\\n";/<CR>
-nnoremap <Leader>u :'<,'>s/\%V\(.*\)\%V/unpack\("H\*",\1\)/<CR>
+"========== Vim Configuration ==========  
+" general stuff
+set noerrorbells                " No beeps
+set number                      " Show line numbers
+set backspace=indent,eol,start  " Makes backspace key more powerful.
+set showcmd                     " Show me what I'm typing
+set showmode                    " Show current mode.
+set noswapfile                  " Don't use swapfile
+set nobackup            	" Don't create annoying backup files
+set splitright                  " Split vertical windows right to the current windows
+set splitbelow                  " Split horizontal windows below to the current windows
+set encoding=utf-8              " Set default encoding to UTF-8
+set autowrite                   " Automatically save before :next, :make etc.
+set autoread                    " Automatically reread changed files without asking me anything
+set laststatus=2
+set fileformats=unix,dos,mac    " Prefer Unix over Windows over OS 9 formats
+
+"http://stackoverflow.com/questions/20186975/vim-mac-how-to-copy-to-clipboard-without-pbcopy
+set clipboard^=unnamed 
+set clipboard^=unnamedplus
+
+" Search stuff
+" Remove search highlight
+nnoremap <leader><space> :nohlsearch<CR>
+set noshowmatch                 " Do not show matching brackets by flickering
+set nocursorcolumn
+set lazyredraw          	    " Wait to redraw "
+set incsearch                   " Shows the match while typing
+set hlsearch                    " Highlight found searches
+set ignorecase                  " Search case insensitive...
+set smartcase                   " ... but not when search pattern contains upper case characters
+set ttyfast 
+
+" Tab stuff
+set shiftwidth=2 	"number of spaces to use in each autoindent step
+set tabstop=2 		"two tab spaces
+set softtabstop=2 	"number of spaces to skip or insert when <BS>ing or <Tab>ing
+set expandtab 		"spaces instead of tabs for better cross-editor compatibility
+set smarttab 		"use shiftwidth and softtabstop to insert or delete (on <BS>) blanks
+set autoindent 		"automatic indentation in non-C files
+set copyindent 		"copy the previous indentation on autoindenting
+
+" speed up syntax highlighting
+set nocursorcolumn
+set nocursorline
+syntax sync minlines=256
+set synmaxcol=128
+set re=1
+
+" ----------------------------------------- "
+"             Plugin configs 			    			"
+" ----------------------------------------- "
+
+" ==================== CtrlP ====================
+let g:ctrlp_working_path_mode = 'ra' " set root based on nearest .git ancestor
+let g:ctrlp_max_height = 10		" maxiumum height of match window
+let g:ctrlp_switch_buffer = 'et'	" jump to a file if it's open already
+let g:ctrlp_mruf_max=450 		" number of recently opened files
+let g:ctrlp_max_files=0  		" do not limit the number of searchable files
+
+" ==================== NerdTree Config ===========
+"nmap <silent> <leader>n :NERDTreeTabsToggle<CR>
+nmap <silent> <leader>n :NERDTreeToggle<CR>
 
 
-set nocompatible "don't need to keep compatibility with Vi
+" ==================== Vim-go ====================
+au FileType go nmap <Leader>gv <Plug>(go-doc-vertical)
+"au FileType go nmap gd <Plug>(go-def)
+"au FileType go nmap <Leader>d <Plug>(go-def-split):resize 10<CR>zb
+au FileType go nmap <Leader>v <Plug>(go-def-vertical)
+au FileType go nmap <Leader>t <Plug>(go-def-tab)
+au FileType go nmap <Leader>i <Plug>(go-info)
+au FileType go nmap <Leader>r <Plug>(go-run)
+au FileType go nmap <Leader>b <Plug>(go-build)
+au FileType go nmap <Leader>d <Plug>(go-doc)
+au FileType go nmap <Leader>i :GoImports<CR>
 
-filetype plugin indent on "enable detection, plugins and indenting in one step
-syntax on "Turn on syntax highlighting
+" ==================== Tagbar ====================
+nmap <F8> :TagbarToggle<CR>
 
+" ==================== DelimitMate ====================
+let g:delimitMate_expand_cr = 1
+let g:delimitMate_expand_space = 1
 
-set showcmd "show incomplete cmds down the bottom
-set showmode "show current mode down the bottom
-set foldenable "enable folding
-set showmatch "set show matching parenthesis
+" ==================== You Complete Me  ====================
+" make YCM compatible with UltiSnips (using supertab)
+let g:ycm_key_list_select_completion = ['<C-n>', '<Down>']
+let g:ycm_key_list_previous_completion = ['<C-p>', '<Up>']
+let g:SuperTabDefaultCompletionType = '<C-n>'
 
-"set noexrc " don't use the local config
+" ==================== UltiSnips ====================
+" better key bindings for UltiSnipsExpandTrigger
+let g:UltiSnipsExpandTrigger = "<tab>"
+let g:UltiSnipsJumpForwardTrigger = "<tab>"
+let g:UltiSnipsJumpBackwardTrigger = "<s-tab>"
 
-""set virtualedit=all "allow the cursor to go in to "invalid" places
-
-set incsearch "find the next match as we type the search
-"set hlsearch "hilight searches by default
-set ignorecase "ignore case when searching
-
-set shiftwidth=4 "number of spaces to use in each autoindent step
-set tabstop=2 "two tab spaces
-set softtabstop=2 "number of spaces to skip or insert when <BS>ing or <Tab>ing
-set expandtab "spaces instead of tabs for better cross-editor compatibility
-set smarttab "use shiftwidth and softtabstop to insert or delete (on <BS>) blanks
-"set cindent "recommended seting for automatic C-style indentation
-set autoindent "automatic indentation in non-C files
-set nowrap "no wrapping
-set copyindent "copy the previous indentation on autoindenting
-set backspace=indent,eol,start "allow backspacing over everything in insert mode
-
-set noerrorbells "don't make noise
-set shiftround "when at 3 spaces, and I hit > ... go to 4, not 5
-
-set cursorline "underline the current line in the file
-"set cursorcolumn "highlight the current column. Visible in GUI mode only.
-
-set wildmenu "make tab completion act more like bash
-set wildmode=list:longest "tab complete to longest common string, like bash
-
-"set mouse-=a "disable mouse automatically entering visual mode
-set mouse=a "Enable mouse support in the terminal VIM and activate visual mode with dragging
-
-set wrap! "Word wrap on
-set bs=2
-set hidden "allow hiding buffers with unsaved changes
-set cmdheight=2 "make the command line a little taller to hide "press enter to viem more" text
-
-set clipboard=unnamedplus
-"this makes nicer highlighting for git sign buffer plugin
-highlight clear SignColumn
