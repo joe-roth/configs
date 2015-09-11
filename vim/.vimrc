@@ -9,13 +9,16 @@ Plugin 'Valloric/YouCompleteMe'
 Plugin 'scrooloose/nerdtree'
 Plugin 'tpope/vim-surround'
 Plugin 'scrooloose/nerdcommenter'
-"Plugin 'jistr/vim-nerdtree-tabs'
+Plugin 'jistr/vim-nerdtree-tabs'
 Plugin 'kien/ctrlp.vim'
 Plugin 'Tagbar'
 Plugin 'Raimondi/delimitMate'
 Plugin 'SirVer/ultisnips'
 Plugin 'ervandew/supertab'
 Plugin 'honza/vim-snippets'
+Plugin 'fugitive.vim'
+Plugin 'Tabmerge'
+Plugin 'Syntastic'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -46,6 +49,7 @@ cmap w!! %!sudo tee > /dev/null %
 " replace thing under cursor globally from cursor position to end of line
 nnoremap <leader>p :<c-u>s/\%><c-r>=col(".")-1<cr>c<c-r><c-w>//g<left><left>
 nnoremap <Leader>s :s/<C-r><C-w>/
+nnoremap <Leader>g :Ggrep <C-r><C-w><CR>
 
 "========== Vim Configuration ==========  
 " general stuff
@@ -63,6 +67,12 @@ set autowrite                   " Automatically save before :next, :make etc.
 set autoread                    " Automatically reread changed files without asking me anything
 set laststatus=2
 set fileformats=unix,dos,mac    " Prefer Unix over Windows over OS 9 formats
+set switchbuf+=usetab,newtab " when switching to new buffer (like from quickfix), go to existing tab or open new
+
+" autocmd QuickFixCmdPost *grep* cwindow " Automaticaly open quickfix window after grep commands
+
+set tw=80 " truncates lines to 80 chars
+set formatoptions+=w " truncate at word breaks
 
 "http://stackoverflow.com/questions/20186975/vim-mac-how-to-copy-to-clipboard-without-pbcopy
 set clipboard^=unnamed 
@@ -108,11 +118,14 @@ let g:ctrlp_mruf_max=450 		" number of recently opened files
 let g:ctrlp_max_files=0  		" do not limit the number of searchable files
 
 " ==================== NerdTree Config ===========
-"nmap <silent> <leader>n :NERDTreeTabsToggle<CR>
-nmap <silent> <leader>n :NERDTreeToggle<CR>
+nmap <silent> <leader>n :NERDTreeTabsToggle<CR>
+"nmap <silent> <leader>n :NERDTreeToggle<CR>
 
 
 " ==================== Vim-go ====================
+"autocmd BufWritePre *.go call go#lint#Run()
+let g:syntastic_go_checkers = ['go', 'golint', 'errcheck']
+"autocmd BufWritePre *.go :GoLint
 au FileType go nmap <Leader>gv <Plug>(go-doc-vertical)
 "au FileType go nmap gd <Plug>(go-def)
 "au FileType go nmap <Leader>d <Plug>(go-def-split):resize 10<CR>zb
@@ -123,6 +136,7 @@ au FileType go nmap <Leader>r <Plug>(go-run)
 au FileType go nmap <Leader>b <Plug>(go-build)
 au FileType go nmap <Leader>d <Plug>(go-doc)
 au FileType go nmap <Leader>i :GoImports<CR>
+set rtp+=$GOPATH/src/github.com/golang/lint/misc/vim
 
 " ==================== Tagbar ====================
 nmap <F8> :TagbarToggle<CR>

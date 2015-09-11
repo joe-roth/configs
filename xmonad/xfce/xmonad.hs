@@ -38,7 +38,7 @@ main = xmonad $ xfceConfig {
 }
                 `additionalKeys`
                  [ ((myModMask, xK_f        ), spawn "firefox")
-                 , ((myModMask, xK_c        ), spawn "chromium-browser")
+                 , ((myModMask, xK_c        ), spawn "google-chrome --touch-devices=123")
                  , ((myModMask, xK_Return        ), spawn "exo-open --launch TerminalEmulator")
                  , ((myModMask, xK_a        ), sendMessage MirrorShrink )
                  , ((myModMask, xK_z        ), sendMessage MirrorExpand )
