@@ -5,20 +5,22 @@ set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
 Plugin 'fatih/vim-go' 
-Plugin 'Valloric/YouCompleteMe'
-Plugin 'scrooloose/nerdtree'
-Plugin 'tpope/vim-surround'
-Plugin 'scrooloose/nerdcommenter'
-Plugin 'jistr/vim-nerdtree-tabs'
-Plugin 'kien/ctrlp.vim'
-Plugin 'Tagbar'
-Plugin 'Raimondi/delimitMate'
-Plugin 'SirVer/ultisnips'
-Plugin 'ervandew/supertab'
-Plugin 'honza/vim-snippets'
-Plugin 'fugitive.vim'
-Plugin 'Tabmerge'
-Plugin 'Syntastic'
+"Plugin 'SirVer/ultisnips'         "Code snippets
+Plugin 'scrooloose/nerdtree'      "Tree explorer
+Plugin 'tpope/vim-surround'       "Enclose group
+Plugin 'scrooloose/nerdcommenter' "Auto-comment groups
+Plugin 'jistr/vim-nerdtree-tabs'  "Nerdtree is independent of tabs
+"Plugin 'Raimondi/delimitMate'     "Auto-close quotes, tabs, etc
+Plugin 'kien/ctrlp.vim'           "Open files with Ctrl-p
+Plugin 'garyburd/go-explorer'     "Explore documentation of go package
+Plugin 'Shougo/neocomplete.vim'   "Code completion
+Plugin 'Shougo/neosnippet'        "Add snippets to code completion
+Plugin 'Shougo/neosnippet-snippets'
+Plugin 'Shougo/neocomplcache'
+Plugin 'Tagbar'                   "Show functions, methods, objects, etc
+Plugin 'pearofducks/ansible-vim'  "Yaml syntax highlighting
+Plugin 'Tabmerge'                 "Merge tab into pane
+Plugin 'fugitive.vim'             "Git commands
 
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -49,7 +51,20 @@ cmap w!! %!sudo tee > /dev/null %
 " replace thing under cursor globally from cursor position to end of line
 nnoremap <leader>p :<c-u>s/\%><c-r>=col(".")-1<cr>c<c-r><c-w>//g<left><left>
 nnoremap <Leader>s :s/<C-r><C-w>/
-nnoremap <Leader>g :Ggrep <C-r><C-w><CR>
+
+" close quickfix
+nnoremap <leader>a :cclose<CR>
+
+au BufEnter * call MyLastWindow()
+function! MyLastWindow()
+  " if the window is quickfix go on
+  if &buftype=="quickfix"
+    " if this window is last on screen quit without warning
+    if winbufnr(2) == -1
+      quit!
+    endif
+  endif
+endfunction
 
 "========== Vim Configuration ==========  
 " general stuff
@@ -69,10 +84,13 @@ set laststatus=2
 set fileformats=unix,dos,mac    " Prefer Unix over Windows over OS 9 formats
 set switchbuf+=usetab,newtab " when switching to new buffer (like from quickfix), go to existing tab or open new
 
-" autocmd QuickFixCmdPost *grep* cwindow " Automaticaly open quickfix window after grep commands
+set wrap
+set linebreak
+set nolist  " list disables linebreak
 
 set tw=80 " truncates lines to 80 chars
 set formatoptions+=w " truncate at word breaks
+
 
 "http://stackoverflow.com/questions/20186975/vim-mac-how-to-copy-to-clipboard-without-pbcopy
 set clipboard^=unnamed 
@@ -119,24 +137,46 @@ let g:ctrlp_max_files=0  		" do not limit the number of searchable files
 
 " ==================== NerdTree Config ===========
 nmap <silent> <leader>n :NERDTreeTabsToggle<CR>
-"nmap <silent> <leader>n :NERDTreeToggle<CR>
-
+"let g:nerdtree_tabs_open_on_console_startup = 1
 
 " ==================== Vim-go ====================
-"autocmd BufWritePre *.go call go#lint#Run()
-let g:syntastic_go_checkers = ['go', 'golint', 'errcheck']
-"autocmd BufWritePre *.go :GoLint
-au FileType go nmap <Leader>gv <Plug>(go-doc-vertical)
-"au FileType go nmap gd <Plug>(go-def)
-"au FileType go nmap <Leader>d <Plug>(go-def-split):resize 10<CR>zb
-au FileType go nmap <Leader>v <Plug>(go-def-vertical)
-au FileType go nmap <Leader>t <Plug>(go-def-tab)
-au FileType go nmap <Leader>i <Plug>(go-info)
+" run :GoBuild or :GoTestCompile based on the go file
+function! s:build_go_files()
+  let l:file = expand('%')
+  if l:file =~# '^\f\+_test\.go$'
+    call go#cmd#Test(0, 1)
+  elseif l:file =~# '^\f\+\.go$'
+    call go#cmd#Build(0)
+  endif
+endfunction
+
+"let g:go_metalinter_autosave = 1
+"let g:go_auto_type_info = 1
+"let g:go_auto_sameids = 1
+"let g:go_list_type = "quickfix"
+
+autocmd BufRead,BufNewFile *.go setlocal tw=80 formatoptions+=w
+autocmd FileType go nmap <leader>b :<C-u>call <SID>build_go_files()<CR>
 au FileType go nmap <Leader>r <Plug>(go-run)
-au FileType go nmap <Leader>b <Plug>(go-build)
-au FileType go nmap <Leader>d <Plug>(go-doc)
-au FileType go nmap <Leader>i :GoImports<CR>
-set rtp+=$GOPATH/src/github.com/golang/lint/misc/vim
+au FileType go nmap <leader>t <Plug>(go-test)
+au FileType go nmap <leader>tf <Plug>(go-test-func)
+au FileType go nmap <Leader>tc <Plug>(go-coverage-toggle)
+au FileType go nmap <Leader>i <Plug>(go-imports)
+au FileType go nmap <Leader>d :GoDeclsDir<CR>
+
+autocmd Filetype go command! -bang A call go#alternate#Switch(<bang>0, 'edit')
+autocmd Filetype go command! -bang AV call go#alternate#Switch(<bang>0, 'vsplit')
+autocmd Filetype go command! -bang AS call go#alternate#Switch(<bang>0, 'split')
+autocmd Filetype go command! -bang AT call go#alternate#Switch(<bang>0, 'tabe')
+
+" ==================== Neocomplete  ====================
+let g:neocomplete#enable_at_startup = 1
+autocmd FileType css setlocal omnifunc=csscomplete#CompleteCSS
+autocmd FileType html,markdown setlocal omnifunc=htmlcomplete#CompleteTags
+autocmd FileType javascript setlocal omnifunc=javascriptcomplete#CompleteJS
+
+" ==================== Neosnippet ====================
+let g:neosnippet#enable_snipmate_compatibility = 1
 
 " ==================== Tagbar ====================
 nmap <F8> :TagbarToggle<CR>
@@ -145,15 +185,11 @@ nmap <F8> :TagbarToggle<CR>
 let g:delimitMate_expand_cr = 1
 let g:delimitMate_expand_space = 1
 
-" ==================== You Complete Me  ====================
-" make YCM compatible with UltiSnips (using supertab)
-let g:ycm_key_list_select_completion = ['<C-n>', '<Down>']
-let g:ycm_key_list_previous_completion = ['<C-p>', '<Up>']
-let g:SuperTabDefaultCompletionType = '<C-n>'
-
 " ==================== UltiSnips ====================
 " better key bindings for UltiSnipsExpandTrigger
 let g:UltiSnipsExpandTrigger = "<tab>"
 let g:UltiSnipsJumpForwardTrigger = "<tab>"
 let g:UltiSnipsJumpBackwardTrigger = "<s-tab>"
 
+" ==================== Fugitive ====================
+nnoremap <Leader>g :Ggrep <C-r><C-w><CR>
