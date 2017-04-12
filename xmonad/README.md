@@ -15,3 +15,7 @@ sudo apt-get install xmonad
 
 NOTE: for linux guest within osx host, needed to follow this to map caps lock key to alt, and then was able to use caps lock as mod key
 use PCKeyboardHack on mac
+
+Use `xev` to test which keys are mapped to what.
+
+To run: call `xmonad --replace & disown`
