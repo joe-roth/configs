@@ -2,27 +2,26 @@ set shell=/bin/bash " when using fish, vim will need /bin/sh shell for things to
 set nocompatible              " be iMproved, required
 filetype off                  " required
 set rtp+=~/.vim/bundle/Vundle.vim
+
 call vundle#begin()
-
-Plugin 'fatih/vim-go' 
-"Plugin 'SirVer/ultisnips'         "Code snippets
-Plugin 'scrooloose/nerdtree'      "Tree explorer
-Plugin 'tpope/vim-surround'       "Enclose group
-Plugin 'scrooloose/nerdcommenter' "Auto-comment groups
-Plugin 'jistr/vim-nerdtree-tabs'  "Nerdtree is independent of tabs
-"Plugin 'Raimondi/delimitMate'     "Auto-close quotes, tabs, etc
-Plugin 'kien/ctrlp.vim'           "Open files with Ctrl-p
-Plugin 'garyburd/go-explorer'     "Explore documentation of go package
-Plugin 'Shougo/neocomplete.vim'   "Code completion
-Plugin 'Shougo/neosnippet'        "Add snippets to code completion
-Plugin 'Shougo/neosnippet-snippets'
-Plugin 'Shougo/neocomplcache'
-Plugin 'Tagbar'                   "Show functions, methods, objects, etc
-Plugin 'pearofducks/ansible-vim'  "Yaml syntax highlighting
-Plugin 'Tabmerge'                 "Merge tab into pane
-Plugin 'fugitive.vim'             "Git commands
-
+  Plugin 'fatih/vim-go' 
+  Plugin 'SirVer/ultisnips'         "Code snippets
+  Plugin 'scrooloose/nerdtree'      "Tree explorer
+  Plugin 'tpope/vim-surround'       "Enclose group
+  Plugin 'scrooloose/nerdcommenter' "Auto-comment groups
+  Plugin 'jistr/vim-nerdtree-tabs'  "Nerdtree is independent of tabs
+  Plugin 'Raimondi/delimitMate'     "Auto-close quotes, tabs, etc
+  Plugin 'kien/ctrlp.vim'           "Open files with Ctrl-p
+  Plugin 'garyburd/go-explorer'     "Explore documentation of go package
+  Plugin 'Shougo/neocomplete.vim'   "Code completion
+  Plugin 'Shougo/neosnippet'        "Add snippets to code completion
+  Plugin 'Tagbar'                   "Show functions, methods, objects, etc
+  Plugin 'pearofducks/ansible-vim'  "Yaml syntax highlighting
+  Plugin 'Tabmerge'                 "Merge tab into pane
+  Plugin 'fugitive.vim'             "Git commands
+  Plugin 'airblade/vim-gitgutter'   "Show git edits in gutter
 call vundle#end()            " required
+
 filetype plugin indent on    " required
 syntax on
 
@@ -53,6 +52,8 @@ nnoremap <leader>p :<c-u>s/\%><c-r>=col(".")-1<cr>c<c-r><c-w>//g<left><left>
 nnoremap <Leader>s :s/<C-r><C-w>/
 
 " close quickfix
+map <C-n> :cnext<CR>
+map <C-b> :cprevious<CR>
 nnoremap <leader>a :cclose<CR>
 
 au BufEnter * call MyLastWindow()
@@ -124,6 +125,8 @@ syntax sync minlines=256
 set synmaxcol=128
 set re=1
 
+autocmd QuickFixCmdPost *grep* cwindow "Calling grep will automatically open quickfix window
+
 " ----------------------------------------- "
 "             Plugin configs 			    			"
 " ----------------------------------------- "
@@ -150,10 +153,10 @@ function! s:build_go_files()
   endif
 endfunction
 
-"let g:go_metalinter_autosave = 1
-"let g:go_auto_type_info = 1
-"let g:go_auto_sameids = 1
-"let g:go_list_type = "quickfix"
+let g:go_metalinter_autosave = 1
+let g:go_auto_type_info = 1
+let g:go_auto_sameids = 1
+let g:go_list_type = "quickfix"
 
 autocmd BufRead,BufNewFile *.go setlocal tw=80 formatoptions+=w
 autocmd FileType go nmap <leader>b :<C-u>call <SID>build_go_files()<CR>
@@ -177,6 +180,10 @@ autocmd FileType javascript setlocal omnifunc=javascriptcomplete#CompleteJS
 
 " ==================== Neosnippet ====================
 let g:neosnippet#enable_snipmate_compatibility = 1
+"TODO fix this somehow.  https://github.com/Shougo/neocomplete.vim/issues/461
+"imap <expr> <silent> <C-l> pumvisible() ?
+    "\ neocomplete#mappings#close_popup() . "<Plug>(neosnippet_jump_or_expand)" :
+    "\ "\<CR>"
 
 " ==================== Tagbar ====================
 nmap <F8> :TagbarToggle<CR>
@@ -192,4 +199,4 @@ let g:UltiSnipsJumpForwardTrigger = "<tab>"
 let g:UltiSnipsJumpBackwardTrigger = "<s-tab>"
 
 " ==================== Fugitive ====================
-nnoremap <Leader>g :Ggrep <C-r><C-w><CR>
+nnoremap <Leader>g :silent Ggrep! <C-r><C-w><CR>
