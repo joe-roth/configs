@@ -38,7 +38,7 @@ Once open:
 \t - runs go test
 \tf - when cursor is over TestFoo, only runs the test foo
 
-\c - run code testing coverage (run again to clear the coverage)
+\tc - run code testing coverage (run again to clear the coverage)
 
 :A, :AS, :AV, :AT - opens test file (or main file) in split
 
