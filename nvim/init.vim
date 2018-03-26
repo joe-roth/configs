@@ -1,30 +1,28 @@
-set shell=/bin/bash " when using fish, vim will need /bin/sh shell for things to work
-set nocompatible              " be iMproved, required
-filetype off                  " required
-set rtp+=~/.vim/bundle/Vundle.vim
-
-call vundle#begin()
-  Plugin 'fatih/vim-go' 
-  Plugin 'SirVer/ultisnips'           "Code snippets
-  Plugin 'scrooloose/nerdtree'        "Tree explorer
-  Plugin 'tpope/vim-surround'         "Enclose group
-  Plugin 'scrooloose/nerdcommenter'   "Auto-comment groups
-  Plugin 'jistr/vim-nerdtree-tabs'    "Nerdtree is independent of tabs
-  Plugin 'Raimondi/delimitMate'       "Auto-close quotes, tabs, etc
-  Plugin 'kien/ctrlp.vim'             "Open files with Ctrl-p
-  Plugin 'garyburd/go-explorer'       "Explore documentation of go package
-  Plugin 'Shougo/neocomplete.vim'     "Code completion
-  Plugin 'Shougo/neosnippet'          "Add snippets to code completion
-  Plugin 'Shougo/neosnippet-snippets' "Add snippets to code completion
-  Plugin 'Tagbar'                     "Show functions, methods, objects, etc
-  Plugin 'pearofducks/ansible-vim'    "Yaml syntax highlighting
-  Plugin 'Tabmerge'                   "Merge tab into pane
-  Plugin 'fugitive.vim'               "Git commands
-  Plugin 'airblade/vim-gitgutter'     "Show git edits in gutter
-call vundle#end()            " required
-
 filetype plugin indent on    " required
 syntax on
+
+call plug#begin('~/.local/share/nvim/plugged')
+Plug 'fatih/vim-go' " Amazing combination of features.
+Plug 'scrooloose/nerdtree'        "Tree explorer
+Plug 'tpope/vim-surround'         "Enclose group
+Plug 'scrooloose/nerdcommenter'   "Auto-comment groups
+Plug 'jistr/vim-nerdtree-tabs'    "Nerdtree is independent of tabs
+Plug 'Raimondi/delimitMate'       "Auto-close quotes, tabs, etc
+Plug 'kien/ctrlp.vim'             "Open files with Ctrl-p
+Plug 'garyburd/go-explorer'       "Explore documentation of go package
+Plug 'airblade/vim-gitgutter'     "Show git edits in gutter
+Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
+Plug 'nsf/gocode'
+Plug 'zchee/deoplete-go', {'build': {'unix': 'make'}}
+Plug 'SirVer/ultisnips'           "Code snippets
+Plug 'honza/vim-snippets'
+Plug 'jodosha/vim-godebug' " Debugger integration via delve
+Plug 'tpope/vim-fugitive'
+Plug 'tomlion/vim-solidity'
+"Plug 'Tabmerge'                   "Merge tab into pane
+"Plug 'Tagbar'                     "Show functions, methods, objects, etc
+"Plug 'pearofducks/ansible-vim'    "Yaml syntax highlighting
+call plug#end()
 
 " ========== Custom Key Bindings ==========="
 " Better split switching
@@ -132,6 +130,18 @@ autocmd QuickFixCmdPost *grep* cwindow "Calling grep will automatically open qui
 "             Plugin configs 			    			"
 " ----------------------------------------- "
 
+" ==================== UltiSnips ====================
+"let g:UltiSnipsUsePythonVersion = 3
+"let g:UltiSnipsExpandTrigger="<tab>"
+"let g:UltiSnipsJumpForwardTrigger="<tab>"
+"let g:UltiSnipsJumpBackwardTrigger="<s-tab>"
+"let g:UltiSnipsSnippetDirectories=$HOME.'/.config/nvim/vim-snippets'
+"let g:UltiSnipsSnippetsDir=$HOME.'/.config/nvim/custom'
+
+" ==================== Deoplete ====================
+let g:deoplete#enable_at_startup = 1
+"let g:deoplete#disable_auto_complete = 1
+
 " ==================== CtrlP ====================
 let g:ctrlp_working_path_mode = 'ra' " set root based on nearest .git ancestor
 let g:ctrlp_max_height = 10		" maxiumum height of match window
@@ -154,14 +164,16 @@ function! s:build_go_files()
   endif
 endfunction
 
-"let g:go_metalinter_autosave = 1
-"let g:go_metalinter_autosave_enabled = ['vet']
-"let g:go_auto_type_info = 1
-"let g:go_auto_sameids = 1
+let g:go_metalinter_autosave = 1
+let g:go_auto_type_info = 1
+let g:go_auto_sameids = 1
 let g:go_list_type = "quickfix"
+let g:go_def_reuse_buffer = 1
 
 autocmd BufRead,BufNewFile *.go setlocal tw=80 formatoptions+=w
 autocmd FileType go nmap <leader>b :<C-u>call <SID>build_go_files()<CR>
+au FileType go nmap gp <Plug>(go-def-vertical)
+au FileType go nmap gv <Plug>(go-doc-vertical)
 au FileType go nmap <Leader>r <Plug>(go-run)
 au FileType go nmap <leader>t <Plug>(go-test)
 au FileType go nmap <leader>tf <Plug>(go-test-func)
@@ -174,40 +186,6 @@ autocmd Filetype go command! -bang AV call go#alternate#Switch(<bang>0, 'vsplit'
 autocmd Filetype go command! -bang AS call go#alternate#Switch(<bang>0, 'split')
 autocmd Filetype go command! -bang AT call go#alternate#Switch(<bang>0, 'tabe')
 
-" ==================== Neocomplete  ====================
-let g:neocomplete#enable_at_startup = 1
-autocmd FileType css setlocal omnifunc=csscomplete#CompleteCSS
-autocmd FileType html,markdown setlocal omnifunc=htmlcomplete#CompleteTags
-autocmd FileType javascript setlocal omnifunc=javascriptcomplete#CompleteJS
-
-" ==================== Neosnippet ====================
-let g:neosnippet#enable_snipmate_compatibility = 1
-" SuperTab like snippets behavior.
-" Note: It must be "imap" and "smap".  It uses <Plug> mappings.
-imap <C-k>     <Plug>(neosnippet_expand_or_jump)
-imap <expr><TAB>
- \ pumvisible() ? "\<C-n>" :
- \ neosnippet#expandable_or_jumpable() ?
- \    "\<Plug>(neosnippet_expand_or_jump)" : "\<TAB>"
-smap <expr><TAB> neosnippet#expandable_or_jumpable() ?
-\ "\<Plug>(neosnippet_expand_or_jump)" : "\<TAB>"
-"TODO fix this somehow.  https://github.com/Shougo/neocomplete.vim/issues/461
-"imap <expr> <silent> <C-l> pumvisible() ?
-    "\ neocomplete#mappings#close_popup() . "<Plug>(neosnippet_jump_or_expand)" :
-    "\ "\<CR>"
-
-" ==================== Tagbar ====================
-nmap <F8> :TagbarToggle<CR>
-
 " ==================== DelimitMate ====================
 let g:delimitMate_expand_cr = 1
 let g:delimitMate_expand_space = 1
-
-" ==================== UltiSnips ====================
-" better key bindings for UltiSnipsExpandTrigger
-let g:UltiSnipsExpandTrigger = "<tab>"
-let g:UltiSnipsJumpForwardTrigger = "<tab>"
-let g:UltiSnipsJumpBackwardTrigger = "<s-tab>"
-
-" ==================== Fugitive ====================
-nnoremap <Leader>g :silent Ggrep! <C-r><C-w><CR>
