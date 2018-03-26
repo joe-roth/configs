@@ -15,6 +15,7 @@ call vundle#begin()
   Plugin 'garyburd/go-explorer'     "Explore documentation of go package
   Plugin 'Shougo/neocomplete.vim'   "Code completion
   Plugin 'Shougo/neosnippet'        "Add snippets to code completion
+  Plugin 'Shougo/neosnippet-snippets'        "Add snippets to code completion
   Plugin 'Tagbar'                   "Show functions, methods, objects, etc
   Plugin 'pearofducks/ansible-vim'  "Yaml syntax highlighting
   Plugin 'Tabmerge'                 "Merge tab into pane
@@ -89,7 +90,7 @@ set wrap
 set linebreak
 set nolist  " list disables linebreak
 
-set tw=80 " truncates lines to 80 chars
+"set tw=80 " truncates lines to 80 chars
 set formatoptions+=w " truncate at word breaks
 
 
@@ -153,9 +154,10 @@ function! s:build_go_files()
   endif
 endfunction
 
-let g:go_metalinter_autosave = 1
-let g:go_auto_type_info = 1
-let g:go_auto_sameids = 1
+let g:go_metalinter_autosave = 1 
+let g:go_metalinter_autosave_enabled = ['vet']
+"let g:go_auto_type_info = 1
+"let g:go_auto_sameids = 1
 let g:go_list_type = "quickfix"
 
 autocmd BufRead,BufNewFile *.go setlocal tw=80 formatoptions+=w
